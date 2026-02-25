@@ -1,12 +1,14 @@
 import { useEffect, useState, useMemo } from "react";
 import { Pagination } from "antd";
 import { getDisplayTitle, getPosterUrl } from "../utils/poster.js";
+import { useNavigate } from "react-router-dom";
 
 const PAGE_SIZE = 8;
 
-export default function FilmList() {
+export default function Home() {
   const [films, setFilms] = useState([]);
   const [page, setPage] = useState(1);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const url = `${import.meta.env.BASE_URL}data_final.json`;
@@ -38,7 +40,8 @@ export default function FilmList() {
           return (
             <div
               key={`${item.media_type}-${item.id}`}
-              className="bg-white/5 rounded-xl overflow-hidden hover:scale-[1.02] transition-transform max-w-[200px] mx-auto"
+              className="bg-white/5 rounded-xl overflow-hidden hover:scale-[1.02] transition-transform max-w-[200px] mx-auto cursor-pointer"
+              onClick={() => navigate(`/works/${item.id}`)}
             >
               <div className="aspect-[2/3] bg-white/10">
                 {poster ? (

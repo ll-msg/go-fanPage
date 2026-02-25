@@ -1,7 +1,9 @@
+import { useNavigate } from "react-router-dom";
+
 export default function HeaderButton({ description, target }) {
+  const navigate = useNavigate();
   const handleClick = () => {
-    const el = document.getElementById(target);
-    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+    navigate(`/${target}`)
   };
 
   return (
