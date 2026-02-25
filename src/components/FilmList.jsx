@@ -1,7 +1,7 @@
 import { useEffect, useState, useMemo } from "react";
 import { Pagination } from "antd";
+import { getDisplayTitle, getPosterUrl } from "../utils/poster.js";
 
-const IMAGE_BASE = "https://image.tmdb.org/t/p/w500";
 const PAGE_SIZE = 8;
 
 export default function FilmList() {
@@ -32,8 +32,8 @@ export default function FilmList() {
     <div className="px-8 py-10">
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
         {pageFilms.map((item) => {
-          const title = item.name || item.title || "Untitled";
-          const poster = item.poster_path ? `${IMAGE_BASE}${item.poster_path}` : null;
+          const title = getDisplayTitle(item)
+          const poster = getPosterUrl(item)
 
           return (
             <div

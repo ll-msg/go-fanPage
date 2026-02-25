@@ -13,8 +13,9 @@ function App() {
             <a href=""  className="flex items-center gap-2 text-xl text-white no-underline hover:text-white">
                 Ayano Go
             </a>
-            <div className='flex items-center gap-6 text-white'>
-                <HeaderButton description="影视列表" target="how-it-works" />
+            <div className='flex items-center gap-6 text-white text-lg'>
+                <HeaderButton description="影视" target="how-it-works" />
+                <HeaderButton description="FC" target="how-it-works" />
                 <HeaderButton description="投稿/报错" target="future"  />
             </div>
         </Header>
