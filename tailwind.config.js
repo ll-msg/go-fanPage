@@ -6,9 +6,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        heading: ['"Space Grotesk"', 'sans-serif'],
-        body: ['Inter', 'sans-serif'],
-        script: ['"Playfair Display"', 'serif'],
+        heading: ["Microsoft YaHei"],
+        body: ["Microsoft YaHei"],
+        script: ["Microsoft YaHei"],
       },
     },
   },

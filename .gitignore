@@ -8,8 +8,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 # data file
-data_final_1st.json
-data_final.json
+data_final*.json
 script.py
 
 node_modules

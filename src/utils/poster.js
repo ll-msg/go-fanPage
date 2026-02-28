@@ -1,5 +1,3 @@
-const IMAGE_BASE = "https://image.tmdb.org/t/p/w500";
-
 export function getDisplayTitle(item) {
   return item?.title || item?.name || item?.original_title || item?.original_name || "暂无标题";
 }
