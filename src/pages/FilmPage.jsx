@@ -11,9 +11,10 @@ export default function FilmPage() {
   const params = useParams();
   const navigate = useNavigate();
   const url = `${import.meta.env.BASE_URL}posters/${params.id}.jpg`;
-  const { filteredWorks } = useWorks();
-  const list = filteredWorks;
+  const { works } = useWorks();
+  const list = works;
 
+  // find prev & next
   const { movie, prev, next } = useMemo(() => {
     const idx = list.findIndex((w) => String(w.id) === String(params.id));
     return {
@@ -57,12 +58,7 @@ export default function FilmPage() {
       <div className="grid grid-cols-12 gap-6">
         <div className="col-span-12 sm:col-span-4 md:col-span-3">
           <div className="rounded-xl overflow-hidden border border-white/10 bg-white/5">
-            <img
-              src={url}
-              alt="poster"
-              className="w-full h-auto block"
-              loading="lazy"
-            />
+            <img src={url} alt="poster" className="w-full h-auto block" loading="lazy"/>
           </div>
         </div>
 
@@ -87,6 +83,12 @@ export default function FilmPage() {
               </div>
               <div>
                 <span className="text-black/50">绫野刚出演：</span> {movie?.character}
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="text-black/50">角色标签：</span>
+                <div className="flex gap-2">
+                  {movie?.tags?.map((g, i) => (<Tag key={i}>{g}</Tag>))}
+                </div>
               </div>
               <div>
                 <span className="text-black/50">导演：</span> {movie?.crew?.Director?.join(" / ") || "-"}

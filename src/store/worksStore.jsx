@@ -1,74 +1,35 @@
-import React, { createContext, useContext, useEffect, useMemo, useState } from "react";
-import { loadDataFinal } from "../utils/retrieve";
+import { create } from "zustand";
 
-const WorksContext = createContext(null);
+export const useWorks = create((set, get) => ({
+  works: [],
+  initialized: false,
 
-export function WorksProvider({ children }) {
-  const [works, setWorks] = useState([]);// original
+  loadWorks: async () => {
+    if (get().initialized) return;
 
-  // search
-  const [query, setQuery] = useState("");// search query
-  const [mediaType, setMediaType] = useState("all"); // all/movie/tv
-  const [genre, setGenre] = useState("all");      // all/genre?
+    try {
+      const res = await fetch(
+        `${import.meta.env.BASE_URL}data_final.json`
+      );
+      const data = await res.json();
 
-  useEffect(() => {
-    let cancelled = false;
-    async function run() {
-      try {
-        const list = await loadDataFinal();
-        if (!cancelled) setWorks(list ?? []);
-      } catch (e) {
-        console.error("load failed:", e);
-      }
+      const sorted = (data.cast || []).sort((a, b) => {
+        const dateA = new Date(
+          a.release_date || a.first_air_date || 0
+        );
+        const dateB = new Date(
+          b.release_date || b.first_air_date || 0
+        );
+
+        return dateB - dateA;
+      });
+
+      set({
+        works: sorted,
+        initialized: true,
+      });
+    } catch (err) {
+      console.error("加载作品数据失败", err);
     }
-    run();
-    return () => { cancelled = true; };
-  }, []);
-
-  // sort by date
-  const sortedWorks = useMemo(() => {
-    return [...works].sort((a, b) =>
-      (b.release_date || b.first_air_date || "")
-        .localeCompare(a.release_date || a.first_air_date || "")
-    );
-  }, [works]);
-
-  // filtered works - (title keyword, genre)
-  const filteredWorks = useMemo(() => {
-    const q = query.trim().toLowerCase();
-
-    return sortedWorks.filter((w) => {
-      if (mediaType !== "all" && w.media_type !== mediaType) return false;
-
-      if (genre !== "all") {
-        const gs = w.genre || [];
-        if (!gs.includes(genre)) return false;
-      }
-
-      if (q) {
-        const title = (w.title || w.name || "").toLowerCase();
-        const orig = (w.original_title || w.original_name || "").toLowerCase();
-        if (!title.includes(q) && !orig.includes(q)) return false;
-      }
-
-      return true;
-    });
-  }, [sortedWorks, query, mediaType, genre]);
-
-  const value = {
-    works, setWorks,
-    sortedWorks,
-    filteredWorks,
-    query, setQuery,
-    mediaType, setMediaType,
-    genre, setGenre,
-  };
-
-  return <WorksContext.Provider value={value}>{children}</WorksContext.Provider>;
-}
-
-export function useWorks() {
-  const ctx = useContext(WorksContext);
-  if (!ctx) throw new Error("useWorks must be used within WorksProvider");
-  return ctx;
-}
+  },
+}));

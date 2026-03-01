@@ -7,15 +7,15 @@ import { useWorks } from "../store/worksStore";
 const PAGE_SIZE = 8;
 
 export default function Home() {
-  const { filteredWorks } = useWorks();
+  const { works } = useWorks();
   const [page, setPage] = useState(1);
   
   const navigate = useNavigate();
   
   const pagemovies = useMemo(() => {
     const start = (page - 1) * PAGE_SIZE;
-    return filteredWorks.slice(start, start + PAGE_SIZE);
-  }, [filteredWorks, page]);
+    return (works || []).slice(start, start + PAGE_SIZE);
+  }, [works, page]);
 
   return (
     <div className="px-8 py-10">
@@ -40,14 +40,21 @@ export default function Home() {
                 )}
               </div>
 
-              <div className="p-3 text-center text-black text-xl font-body">{title}</div>
+              <div className="p-3 font-heading">
+                <div className="text-black/90 text-sm font-semibold line-clamp-2">
+                  {title}
+                </div>
+                <div className="text-black/50 text-xs mt-1">
+                  {(item.release_date || item.first_air_date || "").slice(0, 4)}
+                </div>
+              </div>
             </div>
           );
         })}
       </div>
 
       <div className="mt-8 flex justify-center">
-        <Pagination current={page} pageSize={PAGE_SIZE} total={filteredWorks.length} showSizeChanger={false} showQuickJumper
+        <Pagination current={page} pageSize={PAGE_SIZE} total={works.length} showSizeChanger={false} showQuickJumper
           onChange={(p) => {
             setPage(p);
             window.scrollTo({ top: 0, behavior: "smooth" });
