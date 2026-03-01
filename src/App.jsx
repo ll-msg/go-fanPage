@@ -22,7 +22,7 @@ export default function App() {
           </div>
       </Header>
 
-      <Content>
+      <Content className="mb-10">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/works/:id" element={<FilmPage />} />

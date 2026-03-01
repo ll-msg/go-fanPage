@@ -1,53 +1,21 @@
-import { useEffect, useState, useMemo } from "react";
+import { useState, useMemo } from "react";
 import { Pagination } from "antd";
 import { getDisplayTitle, getPosterUrl } from "../utils/poster.js";
-import { useNavigate, useSearchParams } from "react-router-dom";
-import { loadDataFinal } from "../utils/retrieve";
+import { useNavigate } from "react-router-dom";
+import { useWorks } from "../store/worksStore";
 
 const PAGE_SIZE = 8;
 
 export default function Home() {
-  const [movies, setMovies] = useState([]);
-  const [searchParams, setSearchParams] = useSearchParams();
-  
-  const initialPage = Number(searchParams.get("page") || 1);
+  const { filteredWorks } = useWorks();
   const [page, setPage] = useState(1);
   
   const navigate = useNavigate();
-
-  useEffect(() => {
-  const p = Number(searchParams.get("page") || 1);
-  if (p !== page) setPage(p);
-}, [searchParams, page]);
-
-  useEffect(() => {
-    let cancelled = false;
-    async function run() {
-      try {
-        const list = await loadDataFinal();
-        if (!cancelled) {
-          setMovies(list ?? []);
-        }
-      } catch (e) {
-        console.error("load failed:", e);
-        if (!cancelled) setMovies([]);
-      }
-    }
-    run();
-    return () => {
-      cancelled = true;
-    };
-  }, []);
   
   const pagemovies = useMemo(() => {
-    const sorted = [...movies].sort((a, b) =>
-      (b.release_date || b.first_air_date || "")
-        .localeCompare(a.release_date || a.first_air_date || "")
-    );
-
     const start = (page - 1) * PAGE_SIZE;
-    return sorted.slice(start, start + PAGE_SIZE);
-  }, [movies, page]);
+    return filteredWorks.slice(start, start + PAGE_SIZE);
+  }, [filteredWorks, page]);
 
   return (
     <div className="px-8 py-10">
@@ -79,10 +47,9 @@ export default function Home() {
       </div>
 
       <div className="mt-8 flex justify-center">
-        <Pagination current={page} pageSize={PAGE_SIZE} total={movies.length} showSizeChanger={false} showQuickJumper
+        <Pagination current={page} pageSize={PAGE_SIZE} total={filteredWorks.length} showSizeChanger={false} showQuickJumper
           onChange={(p) => {
             setPage(p);
-            setSearchParams({ page: String(p) });
             window.scrollTo({ top: 0, behavior: "smooth" });
           }}
         />
