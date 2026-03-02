@@ -9,6 +9,7 @@ lerna-debug.log*
 
 # data file
 data_final*.json
+bangumi*.json
 script.py
 
 node_modules

@@ -1,15 +1,14 @@
 import { useState } from "react";
-import { useSearchParams, useNavigate } from "react-router-dom";
+import { useSearchParams } from "react-router-dom";
 import { Pagination } from "antd";
 import { useWorks } from "../store/worksStore";
-import { getDisplayTitle, getPosterUrl } from "../utils/poster.js";
+import FilmCards from "../components/FilmCards.jsx";
 
 const PAGE_SIZE = 8;
 
 export default function SearchResults() {
   const { works } = useWorks();
   const [params] = useSearchParams();
-  const navigate = useNavigate();
   const [page, setPage] = useState(1);
 
   const q = (params.get("q") || "").trim();
@@ -69,25 +68,8 @@ export default function SearchResults() {
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
         {pageItems.map((item) => {
-          const title = getDisplayTitle(item);
-          const poster = getPosterUrl(item);
-
           return (
-            <div
-              key={`${item.media_type}-${item.id}`}
-              className="bg-white/5 rounded-xl overflow-hidden hover:scale-[1.02] transition-transform cursor-pointer"
-              onClick={() => navigate(`/works/${item.id}`)}
-            >
-              <img src={poster} alt={title} className="w-full aspect-[2/3] object-cover" />
-              <div className="p-3 font-heading">
-                <div className="text-black/90 text-sm font-semibold line-clamp-2">
-                  {title}
-                </div>
-                <div className="text-black/50 text-xs mt-1">
-                  {(item.release_date || item.first_air_date || "").slice(0, 4)}
-                </div>
-              </div>
-            </div>
+            <FilmCards item={item} />
           );
         })}
       </div>
