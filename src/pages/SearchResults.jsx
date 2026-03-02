@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { Pagination } from "antd";
 import { useWorks } from "../store/worksStore";
@@ -7,7 +7,7 @@ import FilmCards from "../components/FilmCards.jsx";
 const PAGE_SIZE = 8;
 
 export default function SearchResults() {
-  const { works } = useWorks();
+  const { works, setScopeIds } = useWorks();
   const [params] = useSearchParams();
   const [page, setPage] = useState(1);
 
@@ -19,6 +19,10 @@ export default function SearchResults() {
     .split(",")
     .map(s => s.trim())
     .filter(Boolean);
+  const types = (params.get("types") || "movie,tv")
+  .split(",")
+  .map(s => s.trim())
+  .filter(Boolean);
 
   const filtered = (works || []).filter(w => {
       // year
@@ -53,8 +57,18 @@ export default function SearchResults() {
         if (!haystack.includes(keyword)) return false;
       }
 
+      // tv/movie
+      if (types.length) {
+        if (!types.includes(w.media_type)) return false;
+      }
+
       return true;
   });
+
+  // search results ids
+  useEffect(() => {
+    setScopeIds(filtered.map((work) => String(work.id)));
+  }, [q, startYear, endYear, tags.join(","), works, types.join(",")])
 
   const start = (page - 1) * PAGE_SIZE;
   const pageItems = filtered.slice(start, start + PAGE_SIZE);

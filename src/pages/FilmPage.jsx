@@ -1,7 +1,6 @@
 import { Layout, Tag, Divider } from "antd";
 import "./index.css";
 import { useNavigate, useParams } from "react-router-dom";
-import { useMemo } from "react";
 import { FilmVideo } from "../components/FilmVideo";
 import { useWorks } from "../store/worksStore";
 
@@ -11,18 +10,18 @@ export default function FilmPage() {
   const params = useParams();
   const navigate = useNavigate();
   const url = `${import.meta.env.BASE_URL}posters/${params.id}.jpg`;
-  const { works } = useWorks();
-  const list = works;
+  const placeholder = `${import.meta.env.BASE_URL}posters/placeholder.jpg`
+  const { works, scopeIds } = useWorks();
 
   // find prev & next
-  const { movie, prev, next } = useMemo(() => {
-    const idx = list.findIndex((w) => String(w.id) === String(params.id));
-    return {
-      movie: idx >= 0 ? list[idx] : null,
-      prev: idx > 0 ? list[idx - 1] : null,
-      next: idx >= 0 && idx < list.length - 1 ? list[idx + 1] : null,
-    };
-  }, [list, params.id]);
+  const ids = (scopeIds && scopeIds.length > 0) ? scopeIds : (works || []).map((w) => String(w.id));
+
+  const curId = String(params.id);
+  const idx = ids.indexOf(curId);
+
+  const prevId = idx > 0 ? ids[idx - 1] : null;
+  const nextId = idx >= 0 && idx < ids.length - 1 ? ids[idx + 1] : null;
+  const movie = (works || []).find((w) => String(w.id) === curId) || null;
 
   // arrow style
   const arrowStyle = `
@@ -46,10 +45,10 @@ export default function FilmPage() {
   return (
 
     <Content className="mx-auto w-full max-w-5xl px-4 py-10 font-heading whitespace-pre-line">
-      <button type="button" disabled={!prev} onClick={() => prev && navigate(`/works/${prev.id}`)} className={leftArrow}>
+      <button type="button" disabled={!prevId} onClick={() => prevId && navigate(`/works/${prevId}`)} className={leftArrow}>
         ‹
       </button>
-      <button type="button" disabled={!next} onClick={() => next && navigate(`/works/${next.id}`)} className={rightArrow}>
+      <button type="button" disabled={!nextId} onClick={() => nextId && navigate(`/works/${nextId}`)} className={rightArrow}>
         ›
       </button>
       
@@ -58,7 +57,9 @@ export default function FilmPage() {
       <div className="grid grid-cols-12 gap-6">
         <div className="col-span-12 sm:col-span-4 md:col-span-3">
           <div className="rounded-xl overflow-hidden border border-white/10 bg-white/5">
-            <img src={url} alt="poster" className="w-full h-auto block" loading="lazy"/>
+            <img src={url} onError={(e) => {
+              e.currentTarget.src = placeholder
+            }} alt="poster" className="w-full h-auto block" loading="lazy"/>
           </div>
         </div>
 

@@ -1,4 +1,4 @@
-import { Modal, Form, Input, Select, Tag, Button, Divider, Space } from "antd";
+import { Modal, Form, Input, Select, Tag, Button, Divider, Space, Checkbox } from "antd";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
@@ -8,6 +8,7 @@ export default function SearchModal({ open, onClose }) {
   const [form] = Form.useForm();
   const navigate = useNavigate();
   const [selectedTags, setSelectedTags] = useState([]);
+  const [types, setTypes] = useState(["movie", "tv"]);
 
   const currentYear = new Date().getFullYear();
 
@@ -32,6 +33,7 @@ export default function SearchModal({ open, onClose }) {
     if (values.startYear) params.set("startYear", startYear);
     if (values.endYear) params.set("endYear", endYear);
     if (selectedTags.length) params.set("tags", selectedTags.join(","));
+    if (types.length) params.set("types", types.join(","));
 
     onClose();
     navigate(`/search?${params.toString()}`);
@@ -56,6 +58,24 @@ export default function SearchModal({ open, onClose }) {
 
         <Divider className="!border-black/10 !my-4" />
 
+        <div className="mb-2 font-heading">类型</div>
+        <div className="mb-4">
+          <Checkbox.Group
+            options={[
+              { label: "电影", value: "movie" },
+              { label: "电视剧", value: "tv" },
+            ]}
+            value={types}
+            onChange={(checkedValues) => {
+              if (checkedValues.length == 0) {
+                setTypes(["movie", "tv"]);
+              } else {
+                setTypes(checkedValues);
+              }
+            }}
+          />
+        </div>
+
         <div className="mb-2 font-heading">相关标签</div>
 
         <Space wrap>
@@ -72,7 +92,7 @@ export default function SearchModal({ open, onClose }) {
           })}
         </Space>
 
-        <Divider />
+        <Divider className="!border-black/10 !my-4" />
 
         <div className="flex justify-end gap-3">
           <Button onClick={() => {

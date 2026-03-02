@@ -5,6 +5,7 @@ export default function FilmCards({ item }) {
     const navigate = useNavigate();
     const title = getDisplayTitle(item);
     const poster = getPosterUrl(item);
+    const placeholder = `${import.meta.env.BASE_URL}posters/placeholder.jpg`
 
     return(
         <div
@@ -14,7 +15,9 @@ export default function FilmCards({ item }) {
         >
             <div className="aspect-[2/3] bg-white/10">
             {poster ? (
-                <img src={poster} alt={title} className="w-full h-full object-cover" />
+                <img src={poster} onError={(e) => {
+                e.currentTarget.src = placeholder
+                }} alt={title} className="w-full h-full object-cover" />
             ) : (
                 <div className="w-full h-full flex items-center justify-center text-white/50">
                 No Poster
