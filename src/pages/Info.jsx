@@ -11,7 +11,11 @@ export default function Info() {
           ，缺少部分由我手动根据三石官网/豆瓣补足；番组信息则来自
             <a href="https://www.oricon.co.jp/prof/346466/tv/" target="_blank" rel="noreferrer" className="text-blue-600 hover:text-blue-700 hover:underline">
                 Oricon News
-            </a>
+            </a>;
+            角色tag来自樱花妹自制的超级无敌可爱你刚
+            <a href="https://aynmansion.shinorino.com/" target="_blank" rel="noreferrer" className="text-blue-600 hover:text-blue-700 hover:underline">
+                角色汇总Fan Page
+            </a>;
         </p>
         <p className="mt-2 text-gray-500 text-md">3. <span className="line-through">（假如真的有人用并）</span>发现错漏信息请联系3764581291@qq.com</p>
         <p className="mt-2 text-gray-500 text-md">4. 链接暂时只收录我自己看过收藏的，后续会慢慢补，有愿意告知的好心人也可以同上联系，感激不尽</p>
