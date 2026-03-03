@@ -15,11 +15,16 @@
       "media_type": "movie",
       "is_lead": false,
       "making": [],
-      "stage": [],
+      "stage": [
+        {
+          "title": "【中字】走到尽头-初日舞挨",
+          "link": "https://www.bilibili.com/video/BV1Uf421v7JA/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "others": [
         {
-          "title": "[自制中字] 冈田准一 绫野刚 路人整蛊 大神降临和被坑的刚哥",
-          "link": "https://www.bilibili.com/video/BV1ru4y1d7go/"
+          "title": "[中字]『最後まで行く』上映纪念特番 豪华嘉宾座谈！",
+          "link": "https://www.bilibili.com/video/BV1Gu411x7cw/?spm_id_from=333.337.search-card.all.click"
         }
       ],
       "crew": {
@@ -1298,6 +1303,10 @@
         {
           "title": "[堺町]那夜的武士 making",
           "link": "https://www.bilibili.com/video/BV1Px411r7tr/"
+        },
+        {
+          "title": "【特典】綾野剛 映画『その夜の侍』",
+          "link": "https://www.bilibili.com/video/BV1Yu41117Lb/?spm_id_from=333.337.search-card.all.click"
         }
       ],
       "stage": [
@@ -7860,7 +7869,12 @@
       "media_type": "movie",
       "is_lead": false,
       "making": [],
-      "stage": [],
+      "stage": [
+        {
+          "title": "【中字】240918 电影『まる』完成报告活动【堂本刚】",
+          "link": "https://www.bilibili.com/video/BV1aSt1e5EAx/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "others": [],
       "crew": {
         "Writer": [
@@ -8594,6 +8608,10 @@
         {
           "title": "【ST中字】佐藤健X绫野刚 亚人番组两则",
           "link": "https://www.bilibili.com/video/BV18x411M7rm/"
+        },
+        {
+          "title": "【ST中字】20170922 亚人公开纪念SP-AJIN CAFE 佐藤健/绫野刚/玉山铁二/城田优/川荣李奈",
+          "link": "https://www.bilibili.com/video/BV1Bx411g7de/?spm_id_from=333.337.search-card.all.click"
         }
       ],
       "crew": {
@@ -10436,7 +10454,12 @@
       "media_type": "movie",
       "is_lead": true,
       "making": [],
-      "stage": [],
+      "stage": [
+        {
+          "title": "【绫野刚】201006.死亡医生的遗产.油管特别活动",
+          "link": "https://www.bilibili.com/video/BV1p54y117BQ/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "others": [],
       "crew": {
         "Theme Song Performance": [
@@ -11506,7 +11529,12 @@
       "media_type": "movie",
       "is_lead": false,
       "making": [],
-      "stage": [],
+      "stage": [
+        {
+          "title": "[中字]250924 「愚か者の身分」完成披露試写会｜绫野刚&北村匠海&林裕太&永田琴監督",
+          "link": "https://www.bilibili.com/video/BV1MLnyzCE9Y/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "others": [
         {
           "title": "愚者的身份宣传251018",
@@ -15277,7 +15305,12 @@
       "character": "シオン",
       "media_type": "tv",
       "is_lead": false,
-      "making": [],
+      "making": [
+        {
+          "title": "「ayn」HEAVEN'S FLOWER特典 綾野剛cut",
+          "link": "https://www.bilibili.com/video/BV1or4y1z7xH/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "stage": [],
       "others": [],
       "crew": {

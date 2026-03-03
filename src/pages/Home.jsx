@@ -17,7 +17,7 @@ export default function Home() {
 
   return (
     <div className="px-3 py-6 sm:px-6 sm:py-10">
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-5">
+      <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-5">
         {pagemovies.map((item) => (
           <FilmCards key={item.id} item={item} />
         ))}

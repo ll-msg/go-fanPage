@@ -11,6 +11,7 @@ import SearchModal from "./components/SearchModal.jsx";
 import { useState, useEffect } from "react";
 import { useWorks } from "./store/worksStore.jsx";
 import Bangumi from "./pages/Bangumi.jsx";
+import Info from "./pages/Info.jsx";
 
 
 const { Header, Content } = Layout;
@@ -34,7 +35,7 @@ export default function App() {
           <div className="flex items-center gap-3 sm:gap-6 text-white text-base sm:text-lg">
               <HeaderButton description="影视" target="" />
               <HeaderButton description="番组" target="/bangumi"  />
-              <HeaderButton description="说明" target="/upload"  />
+              <HeaderButton description="说明" target="/info"  />
               <button className="flex items-center justify-center w-9 h-9 rounded-md hover:bg-white/10 transition-colors" onClick={() => setSearchOpen(true)}>
                 <FaSearch size={18} className="text-white" />
               </button>
@@ -48,6 +49,7 @@ export default function App() {
           <Route path="/works/:id" element={<FilmPage />} />
           <Route path="/search" element={<SearchResults />} />
           <Route path="/bangumi" element={<Bangumi />} />
+          <Route path="/info" element={<Info />} />
         </Routes>
       </Content>
     </Layout>
