@@ -11528,7 +11528,12 @@
       "order": 2,
       "media_type": "movie",
       "is_lead": false,
-      "making": [],
+      "making": [
+        {
+          "title": "【绫野刚】映画『愚か者の身分』making",
+          "link": "https://www.bilibili.com/video/BV1NyxYzXExg/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "stage": [
         {
           "title": "[中字]250924 「愚か者の身分」完成披露試写会｜绫野刚&北村匠海&林裕太&永田琴監督",
@@ -15476,6 +15481,249 @@
         "长发",
         "眼镜"
       ]
+    },
+    {
+      "adult": false,
+      "id": 9999979,
+      "original_title": "ちるらん　新撰組鎮魂歌",
+      "overview": "1859年（安政六年），江户。土方岁三沉迷于挑战各大道场比武切磋。某日，土方造访了一个名为“试卫馆”的道场。这个道场的馆主，正是后来成为新选组局长的近藤勇。\n土方与近藤交战，却完败于近藤那压倒性的实力之下。为了超越这种强大，土方决定拜入试卫馆门下。\n数年后，近藤以及试卫馆的成员们以“护卫将军”为名，参加了新组建的浪士组，并作为其中一员前往京都。\n当时的京都，是一个聚集了来自全国各地、怀抱着各种背景与目的之人的异样都市。佐幕派、攘夷派、倒幕派混杂其中，暗杀、阴谋、政治博弈接连不断。\n此后，他们与芹泽鸭一派共同组成了以镇压活动中的攘夷派志士为目的的“壬生浪士组”。壬生浪士组由芹泽与近藤共同担任局长，土方、山南以及芹泽派的新见锦担任副长。但随着时间推移，试卫馆派与芹泽派的主导权之争愈演愈烈，双方不断发生冲突，局势日趋激烈。",
+      "first_air_date": "2026-03-26",
+      "title": "ちるらん　新选组镇魂歌",
+      "character": "芹泽鸭",
+      "media_type": "tv",
+      "is_lead": false,
+      "making": [],
+      "stage": [],
+      "others": [],
+      "crew": {
+        "Director": [
+          "渡边一贵",
+          "园村健介"
+        ]
+      },
+      "cast_full": [
+        {
+          "id": 1084911,
+          "name": "绫野刚",
+          "order": 4
+        },
+        {
+          "id": 1161474,
+          "name": "山田裕贵",
+          "order": 0
+        },
+        {
+          "id": 1684342,
+          "name": "上杉柊平",
+          "order": 2
+        },
+        {
+          "id": 10000001,
+          "name": "铃木伸之",
+          "order": 3
+        },
+        {
+          "id": 10000002,
+          "name": "中村苍",
+          "order": 3
+        }
+      ],
+      "genre": [
+        "剧情"
+      ],
+      "tags": [
+        "红发"
+      ]
+    },
+    {
+      "adult": false,
+      "id": 9999978,
+      "original_title": "太陽2068",
+      "overview": "バイオテロにより拡散したウイルスにより、若く強い肉体を長く維持し、高い知能を得た反面、紫外線に弱く太陽光の下では活動できない「ノクス」と呼ばれる変異した人間と、普通の人間「キュリオ」が共存する社会が描かれる今作。キュリオとして貧困の中で育ちノクスに憧れる奥寺鉄彦役に綾野、ノクスとして生まれながらキュリオに理解を示す森繁富士太役に成宮、そして鉄彦と同じキュリオとして生きる生田結役で前田が初舞台を踏む。",
+      "first_air_date": "2014-07-07",
+      "title": "太阳2068",
+      "character": "奥寺铁彦",
+      "media_type": "stage",
+      "is_lead": true,
+      "making": [],
+      "stage": [],
+      "others": [],
+      "crew": {
+        "Director": [
+          "蜷川幸雄"
+        ]
+      },
+      "cast_full": [
+        {
+          "id": 1084911,
+          "name": "绫野刚",
+          "order": 1
+        }
+      ],
+      "genre": [
+        "话剧"
+      ],
+      "tags": [
+        "胡子",
+        "黑发"
+      ]
+    },
+    {
+      "adult": false,
+      "id": 9999977,
+      "original_title": "series epitaph vol.1「ゲキ×ソニック！」",
+      "overview": "待补充",
+      "first_air_date": "2013-09-01",
+      "title": "series epitaph vol.1「ゲキ×ソニック！」",
+      "character": "-",
+      "media_type": "stage",
+      "is_lead": false,
+      "making": [],
+      "stage": [],
+      "others": [],
+      "crew": {
+        "Director": []
+      },
+      "cast_full": [
+        {
+          "id": 1084911,
+          "name": "绫野刚",
+          "order": 1
+        }
+      ],
+      "genre": [
+        "剧情"
+      ],
+      "tags": []
+    },
+    {
+      "adult": false,
+      "id": 9999976,
+      "original_title": "サイケデリック・ペイン",
+      "overview": "待补充",
+      "first_air_date": "2012-08-22",
+      "title": "迷幻之痛",
+      "character": "魁人",
+      "media_type": "stage",
+      "is_lead": false,
+      "making": [],
+      "stage": [],
+      "others": [],
+      "crew": {
+        "Director": [
+          "茅野イサム"
+        ]
+      },
+      "cast_full":[
+        {
+          "id": 1084911,
+          "name": "绫野刚",
+          "order": 1
+        }
+      ],
+      "genre": [
+        "剧情"
+      ],
+      "tags": [
+        "长发",
+        "黑发"
+      ]
+    },
+    {
+      "adult": false,
+      "id": 9999975,
+      "original_title": "タクラマカン2005",
+      "overview": "待补充",
+      "first_air_date": "2005-06-07",
+      "title": "タクラマカン2005",
+      "character": "ハルキ",
+      "media_type": "stage",
+      "is_lead": false,
+      "making": [],
+      "stage": [],
+      "others": [],
+      "crew": {
+        "Director": [
+          "泰建日子"
+        ]
+      },
+      "cast_full": [
+        {
+          "id": 1084911,
+          "name": "绫野刚",
+          "order": 1
+        }
+      ],
+      "genre": [
+        "剧情"
+      ],
+      "tags": [
+        "长发",
+        "黑发"
+      ]
+    },
+    {
+      "adult": false,
+      "id": 9999974,
+      "original_title": "恋の骨折り損? Loves Labours Lost",
+      "overview": "待补充",
+      "first_air_date": "2004-07-15",
+      "title": "恋の骨折り損? Loves Labours Lost",
+      "character": "丰臣秀吉",
+      "media_type": "stage",
+      "is_lead": false,
+      "making": [],
+      "stage": [],
+      "others": [],
+      "crew": {
+        "Director": [
+          "宮下昇"
+        ]
+      },
+      "cast_full": [
+        {
+          "id": 1084911,
+          "name": "绫野刚",
+          "order": 1
+        }
+      ],
+      "genre": [
+        "剧情"
+      ],
+      "tags": [
+        "长发",
+        "黑发"
+      ]
+    },
+    {
+      "adult": false,
+      "id": 9999973,
+      "original_title": "河童-朗読劇-",
+      "overview": "待补充",
+      "first_air_date": "2004-07-01",
+      "title": "河童-朗读剧",
+      "character": "-",
+      "media_type": "stage",
+      "is_lead": false,
+      "making": [],
+      "stage": [],
+      "others": [],
+      "crew": {
+        "Director": [
+          "欄花園"
+        ]
+      },
+      "cast_full": [
+        {
+          "id": 1084911,
+          "name": "绫野刚",
+          "order": 1
+        }
+      ],
+      "genre": [
+        "剧情"
+      ],
+      "tags": []
     }
   ]
 }

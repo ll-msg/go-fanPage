@@ -8,7 +8,7 @@ export default function SearchModal({ open, onClose }) {
   const [form] = Form.useForm();
   const navigate = useNavigate();
   const [selectedTags, setSelectedTags] = useState([]);
-  const [types, setTypes] = useState(["movie", "tv"]);
+  const [types, setTypes] = useState(["movie", "tv", "stage"]);
 
   const currentYear = new Date().getFullYear();
 
@@ -64,11 +64,12 @@ export default function SearchModal({ open, onClose }) {
             options={[
               { label: "电影", value: "movie" },
               { label: "电视剧", value: "tv" },
+              { label: "舞台剧", value: "stage" },
             ]}
             value={types}
             onChange={(checkedValues) => {
               if (checkedValues.length == 0) {
-                setTypes(["movie", "tv"]);
+                setTypes(["movie", "tv", "stage"]);
               } else {
                 setTypes(checkedValues);
               }

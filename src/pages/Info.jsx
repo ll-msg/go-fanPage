@@ -14,8 +14,8 @@ export default function Info() {
             </a>
         </p>
         <p className="mt-2 text-gray-500 text-md">3. <span className="line-through">（假如真的有人用并）</span>发现错漏信息请联系3764581291@qq.com</p>
-        <p className="mt-2 text-gray-500 text-md">4. 链接暂时只收录我自己看过收藏的，后续会慢慢补，有原意告知的好心人也可以同上联系，感激不尽</p>
-        <p className="mt-2 text-gray-500 text-md">5. 感谢各位发资讯、搬运、烤肉等等等等的老师们！！！没有你们我就不能吃这么爽</p>
+        <p className="mt-2 text-gray-500 text-md">4. 链接暂时只收录我自己看过收藏的，后续会慢慢补，有愿意告知的好心人也可以同上联系，感激不尽</p>
+        <p className="mt-2 text-gray-500 text-md">5. 感谢各位发资讯、搬运、烤肉、切片剪辑等等等等的老师们！！！没有你们我就不能吃这么爽</p>
         <img
             src={`${import.meta.env.BASE_URL}meme.png`}
             alt="meme"

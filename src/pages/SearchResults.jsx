@@ -19,7 +19,7 @@ export default function SearchResults() {
     .split(",")
     .map(s => s.trim())
     .filter(Boolean);
-  const types = (params.get("types") || "movie,tv")
+  const types = (params.get("types") || "movie,tv,stage")
   .split(",")
   .map(s => s.trim())
   .filter(Boolean);
@@ -44,7 +44,7 @@ export default function SearchResults() {
       // keyword
       if (keyword) {
         const haystack = [
-          w.name,
+          w.title,
           w.original_name || w.original_title,
           w.overview,
           w.character,
@@ -57,7 +57,7 @@ export default function SearchResults() {
         if (!haystack.includes(keyword)) return false;
       }
 
-      // tv/movie
+      // tv/movie/stage
       if (types.length) {
         if (!types.includes(w.media_type)) return false;
       }
