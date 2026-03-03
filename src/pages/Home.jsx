@@ -3,7 +3,7 @@ import { Pagination } from "antd";
 import { useWorks } from "../store/worksStore";
 import FilmCards from "../components/FilmCards.jsx";
 
-const PAGE_SIZE = 8;
+const PAGE_SIZE = 10;
 
 export default function Home() {
   const { works } = useWorks();
@@ -16,13 +16,11 @@ export default function Home() {
   }, [works, page]);
 
   return (
-    <div className="px-8 py-10">
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-        {pagemovies.map((item) => {
-          return (
-            <FilmCards item={item} />
-          );
-        })}
+    <div className="px-3 py-6 sm:px-6 sm:py-10">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-5">
+        {pagemovies.map((item) => (
+          <FilmCards key={item.id} item={item} />
+        ))}
       </div>
 
       <div className="mt-8 flex justify-center">

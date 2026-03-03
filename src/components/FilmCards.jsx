@@ -10,7 +10,7 @@ export default function FilmCards({ item }) {
     return(
         <div
             key={`${item.media_type}-${item.id}`}
-            className="bg-white/5 rounded-xl overflow-hidden hover:scale-[1.02] transition-transform max-w-[200px] mx-auto cursor-pointer"
+            className="bg-white/5 rounded-xl overflow-hidden transition-transform w-full cursor-pointer"
             onClick={() => navigate(`/works/${item.id}`)}
         >
             <div className="aspect-[2/3] bg-white/10">
@@ -25,7 +25,7 @@ export default function FilmCards({ item }) {
             )}
             </div>
 
-            <div className="p-3 font-heading">
+            <div className="p-2 sm:p-3 font-heading">
             <div className="text-black/90 text-sm font-semibold line-clamp-2">
                 {title}
             </div>

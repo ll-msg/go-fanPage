@@ -44,7 +44,7 @@ export default function FilmPage() {
 
   return (
 
-    <Content className="mx-auto w-full max-w-5xl px-4 py-10 font-heading whitespace-pre-line">
+    <Content className="mx-auto w-full max-w-5xl px-3 sm:px-4 py-6 sm:py-10 font-heading whitespace-pre-line">
       <button type="button" disabled={!prevId} onClick={() => prevId && navigate(`/works/${prevId}`)} className={leftArrow}>
         ‹
       </button>
@@ -55,8 +55,8 @@ export default function FilmPage() {
 
       {/* poster + info */}
       <div className="grid grid-cols-12 gap-6">
-        <div className="col-span-12 sm:col-span-4 md:col-span-3">
-          <div className="rounded-xl overflow-hidden border border-white/10 bg-white/5">
+        <div className="col-span-12 sm:col-span-4 md:col-span-3 flex justify-center sm:justify-start">
+          <div className="w-[160px] sm:w-full rounded-xl overflow-hidden border border-white/10 bg-white/5">
             <img src={url} onError={(e) => {
               e.currentTarget.src = placeholder
             }} alt="poster" className="w-full h-auto block" loading="lazy"/>

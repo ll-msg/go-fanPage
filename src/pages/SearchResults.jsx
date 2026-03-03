@@ -4,7 +4,7 @@ import { Pagination } from "antd";
 import { useWorks } from "../store/worksStore";
 import FilmCards from "../components/FilmCards.jsx";
 
-const PAGE_SIZE = 8;
+const PAGE_SIZE = 10;
 
 export default function SearchResults() {
   const { works, setScopeIds } = useWorks();
@@ -71,7 +71,7 @@ export default function SearchResults() {
   }, [q, startYear, endYear, tags.join(","), works, types.join(",")])
 
   const start = (page - 1) * PAGE_SIZE;
-  const pageItems = filtered.slice(start, start + PAGE_SIZE);
+  const pagemovies = filtered.slice(start, start + PAGE_SIZE);
 
   return (
     <div className="px-8 py-10">
@@ -80,12 +80,10 @@ export default function SearchResults() {
         <span className="text-black/60 ml-2">共 {filtered.length} 条</span>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-        {pageItems.map((item) => {
-          return (
-            <FilmCards item={item} />
-          );
-        })}
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-5">
+        {pagemovies.map((item) => (
+          <FilmCards key={item.id} item={item} />
+        ))}
       </div>
 
       <div className="flex justify-center mt-8">
