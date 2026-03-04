@@ -23,6 +23,7 @@ export default function SearchResults() {
   .split(",")
   .map(s => s.trim())
   .filter(Boolean);
+  const isLead = params.get("isLead") === "1";
 
   const filtered = (works || []).filter(w => {
       // year
@@ -62,6 +63,11 @@ export default function SearchResults() {
         if (!types.includes(w.media_type)) return false;
       }
 
+      // lead
+      if (isLead && !w.is_lead) {
+        return false;
+      }
+
       return true;
   });
 
@@ -80,7 +86,7 @@ export default function SearchResults() {
         <span className="text-black/60 ml-2">共 {filtered.length} 条</span>
       </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-5">
+      <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-5">
         {pagemovies.map((item) => (
           <FilmCards key={item.id} item={item} />
         ))}

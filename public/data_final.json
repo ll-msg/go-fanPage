@@ -14,11 +14,20 @@
       "order": 1,
       "media_type": "movie",
       "is_lead": false,
-      "making": [],
+      "making": [
+        {
+          "title": "「ayn」Hard Days 特典",
+          "link": "https://www.bilibili.com/video/BV1rqYUemEHP/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "stage": [
         {
           "title": "【中字】走到尽头-初日舞挨",
           "link": "https://www.bilibili.com/video/BV1Uf421v7JA/?spm_id_from=333.337.search-card.all.click"
+        },
+        {
+          "title": "「ayn」映画『最後まで行く』完成披露試写会",
+          "link": "https://www.bilibili.com/video/BV16X4y1m7CJ/?spm_id_from=333.337.search-card.all.click"
         }
       ],
       "others": [
@@ -219,6 +228,10 @@
         {
           "title": "【中字】腐花之雨-公开纪念舞挨",
           "link": "https://www.bilibili.com/video/BV1pJ4m1N7sH"
+        },
+        {
+          "title": "【中字】腐花之雨-完成披露上映会",
+          "link": "https://www.bilibili.com/video/BV1Tb421i7Gq/?spm_id_from=333.337.search-card.all.click"
         }
       ],
       "others": [],
@@ -553,8 +566,18 @@
       "order": 6,
       "media_type": "movie",
       "is_lead": false,
-      "making": [],
-      "stage": [],
+      "making": [
+        {
+          "title": "【特典+cut】綾野剛『白兔糖/うさぎドロップ』（キョウイチ 役）",
+          "link": "https://www.bilibili.com/video/BV1xu41117UE/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
+      "stage": [
+        {
+          "title": "【イベントまとめ】綾野剛 映画『うさぎドロップ』",
+          "link": "https://www.bilibili.com/video/BV1yF411p7MW/"
+        }
+      ],
       "others": [],
       "crew": {
         "Director": [
@@ -716,8 +739,18 @@
           "link": "https://www.bilibili.com/video/BV16W411b7FT"
         }
       ],
-      "stage": [],
-      "others": [],
+      "stage": [
+        {
+          "title": "【イベントまとめ】綾野剛 映画『ヘルタースケルター』",
+          "link": "https://www.bilibili.com/video/BV1uF41167SH/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
+      "others": [
+        {
+          "title": "【中字】绫野刚未公开cut-狼狈",
+          "link": "https://www.bilibili.com/video/BV1uQumzxEJz/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "crew": {
         "Screenplay": [
           "金子亚里纱"
@@ -1649,7 +1682,12 @@
           "link": "https://www.bilibili.com/video/BV1Qx411K75q/"
         }
       ],
-      "stage": [],
+      "stage": [
+        {
+          "title": "【特典】綾野剛 映画『夏の終り』イベント映像",
+          "link": "https://www.bilibili.com/video/BV1XZ4y1o7qF/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "others": [],
       "crew": {
         "Director": [
@@ -1759,6 +1797,10 @@
         {
           "title": "【2013 Gatchaman】George浅倉-特典剪輯【科學小飛俠】",
           "link": "https://www.bilibili.com/video/BV1Ss411R7ck/"
+        },
+        {
+          "title": "「ayn」GATCHAMAN 特典 綾野剛cut",
+          "link": "https://www.bilibili.com/video/BV18b4y1b797/?spm_id_from=333.337.search-card.all.click"
         }
       ],
       "stage": [],
@@ -1888,7 +1930,12 @@
         }
       ],
       "stage": [],
-      "others": [],
+      "others": [
+        {
+          "title": "「ayn」新宿スワン & 新宿スワンⅡ Speical Live 绫野刚cut",
+          "link": "https://www.bilibili.com/video/BV1pS4y1f7wS/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "crew": {
         "Comic Book": [
           "和久井健"
@@ -2153,8 +2200,18 @@
       "media_type": "movie",
       "is_lead": false,
       "making": [],
-      "stage": [],
-      "others": [],
+      "stage": [
+        {
+          "title": "【特典】綾野剛 映画『白ゆき姫殺人事件』イベント映像",
+          "link": "https://www.bilibili.com/video/BV1pT4y1D7WD/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
+      "others": [
+        {
+          "title": "【绫野刚】白ゆき姫殺人事件 白雪公主杀人事件 官方油管合集【生肉】",
+          "link": "https://www.bilibili.com/video/BV1fa4y1H7UZ/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "crew": {
         "Director": [
           "中村义洋"
@@ -2375,7 +2432,12 @@
           "link": "https://www.bilibili.com/video/BV13T411y7jZ/"
         }
       ],
-      "others": [],
+      "others": [
+        {
+          "title": "【绫野刚】そこのみにて光輝く 只是在那里发光 官方油管合集【生肉】",
+          "link": "https://www.bilibili.com/video/BV1nK4y1W7vg/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "crew": {
         "Director": [
           "吴美保"
@@ -2474,8 +2536,18 @@
       "media_type": "movie",
       "is_lead": true,
       "making": [],
-      "stage": [],
-      "others": [],
+      "stage": [
+        {
+          "title": "綾野剛らキャスト登場! 映画「シャニ ダールの花」舞台あいさつ",
+          "link": "https://www.bilibili.com/video/BV14i9XYqEcp/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
+      "others": [
+        {
+          "title": "【绫野刚】シャニダールの花 沙尼达尔之花 官方油管合集【生肉】",
+          "link": "https://www.bilibili.com/video/BV1fa4y1W7v4/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "crew": {
         "Director": [
           "石井岳龙"
@@ -3015,6 +3087,10 @@
         {
           "title": "[暗金丑岛君2]完成披露试写会",
           "link": "https://www.bilibili.com/video/BV1fs411D75L/"
+        },
+        {
+          "title": "【イベントまとめ】綾野剛 映画『闇金ウシジマくん Part2』",
+          "link": "https://www.bilibili.com/video/BV1dF411z7by/?spm_id_from=333.337.search-card.all.click"
         }
       ],
       "others": [],
@@ -3158,7 +3234,12 @@
           "link": "https://www.bilibili.com/video/BV1zm4y1X7yU/"
         }
       ],
-      "others": [],
+      "others": [
+        {
+          "title": "【绫野刚】ピース オブ ケイク 小菜一碟 官方油管合集【生肉】",
+          "link": "https://www.bilibili.com/video/BV1Ca411A74K/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "crew": {
         "Comic Book": [
           "ジョージ朝倉"
@@ -4104,6 +4185,10 @@
         {
           "title": "【CROWS ZEROⅡ】特典花絮 下 生肉【热血高校2】",
           "link": "https://www.bilibili.com/video/BV1dC4y1n7yt/"
+        },
+        {
+          "title": "「ayn」CROWS ZEROII 特典 綾野剛cut",
+          "link": "https://www.bilibili.com/video/BV1Tr4y1h7z7/?spm_id_from=333.337.search-card.all.click"
         }
       ],
       "stage": [],
@@ -4753,7 +4838,12 @@
           "link": "https://www.bilibili.com/video/BV1ea41127tw"
         }
       ],
-      "stage": [],
+      "stage": [
+        {
+          "title": "2番目の彼女(making・舞台挨拶）",
+          "link": "https://www.bilibili.com/video/BV1MK411N7q7/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "others": [],
       "crew": {
         "Director": [
@@ -5032,7 +5122,12 @@
       "order": 4,
       "media_type": "movie",
       "is_lead": false,
-      "making": [],
+      "making": [
+        {
+          "title": "【特典】綾野剛 映画『アクエリアン・エイジ』",
+          "link": "https://www.bilibili.com/video/BV1DZ4y1o7L2/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "stage": [],
       "others": [],
       "crew": {
@@ -5497,7 +5592,12 @@
       "is_lead": true,
       "making": [],
       "stage": [],
-      "others": [],
+      "others": [
+        {
+          "title": "【绫野刚】「渋谷」原作作者藤原新也广播提及ayn部分（220703）",
+          "link": "https://www.bilibili.com/video/BV13f4y1o7wA/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "crew": {
         "Director": [
           "西谷真一"
@@ -5639,7 +5739,12 @@
       "order": 2,
       "media_type": "movie",
       "is_lead": false,
-      "making": [],
+      "making": [
+        {
+          "title": "「ayn」THAT'S IT 特典 綾野剛cut",
+          "link": "https://www.bilibili.com/video/BV1oY41147uU/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "stage": [],
       "others": [],
       "crew": {
@@ -5799,9 +5904,18 @@
         {
           "title": "【中字】《去唱卡拉OK吧》舞台问候切片① 20240118 最爱的搞笑片段（不是",
           "link": "https://www.bilibili.com/video/BV1X2UrYYE5K"
+        },
+        {
+          "title": "「ayn」映画『カラオケ行こ！』公開記念イベント",
+          "link": "https://www.bilibili.com/video/BV1Ge41117Ly/?spm_id_from=333.337.search-card.all.click"
         }
       ],
-      "others": [],
+      "others": [
+        {
+          "title": "【中】カラオケ行こ！评论音轨",
+          "link": "https://www.bilibili.com/video/BV1cRXtYsEdR/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "crew": {
         "Screenplay": [
           "野木亚纪子"
@@ -5969,7 +6083,12 @@
         }
       ],
       "stage": [],
-      "others": [],
+      "others": [
+        {
+          "title": "【妻夫木聪字幕组】映画『怒り』LINE LIVE",
+          "link": "https://www.bilibili.com/video/BV1Rx411u7mB/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "crew": {
         "Music Producer": [
           "杉田寿宏"
@@ -6185,7 +6304,12 @@
           "link": "https://www.bilibili.com/video/BV1ea41127tw"
         }
       ],
-      "others": [],
+      "others": [
+        {
+          "title": "【绫野刚】天空の蜂 官方油管合集【生肉】",
+          "link": "https://www.bilibili.com/video/BV1ny4y1m7XB/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "crew": {
         "Director": [
           "堤幸彦"
@@ -6596,7 +6720,12 @@
         }
       ],
       "stage": [],
-      "others": [],
+      "others": [
+        {
+          "title": "【绫野刚】リップヴァンウィンクルの花嫁 瑞普·凡·温克尔的新娘 官方油管合集【生肉】",
+          "link": "https://www.bilibili.com/video/BV1Qr4y1T7QY/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "crew": {
         "Editor": [
           "岩井俊二"
@@ -6975,7 +7104,16 @@
       "is_lead": false,
       "making": [],
       "stage": [],
-      "others": [],
+      "others": [
+        {
+          "title": "「ayn」KINGSGLAIVE FINAL FANTASY EVENT 綾野剛",
+          "link": "https://www.bilibili.com/video/BV1Ua411f7JV/?spm_id_from=333.337.search-card.all.click"
+        },
+        {
+          "title": "【王者之劍 最終幻想15】主角配音 綾野剛訪問+電影預告第一彈+第二彈【一人字幕】",
+          "link": "https://www.bilibili.com/video/BV1Ss411i7Fa"
+        }
+      ],
       "crew": {
         "Writer": [
           "长谷川隆"
@@ -7303,7 +7441,12 @@
           "link": "https://www.bilibili.com/video/BV14s411Q7AV/"
         }
       ],
-      "others": [],
+      "others": [
+        {
+          "title": "【绫野刚】64－ロクヨン－ 官方油管合集【生肉】",
+          "link": "https://www.bilibili.com/video/BV1eh4112765/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "crew": {
         "Script": [
           "江口由紀子"
@@ -7873,6 +8016,10 @@
         {
           "title": "【中字】240918 电影『まる』完成报告活动【堂本刚】",
           "link": "https://www.bilibili.com/video/BV1aSt1e5EAx/?spm_id_from=333.337.search-card.all.click"
+        },
+        {
+          "title": "「ayn」映画『まる』公開記念舞台",
+          "link": "https://www.bilibili.com/video/BV1mqCRYEE4M/?spm_id_from=333.337.search-card.all.click"
         }
       ],
       "others": [],
@@ -7976,11 +8123,20 @@
       "media_type": "movie",
       "is_lead": true,
       "making": [],
-      "stage": [],
+      "stage": [
+        {
+          "title": "【自存】綾野剛、'日本で一悪い奴ら'は「この映画の宣伝部」映画「日本で一番悪い奴ら」完成披露舞台あいさつ2",
+          "link": "https://www.bilibili.com/video/BV1tMiqBuEYS/"
+        }
+      ],
       "others": [
         {
           "title": "「自制中文字幕」綾野剛Artist Pop《日本最坏的家伙们》访谈 纽约电影节",
           "link": "https://www.bilibili.com/video/BV1A5411j7Qc/"
+        },
+        {
+          "title": "【日本最壞的傢伙們宣傳】20160622 東京斯卡樂園 X 橫山健 新宿街頭演奏",
+          "link": "https://www.bilibili.com/video/BV1Js411v7Ks/?spm_id_from=333.337.search-card.all.click"
         }
       ],
       "crew": {
@@ -8176,6 +8332,14 @@
         {
           "title": "【新宿天鵝II特別演唱會】MAN WITH A MISSION與綾野剛共演!",
           "link": "https://www.bilibili.com/video/BV18s411b7aT/"
+        },
+        {
+          "title": "【绫野刚】170115新宿スワンII 道頓堀イベント",
+          "link": "https://www.bilibili.com/video/BV1j3mhBAEaG/?spm_id_from=333.337.search-card.all.click"
+        },
+        {
+          "title": "「ayn」新宿スワン & 新宿スワンⅡ Speical Live 绫野刚cut",
+          "link": "https://www.bilibili.com/video/BV1pS4y1f7wS/?spm_id_from=333.337.search-card.all.click"
         }
       ],
       "crew": {
@@ -8610,8 +8774,8 @@
           "link": "https://www.bilibili.com/video/BV18x411M7rm/"
         },
         {
-          "title": "【ST中字】20170922 亚人公开纪念SP-AJIN CAFE 佐藤健/绫野刚/玉山铁二/城田优/川荣李奈",
-          "link": "https://www.bilibili.com/video/BV1Bx411g7de/?spm_id_from=333.337.search-card.all.click"
+          "title": "【ST中字】亚人宣传 佐藤健×綾野剛 魂の対談 全",
+          "link": "https://www.bilibili.com/video/BV1Ux411p789/?spm_id_from=333.337.search-card.all.click"
         }
       ],
       "crew": {
@@ -9323,8 +9487,18 @@
       "media_type": "movie",
       "is_lead": false,
       "making": [],
-      "stage": [],
-      "others": [],
+      "stage": [
+        {
+          "title": "「ayn」ラストレシピ～麒麟の舌の記憶～",
+          "link": "https://www.bilibili.com/video/BV1xF411B7BU/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
+      "others": [
+        {
+          "title": "【绫野刚】ラストレシピ ～麒麟の舌の記憶～ 官方油管合集【生肉】",
+          "link": "https://www.bilibili.com/video/BV1DK4y1W7SF/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "crew": {
         "Director of Photography": [
           "大嶋良教"
@@ -9837,6 +10011,10 @@
         {
           "title": "[小鰶魚養殖場] 20191029 闭锁病栋 宣番",
           "link": "https://www.bilibili.com/video/BV1TA411h77M/"
+        },
+        {
+          "title": "【绫野刚】閉鎖病棟―それぞれの朝― 官方油管合集【生肉】",
+          "link": "https://www.bilibili.com/video/BV1Zf4y1B76T/?spm_id_from=333.337.search-card.all.click"
         }
       ],
       "crew": {
@@ -10453,14 +10631,32 @@
       "order": 0,
       "media_type": "movie",
       "is_lead": true,
-      "making": [],
+      "making": [
+        {
+          "title": "#绫野刚0126生日快乐# 【自译中字】《安乐死医师的遗产》花絮特典小鳍GO第四机动搜查队x北川景子跑偏小组联合制作",
+          "link": "https://www.bilibili.com/video/BV1SY411b7bc/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "stage": [
         {
           "title": "【绫野刚】201006.死亡医生的遗产.油管特别活动",
           "link": "https://www.bilibili.com/video/BV1p54y117BQ/?spm_id_from=333.337.search-card.all.click"
+        },
+        {
+          "title": "【中字】201102 安乐死医师的遗产-BLACK FILE- 完成报告EVENT 绫野刚 北川景子 [小鳍GO]",
+          "link": "https://www.bilibili.com/video/BV1sK4y1j7Rr/?spm_id_from=333.337.search-card.all.click"
+        },
+        {
+          "title": "【中字】日本电视台 安乐死医师的遗产 宣传短片合集 绫野刚特别采访（更新至2p）[小鳍GO]",
+          "link": "https://www.bilibili.com/video/BV1ZA411L7d2"
         }
       ],
-      "others": [],
+      "others": [
+        {
+          "title": "【绫野刚】安乐死医生的遗产 官方油管合集【生肉】",
+          "link": "https://www.bilibili.com/video/BV1PK411P7zL/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "crew": {
         "Theme Song Performance": [
           "[Alexandros]"
@@ -11378,9 +11574,18 @@
         {
           "title": "【生肉】250616 电影「捏造」プレミアイベント合集【绫野刚】",
           "link": "https://www.bilibili.com/video/BV1SJMiz9EwF/"
+        },
+        {
+          "title": "【生肉】电影「捏造」初日舞挨合集【绫野刚】",
+          "link": "https://www.bilibili.com/video/BV1FCKqz3ESZ/?spm_id_from=333.337.search-card.all.click"
         }
       ],
-      "others": [],
+      "others": [
+        {
+          "title": "【中字｜龟梨油管】龟梨和也×绫野刚电影『捏造』取材日的幕后花絮",
+          "link": "https://www.bilibili.com/video/BV1moKJzqEru/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "crew": {
         "Director": [
           "三池崇史"
@@ -11548,6 +11753,10 @@
         {
           "title": "【自熟】愚者的身分播客（林裕太&绫野刚）",
           "link": "https://www.bilibili.com/video/BV1uXfSBTEvJ/"
+        },
+        {
+          "title": "「ayn」愚か者の身分",
+          "link": "https://www.bilibili.com/video/BV1aB5hzZEYg/?spm_id_from=333.337.search-card.all.click"
         }
       ],
       "crew": {
@@ -11741,6 +11950,10 @@
         {
           "title": "「ayn」星と月は天の穴",
           "link": "https://www.bilibili.com/video/BV1bEWMz1Epp/"
+        },
+        {
+          "title": "『星と月は天の穴』矢添さんのこじらせ日常動画合集【绫野刚】",
+          "link": "https://www.bilibili.com/video/BV1gC25BVE9D/?spm_id_from=333.337.search-card.all.click"
         }
       ],
       "crew": {
@@ -11925,6 +12138,10 @@
         {
           "title": "[綾野剛]剛哥拍戀愛喜劇的煩惱／自製中字",
           "link": "https://www.bilibili.com/video/BV1Z54y1t7zA/"
+        },
+        {
+          "title": "[中字]210509 恋はdeepに ins直播 绫野刚相关cut",
+          "link": "https://www.bilibili.com/video/BV1nV411E77N/?spm_id_from=333.337.search-card.all.click"
         }
       ],
       "crew": {
@@ -13325,7 +13542,12 @@
         }
       ],
       "stage": [],
-      "others": [],
+      "others": [
+        {
+          "title": "【飞翔情报室WEB限定企画】綾野剛",
+          "link": "https://www.bilibili.com/video/BV1AS4y1j7rR/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "crew": {
         "Director": [
           "山室大輔",
@@ -13443,7 +13665,12 @@
       "first_credit_air_date": "2017-04-23",
       "media_type": "tv",
       "is_lead": true,
-      "making": [],
+      "making": [
+        {
+          "title": "【特典】綾野剛 ドラマ『フランケンシュタインの恋』making",
+          "link": "https://www.bilibili.com/video/BV1WL4y1c7Bm/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "stage": [],
       "others": [
         {
@@ -13754,7 +13981,12 @@
       "is_lead": false,
       "making": [],
       "stage": [],
-      "others": [],
+      "others": [
+        {
+          "title": "「ayn」Netflix『幽☆遊☆白書』決戦前夜祭・全世界最速上映イベント",
+          "link": "https://www.bilibili.com/video/BV1cN411L74b/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "crew": {
         "Producer": [
           "森井輝"
@@ -14684,7 +14916,12 @@
       "first_credit_air_date": "2020-06-26",
       "media_type": "tv",
       "is_lead": true,
-      "making": [],
+      "making": [
+        {
+          "title": "【伊吹蓝生日快乐】【中字】MIU404特典影像 [小鳍GO]",
+          "link": "https://www.bilibili.com/video/BV1Mq4y1E7Fm/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "stage": [],
       "others": [],
       "crew": {
@@ -14995,7 +15232,12 @@
       "is_lead": true,
       "making": [],
       "stage": [],
-      "others": [],
+      "others": [
+        {
+          "title": "【绫野刚】198X年之歌 短片 AI字幕",
+          "link": "https://www.bilibili.com/video/BV12rgxeTEmm/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "crew": {
         "Director": [
           "石井裕也"
@@ -15023,7 +15265,7 @@
       "overview": "温暖化により荒廃してしまった世界でわずかに生き延びた人類は、ドームに住む裕福な特権階級と、外の世界に住む一般市民に分かれ、激減した人口を補完するためのロボット工学の発展で機械化が進んでいた。ある日、人型アンドロイドのナナは開発中の事故により自我を持ち、処分されることを恐れて研究所を脱出する。主演はグラビアアイドルの小泉麻耶。",
       "release_date": "2009-09-12",
       "title": "Electronic Girl",
-      "character": "幸紀",
+      "character": "幸纪",
       "media_type": "movie",
       "is_lead": false,
       "making": [],
@@ -15125,7 +15367,12 @@
       "media_type": "tv",
       "is_lead": false,
       "making": [],
-      "stage": [],
+      "stage": [
+        {
+          "title": "555 トークショー 绫野刚",
+          "link": "https://www.bilibili.com/video/BV1254y1k7qe/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "others": [],
       "crew": {
         "Director": [
@@ -15161,7 +15408,12 @@
       "is_lead": true,
       "making": [],
       "stage": [],
-      "others": [],
+      "others": [
+        {
+          "title": "绫野刚【狗狗心声】杀青采访",
+          "link": "https://www.bilibili.com/video/BV1gK5WzqEmx/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "crew": {
         "Director": [
           "高桥严",
@@ -15307,7 +15559,7 @@
       "overview": "川岛海荷初主演1月14日开播的日剧《天堂之花～The Legend of ARCANA～》。\n日剧《天堂之花》以约50年后的近代未来2060年为舞台，讲述一位女暗杀者爱的故事，是一部全新的近未来推理剧。爱的故事以MATSU饰演的旅人春的视点来描写，他这个故事讲述着的角色非常重要，他一边注视着爱的孤独和悲伤，一边完成自己为父报仇的使命。",
       "release_date": "2011-01-12",
       "title": "天堂之花",
-      "character": "シオン",
+      "character": "紫苑",
       "media_type": "tv",
       "is_lead": false,
       "making": [
@@ -15382,7 +15634,7 @@
       "overview": "以92岁高龄于2006年逝世的日本女性时装设计师小筱绫子（同时也是著名设计师小筱弘子、小筱顺子、小筱美智子三姊妹的母亲）为原型，讲述主人公小原糸子（尾野真千子 饰）身为母亲和服装设计师，一生充满泪水与欢笑的人生奋斗故事。\n由NHK大阪放送局制作，也是五年来首部以大阪府作为舞台的晨间剧。大阪局于2011年1月13日召开记者招待会说明制作概要，2011年3月7日正式宣布起用尾野真千子为女主角。\n原本计划2011年9月26日开始播出，但由于东日本大地震的发生，前两档《铁板》与《太阳公公》的播放时间都顺延一周，因此《康乃馨》延至10月3日才首播，总集数比原计划缩减一周（6集）。\n本剧为首部完全采用非交错扫描式（Progressive）摄影机拍摄的晨间小说连续剧，在此之前NHK已有白洲次郎、坂上之云等特别剧以及2010年以后的大河剧（如“龙马传”、“江～公主们的战国～”等）采用。\n另外，本剧各周的副标题皆是以花语来命名，例如第一周的“あこがれ”（向往）即为向日葵的花语。",
       "release_date": "2012-01-09",
       "title": "康乃馨",
-      "character": "周防龙一",
+      "character": "周防龙一（82集~）",
       "media_type": "tv",
       "is_lead": false,
       "making": [],
@@ -15493,7 +15745,12 @@
       "media_type": "tv",
       "is_lead": false,
       "making": [],
-      "stage": [],
+      "stage": [
+        {
+          "title": "【绫野刚】260227 『ちるらん』制作发布会special live全场",
+          "link": "https://www.bilibili.com/video/BV1rdAmzcEoN/"
+        }
+      ],
       "others": [],
       "crew": {
         "Director": [
@@ -15546,8 +15803,22 @@
       "media_type": "stage",
       "is_lead": true,
       "making": [],
-      "stage": [],
-      "others": [],
+      "stage": [
+        {
+          "title": "【イベントまとめ】綾野剛 舞台『太陽2068』",
+          "link": "https://www.bilibili.com/video/BV1oY411p71Z/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
+      "others": [
+        {
+          "title": "2014舞台剧《太阳2068》谢幕",
+          "link": "https://www.bilibili.com/video/BV1NCAZe6Ehy/?spm_id_from=333.337.search-card.all.click"
+        },
+        {
+          "title": "前川知大《太阳2068》【蜷川幸雄】",
+          "link": "https://www.bilibili.com/video/BV12psKeUEky/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "crew": {
         "Director": [
           "蜷川幸雄"
@@ -15608,7 +15879,12 @@
       "is_lead": false,
       "making": [],
       "stage": [],
-      "others": [],
+      "others": [
+        {
+          "title": "[Go]搖滾音樂劇 迷幻之痛2012",
+          "link": "https://www.bilibili.com/video/BV1Ds411b7Xx/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "crew": {
         "Director": [
           "茅野イサム"
@@ -15672,7 +15948,12 @@
       "character": "丰臣秀吉",
       "media_type": "stage",
       "is_lead": false,
-      "making": [],
+      "making": [
+        {
+          "title": "【本編+特典】綾野剛 舞台『Love's Labour's Lost』",
+          "link": "https://www.bilibili.com/video/BV1sL411K7mR/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "stage": [],
       "others": [],
       "crew": {

@@ -34,6 +34,7 @@ export default function SearchModal({ open, onClose }) {
     if (values.endYear) params.set("endYear", endYear);
     if (selectedTags.length) params.set("tags", selectedTags.join(","));
     if (types.length) params.set("types", types.join(","));
+    if (values.isLead) params.set("isLead", "1");
 
     onClose();
     navigate(`/search?${params.toString()}`);
@@ -76,6 +77,11 @@ export default function SearchModal({ open, onClose }) {
             }}
           />
         </div>
+        
+        <div className="mb-2 font-heading">身份</div>
+        <Form.Item name="isLead" valuePropName="checked">
+          <Checkbox>仅主演</Checkbox>
+        </Form.Item>
 
         <div className="mb-2 font-heading">相关标签</div>
 
