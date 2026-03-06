@@ -15981,14 +15981,19 @@
       "id": 9999973,
       "original_title": "河童-朗読劇-",
       "overview": "待补充",
-      "first_air_date": "2004-07-01",
+      "first_air_date": "2004-07-22",
       "title": "河童-朗读剧",
       "character": "-",
       "media_type": "stage",
       "is_lead": false,
       "making": [],
       "stage": [],
-      "others": [],
+      "others": [
+        {
+          "title": "【绫野刚】锁骨？尝一口！脖颈？尝一口！小揪揪？尝一口！",
+          "link": "https://www.bilibili.com/video/BV1WP8PeQE1X/?spm_id_from=333.337.search-card.all.click"
+        }
+      ],
       "crew": {
         "Director": [
           "欄花園"
