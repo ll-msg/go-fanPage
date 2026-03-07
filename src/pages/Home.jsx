@@ -14,10 +14,9 @@ export default function Home() {
     const handleResize = () => {
       setPageSize(window.innerWidth < 640 ? 9 : 10);
     }
-
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
-  })
+  }, [])
 
   
   const pagemovies = useMemo(() => {

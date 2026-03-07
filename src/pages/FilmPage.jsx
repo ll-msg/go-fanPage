@@ -83,6 +83,9 @@ export default function FilmPage() {
                 <span className="text-black">{movie?.overview}</span> 
               </div>
               <div>
+                <span className="text-black/50">原名：</span> {movie?.original_title || movie?.original_name}
+              </div>
+              <div>
                 <span className="text-black/50">绫野刚出演：</span> {movie?.character}
               </div>
               <div className="flex items-center gap-2">

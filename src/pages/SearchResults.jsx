@@ -80,12 +80,12 @@ export default function SearchResults() {
 
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
-  })
+  }, [])
 
   // search results ids
   useEffect(() => {
     setScopeIds(filtered.map((work) => String(work.id)));
-  }, [q, startYear, endYear, tags.join(","), works, types.join(",")])
+  }, [q, startYear, endYear, tags.join(","), works, types.join(","), setScopeIds])
 
   const start = (page - 1) * pageSize;
   const pagemovies = filtered.slice(start, start + pageSize);
