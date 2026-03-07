@@ -4,12 +4,13 @@ import { Pagination } from "antd";
 import { useWorks } from "../store/worksStore";
 import FilmCards from "../components/FilmCards.jsx";
 
-const PAGE_SIZE = 10;
-
 export default function SearchResults() {
   const { works, setScopeIds } = useWorks();
   const [params] = useSearchParams();
   const [page, setPage] = useState(1);
+  const [pageSize, setPageSize] = useState(
+    window.innerWidth < 640 ? 9 : 10
+  );
 
   const q = (params.get("q") || "").trim();
   const keyword = q.toLowerCase();
@@ -71,13 +72,23 @@ export default function SearchResults() {
       return true;
   });
 
+  // page size
+  useEffect(() => {
+    const handleResize = () => {
+      setPageSize(window.innerWidth < 640 ? 9 : 10);
+    }
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  })
+
   // search results ids
   useEffect(() => {
     setScopeIds(filtered.map((work) => String(work.id)));
   }, [q, startYear, endYear, tags.join(","), works, types.join(",")])
 
-  const start = (page - 1) * PAGE_SIZE;
-  const pagemovies = filtered.slice(start, start + PAGE_SIZE);
+  const start = (page - 1) * pageSize;
+  const pagemovies = filtered.slice(start, start + pageSize);
 
   return (
     <div className="px-8 py-10">
@@ -95,7 +106,7 @@ export default function SearchResults() {
       <div className="flex justify-center mt-8">
         <Pagination
           current={page}
-          pageSize={PAGE_SIZE}
+          pageSize={pageSize}
           total={filtered.length}
           onChange={(p) => setPage(p)}
           showSizeChanger={false}
