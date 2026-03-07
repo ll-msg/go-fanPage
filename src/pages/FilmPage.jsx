@@ -3,6 +3,7 @@ import "./index.css";
 import { useNavigate, useParams } from "react-router-dom";
 import { FilmVideo } from "../components/FilmVideo";
 import { useWorks } from "../store/worksStore";
+import { useState } from "react";
 
 const { Content } = Layout;
 
@@ -12,6 +13,7 @@ export default function FilmPage() {
   const url = `${import.meta.env.BASE_URL}posters/${params.id}.jpg`;
   const placeholder = `${import.meta.env.BASE_URL}posters/placeholder.jpg`
   const { works, scopeIds } = useWorks();
+  const [showAllCast, setShowAllCast] = useState(false);
 
   // find prev & next
   const ids = (scopeIds && scopeIds.length > 0) ? scopeIds : (works || []).map((w) => String(w.id));
@@ -22,6 +24,9 @@ export default function FilmPage() {
   const prevId = idx > 0 ? ids[idx - 1] : null;
   const nextId = idx >= 0 && idx < ids.length - 1 ? ids[idx + 1] : null;
   const movie = (works || []).find((w) => String(w.id) === curId) || null;
+
+  const casts = movie?.cast_full || [];
+  const visibleCasts = showAllCast ? casts : casts.slice(0, 5);
 
   // arrow style
   const arrowStyle = `
@@ -99,9 +104,10 @@ export default function FilmPage() {
               </div>
               <div>
                 <span className="text-black/50">演员：</span> 
-                {movie?.cast_full?.slice(0, 5)
-                  .map((actor) => actor.name)
-                  .join(" / ") || "-"}
+                {visibleCasts.map((actor, idx) => (<span key={actor.id}>{actor.name}
+                {idx < visibleCasts.length - 1 ? " / " : ""}</span>))}
+
+                {casts.length > 5 && (<button type="button" onClick={() => setShowAllCast(prev => !prev)} className="ml-2 text-gray-500 hover:bg-gray-300">{showAllCast ? "收起" : "更多"}</button>)}
               </div>
               <div>
                 <span className="text-black/50">上映日期：</span> {movie?.release_date || movie?.first_air_date}
