@@ -1,29 +1,49 @@
-import { Layout, Tag, Divider } from "antd";
+import { Layout, Tag, Divider, Button } from "antd";
+import { CheckCircleOutlined, EyeOutlined } from "@ant-design/icons";
 import "./index.css";
 import { useNavigate, useParams } from "react-router-dom";
 import { FilmVideo } from "../components/FilmVideo";
 import { useWorks } from "../store/worksStore";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const { Content } = Layout;
 
 export default function FilmPage() {
   const params = useParams();
+  const movieId = String(params.id);
   const navigate = useNavigate();
   const url = `${import.meta.env.BASE_URL}posters/${params.id}.jpg`;
   const placeholder = `${import.meta.env.BASE_URL}posters/placeholder.jpg`
   const { works, scopeIds } = useWorks();
   const [showAllCast, setShowAllCast] = useState(false);
+  const [watched, setWatched] = useState(false);
+
+  useEffect(() => {
+    const saved = JSON.parse(localStorage.getItem("watched") || "[]");
+    setWatched(saved.includes(String(movieId)));
+  }, [movieId]);
+
+  // watched / unwatched
+  const toggleWatched = () => {
+    const saved = JSON.parse(localStorage.getItem("watched") || "[]");
+    let newWatched = [];
+    if (saved.includes(movieId)) {
+      newWatched = saved.filter((id) => id !== movieId);
+      setWatched(false);
+    } else {
+      newWatched = [...saved, movieId];
+      setWatched(true);
+    }
+    localStorage.setItem("watched", JSON.stringify(newWatched));
+  }
 
   // find prev & next
   const ids = (scopeIds && scopeIds.length > 0) ? scopeIds : (works || []).map((w) => String(w.id));
-
-  const curId = String(params.id);
-  const idx = ids.indexOf(curId);
+  const idx = ids.indexOf(movieId);
 
   const prevId = idx > 0 ? ids[idx - 1] : null;
   const nextId = idx >= 0 && idx < ids.length - 1 ? ids[idx + 1] : null;
-  const movie = (works || []).find((w) => String(w.id) === curId) || null;
+  const movie = (works || []).find((w) => String(w.id) === movieId) || null;
 
   const casts = movie?.cast_full || [];
   const visibleCasts = showAllCast ? casts : casts.slice(0, 5);
@@ -70,7 +90,7 @@ export default function FilmPage() {
 
         <div className="col-span-12 sm:col-span-8 md:col-span-9">
           <div className="flex flex-col gap-2">
-            <div className="flex items-start justify-between gap-4">
+            <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3">
               <div>
                 <h1 className="text-2xl md:text-3xl font-semibold leading-tight">
                   {movie?.title || movie?.name} <span className="text-black/60">({movie?.release_date?.split("-")[0] || movie?.first_air_date?.split("-")[0]})</span>
@@ -79,6 +99,19 @@ export default function FilmPage() {
                   {movie?.genre?.map((g, i) => (<Tag key={i}>{g}</Tag>))}
                 </div>
               </div>
+
+              <Button
+                type={watched ? "primary" : "default"}
+                icon={watched ? <CheckCircleOutlined /> : <EyeOutlined />}
+                onClick={toggleWatched}
+                className={`rounded-full font-heading shadow-sm ${
+                  watched
+                    ? "!bg-green-800 !border-green-800 hover:!bg-green-700 hover:!border-green-8"
+                    : "!border-black/15 hover:!border-black/30 hover:!text-black"
+                }`}
+              >
+                {watched ? "已看过" : "标记看过"}
+              </Button>
             </div>
 
             <Divider className="border-white/10 my-1" />

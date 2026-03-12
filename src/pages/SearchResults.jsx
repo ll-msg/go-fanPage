@@ -4,6 +4,7 @@ import { Pagination } from "antd";
 import { useWorks } from "../store/worksStore";
 import FilmCards from "../components/FilmCards.jsx";
 
+
 export default function SearchResults() {
   const { works, setScopeIds } = useWorks();
   const [params] = useSearchParams();
@@ -46,7 +47,7 @@ export default function SearchResults() {
       // keyword
       if (keyword) {
         const haystack = [
-          w.title,
+          w.title || w.name,
           w.original_name || w.original_title,
           w.overview,
           w.character,
@@ -57,6 +58,7 @@ export default function SearchResults() {
         .filter(Boolean).join(" ").toLowerCase();
 
         if (!haystack.includes(keyword)) return false;
+        
       }
 
       // tv/movie/stage

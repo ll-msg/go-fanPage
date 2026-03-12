@@ -9,6 +9,7 @@ export default {
         heading: ["Microsoft YaHei"],
         body: ["Microsoft YaHei"],
         script: ["Microsoft YaHei"],
+         cute: ["Caveat", "cursive"]
       },
     },
   },
