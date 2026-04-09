@@ -54,6 +54,7 @@ export default function SearchResults() {
           ...(w.genre || []),
           ...(w.tags || []),
           ...((w.cast_full || []).map(p => p?.name).filter(Boolean)),
+          ...((w.crew && Object.values(w.crew) || []).flat().filter(Boolean))
         ]
         .filter(Boolean).join(" ").toLowerCase();
 
