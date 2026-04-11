@@ -16025,34 +16025,6 @@
     },
     {
       "adult": false,
-      "id": 9999977,
-      "original_title": "series epitaph vol.1「ゲキ×ソニック！」",
-      "overview": "待补充",
-      "first_air_date": "2013-09-01",
-      "title": "series epitaph vol.1「ゲキ×ソニック！」",
-      "character": "-",
-      "media_type": "stage",
-      "is_lead": false,
-      "making": [],
-      "stage": [],
-      "others": [],
-      "crew": {
-        "Director": []
-      },
-      "cast_full": [
-        {
-          "id": 1084911,
-          "name": "绫野刚",
-          "order": 1
-        }
-      ],
-      "genre": [
-        "剧情"
-      ],
-      "tags": []
-    },
-    {
-      "adult": false,
       "id": 9999976,
       "original_title": "サイケデリック・ペイン",
       "overview": "待补充",
@@ -16194,6 +16166,78 @@
         "剧情"
       ],
       "tags": []
+    },
+    {
+      "adult": false,
+      "id": 9999972,
+      "original_title": "心霊探偵 八雲",
+      "overview": "主角齐藤八云（与真司郎饰）一出生左眼就是红色的,并且那只眼睛可以看到死者的灵魂，并能与灵界交流。由于这种能力，在学校除了一个叫做晴香（石井めぐる饰）的女同学以外， 并没有什么人愿意接近他。作为”灵异侦探”，八云把大学社团教室当作栖身之处，跟晴香在那里为学校学生还有附近警局里一个叫做“未解决特殊事件搜查室”的部门解决一连串无法用科学解释的奇异案件。",
+      "first_air_date": "2006-04-03",
+      "title": "心灵侦探八云",
+      "character": "伊野辺（第12话）",
+      "media_type": "tv",
+      "is_lead": false,
+      "making": [],
+      "stage": [],
+      "others": [],
+      "crew": {
+        "Director": [
+          "山本清史",
+          "寺内幸太郎"
+        ]
+      },
+      "cast_full": [
+        {
+          "id": 1084911,
+          "name": "绫野刚",
+          "order": 1
+        }
+      ],
+      "genre": [
+        "剧情"
+      ],
+      "tags": [
+        "长发",
+        "黑发"
+      ]
+    },
+    {
+      "adult": false,
+      "id": 9999971,
+      "original_title": "退魔天使ビザールシューター",
+      "overview": "人気グラビアアイドル・山本早織主演作。ケーキ屋でアルバイトをしている伊福部沙良の下に、怪しげな男が近づいて、沙良を見るや否や「地球を救ってみないか?」と発する。そんな中、沙良の友人たちが、次々と不可解な事件へと巻き込まれていく。",
+      "first_air_date": "2004-06-26",
+      "title": "退魔天使",
+      "character": "土御门清成",
+      "media_type": "movie",
+      "is_lead": false,
+      "making": [],
+      "stage": [],
+      "others": [],
+      "crew": {
+        "Director": [
+          "浜田兄弟"
+        ]
+      },
+      "cast_full": [
+        {
+          "id": 1084911,
+          "name": "绫野刚",
+          "order": 2
+        },
+        {
+          "id": 8888888888,
+          "name": "山本早织",
+          "order": 1
+        }
+      ],
+      "genre": [
+        "奇幻"
+      ],
+      "tags": [
+        "长发",
+        "黑发"
+      ]
     }
   ]
 }
