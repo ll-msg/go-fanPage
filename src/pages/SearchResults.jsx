@@ -7,8 +7,7 @@ import FilmCards from "../components/FilmCards.jsx";
 
 export default function SearchResults() {
   const { works, setScopeIds } = useWorks();
-  const [params] = useSearchParams();
-  const [page, setPage] = useState(1);
+  const [params, setparams] = useSearchParams();
   const [pageSize, setPageSize] = useState(
     window.innerWidth < 640 ? 9 : 10
   );
@@ -26,6 +25,8 @@ export default function SearchResults() {
   .map(s => s.trim())
   .filter(Boolean);
   const isLead = params.get("isLead") === "1";
+
+  const page = Number(params.get("p")) || 1;
 
   const filtered = (works || []).filter(w => {
       // year
@@ -75,6 +76,15 @@ export default function SearchResults() {
       return true;
   });
 
+  // page jump
+  const handlePageChange = (p) => {
+    setparams((prev) => {
+      prev.set("p", p);
+      return prev;
+    });
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   // page size
   useEffect(() => {
     const handleResize = () => {
@@ -88,6 +98,13 @@ export default function SearchResults() {
   // search results ids
   useEffect(() => {
     setScopeIds(filtered.map((work) => String(work.id)));
+
+    if (params.get("p") && params.get("p") !== "1") {
+      setparams((prev) => {
+        prev.set("p", 1);
+          return prev;
+      }, { replace: true });
+    }
   }, [q, startYear, endYear, tags.join(","), works, types.join(","), setScopeIds])
 
   const start = (page - 1) * pageSize;
@@ -111,7 +128,7 @@ export default function SearchResults() {
           current={page}
           pageSize={pageSize}
           total={filtered.length}
-          onChange={(p) => setPage(p)}
+          onChange={handlePageChange}
           showSizeChanger={false}
         />
       </div>

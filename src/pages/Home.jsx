@@ -2,14 +2,17 @@ import { useState, useMemo, useEffect } from "react";
 import { Pagination } from "antd";
 import { useWorks } from "../store/worksStore";
 import FilmCards from "../components/FilmCards.jsx";
+import { useSearchParams } from "react-router-dom";
 
 export default function Home() {
   const { works } = useWorks();
-  const [page, setPage] = useState(1);
   const [pageSize, setPageSize] = useState(
     window.innerWidth < 640 ? 9 : 10
   );
   const [filter, setFilter] = useState("all");
+  const [searchParams, setSearchParams] = useSearchParams();
+
+  const page = Number(searchParams.get("p")) || 1;
 
   useEffect(() => {
     const handleResize = () => {
@@ -40,9 +43,22 @@ export default function Home() {
     return (filteredMovies || []).slice(start, start + pageSize);
   }, [filteredMovies, page, pageSize]);
 
+
+  // page change
+  const handlePageChange = (p) => {
+    setSearchParams((prev) => {
+      prev.set("p", p);
+      return prev;
+    });
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   const changeFilter = (f) => {
     setFilter(f);
-    setPage(1);
+    setSearchParams((prev) => {
+      prev.set("p", 1);
+      return prev;
+    });
   };
 
   return (
@@ -79,10 +95,7 @@ export default function Home() {
 
       <div className="mt-8 flex justify-center">
         <Pagination current={page} pageSize={pageSize} total={filteredMovies.length} showSizeChanger={false} showQuickJumper
-          onChange={(p) => {
-            setPage(p);
-            window.scrollTo({ top: 0, behavior: "smooth" });
-          }}
+          onChange={handlePageChange}
         />
       </div>
     </div>
