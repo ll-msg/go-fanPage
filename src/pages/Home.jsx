@@ -1,8 +1,7 @@
 import { useState, useMemo, useEffect } from "react";
-import { Pagination } from "antd";
 import { useWorks } from "../store/worksStore";
-import FilmCards from "../components/FilmCards.jsx";
 import { useSearchParams } from "react-router-dom";
+import CommonList from "../components/CommonList.jsx";
 
 export default function Home() {
   const { works } = useWorks();
@@ -85,19 +84,9 @@ export default function Home() {
             未看
           </button>
         </div>
-
-      </div>
-      <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-5">
-        {pagemovies.map((item) => (
-          <FilmCards key={item.id} item={item} />
-        ))}
       </div>
 
-      <div className="mt-8 flex justify-center">
-        <Pagination current={page} pageSize={pageSize} total={filteredMovies.length} showSizeChanger={false} showQuickJumper
-          onChange={handlePageChange}
-        />
-      </div>
+      <CommonList data={filteredMovies} pagedData={pagemovies} page={page} pageSize={pageSize} handlePageChange={handlePageChange} />
     </div>
   );
 }

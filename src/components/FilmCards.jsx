@@ -1,17 +1,23 @@
 import { useNavigate } from "react-router-dom";
 import { getDisplayTitle, getPosterUrl } from "../utils/poster";
 
-export default function FilmCards({ item }) {
+export default function FilmCards({ item, clickable=true, type="movie" }) {
     const navigate = useNavigate();
     const title = getDisplayTitle(item);
-    const poster = getPosterUrl(item);
+    const poster = getPosterUrl(item, type);
     const placeholder = `${import.meta.env.BASE_URL}posters/placeholder.jpg`
+
+    const handleClick = () => {
+        if (clickable) {
+            navigate(`/works/${item.id}`)
+        }
+    }
 
     return(
         <div
             key={`${item.media_type}-${item.id}`}
-            className="bg-white/5 rounded-xl overflow-hidden transition-transform w-full cursor-pointer"
-            onClick={() => navigate(`/works/${item.id}`)}
+            className={`bg-white/5 rounded-xl overflow-hidden transition-transform w-full ${clickable ? 'cursor-pointer' : 'cursor-default'}`}
+            onClick={handleClick}
         >
             <div className="aspect-[2/3] bg-white/10">
             {poster ? (
@@ -20,7 +26,7 @@ export default function FilmCards({ item }) {
                 }} alt={title} className="w-full h-full object-cover" />
             ) : (
                 <div className="w-full h-full flex items-center justify-center text-white/50">
-                No Poster
+                    No Poster
                 </div>
             )}
             </div>

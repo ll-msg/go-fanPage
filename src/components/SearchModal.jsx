@@ -41,7 +41,7 @@ export default function SearchModal({ open, onClose }) {
   };
 
   return (
-    <Modal open={open} onCancel={onClose} footer={null} title="搜索" centered width="min(520px, 92vw)" >
+    <Modal open={open} onCancel={onClose} footer={null} title="搜索影视" centered width="min(520px, 92vw)" >
       <Form form={form} layout="vertical" onFinish={onFinish}>
         <Form.Item label="关键词" name="keyword">
           <Input placeholder="请输入关键词" allowClear className="!font-heading"/>

@@ -2,7 +2,9 @@ import { create } from "zustand";
 
 export const useWorks = create((set, get) => ({
   works: [],
+  magazines: [],
   initialized: false,
+  magazinesInitialized: false,
 
   // for search reuslts
   scopeIds: [],
@@ -30,4 +32,19 @@ export const useWorks = create((set, get) => ({
       console.error("加载作品数据失败", err);
     }
   },
+
+  loadMagazines: async () => {
+    if (get().magazinesInitialized) return;
+    try {
+      const res = await fetch(`${import.meta.env.BASE_URL}magazines.json`);
+      const data = await res.json();
+      
+      set({
+        magazines: data,
+        magazinesInitialized: true,
+      });
+    } catch (err) {
+      console.error("加载杂志数据失败", err);
+    }
+  }
 }));
