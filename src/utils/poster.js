@@ -3,7 +3,6 @@ export function getDisplayTitle(item) {
 }
 
 export function getPosterUrl(item, type="movie") {
-  if (!item?.name) return "";
   if (type == "magazine") {
     const match = item.cover_url?.match(/\d+/);
     const fileName = match ? `${match[0]}.jpg` : "placeholder.jpg";
