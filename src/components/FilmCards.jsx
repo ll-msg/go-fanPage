@@ -1,11 +1,13 @@
 import { useNavigate } from "react-router-dom";
 import { getDisplayTitle, getPosterUrl } from "../utils/poster";
+import { useState } from "react";
 
 export default function FilmCards({ item, clickable=true, type="movie" }) {
     const navigate = useNavigate();
     const title = getDisplayTitle(item);
     const poster = getPosterUrl(item, type);
     const placeholder = `${import.meta.env.BASE_URL}posters/placeholder.jpg`
+    const [showFull, setShowFull] = useState(false);
 
     const handleClick = () => {
         if (clickable) {
@@ -32,7 +34,12 @@ export default function FilmCards({ item, clickable=true, type="movie" }) {
             </div>
 
             <div className="p-2 sm:p-3 font-heading">
-            <div className="text-black/90 text-sm font-semibold line-clamp-2">
+            <div className={`text-black/90 text-sm font-semibold ${showFull ? "" : "line-clamp-2"}`}
+                onClick={(e) => {
+                    e.stopPropagation();
+                    setShowFull(!showFull);
+                }}
+            >
                 {title}
             </div>
             <div className="text-black/50 text-xs mt-1">
