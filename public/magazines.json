@@ -156,7 +156,7 @@
         "issue_date": "2017年5/2号 (2017年04月18日発売)"
     },
     {
-        "name": "MEN’S JOKER",
+        "name": "MEN'S JOKER",
         "publisher": "主婦と生活社",
         "cover_url": "https://img.fujisan.co.jp/images/products/backnumbers/1482191_n.jpg",
         "issue_date": "2017年5月号 (2017年04月10日発売)"
@@ -246,6 +246,12 @@
         "issue_date": "2015年6月号 (2015年05月01日発売)"
     },
     {
+        "name": "パピルス",
+        "publisher": "幻冬舎",
+        "cover_url": "https://img.fujisan.co.jp/images/products/backnumbers/9999997.jpg",
+        "issue_date": "2015年6月号 (2015年04月28日発売)"
+    },
+    {
         "name": "愛媛こまち",
         "publisher": "アイクコーポレーション",
         "cover_url": "https://img.fujisan.co.jp/images/products/backnumbers/2670495_n.jpg",
@@ -264,6 +270,12 @@
         "issue_date": "No.1682 (2015年02月05日発売)"
     },
     {
+        "name": "MEN'S JOKER",
+        "publisher": "キネマ旬報社",
+        "cover_url": "https://img.fujisan.co.jp/images/products/backnumbers/9999994.jpg",
+        "issue_date": "2015年6月号 (2015年01月01日発売)"
+    },
+    {
         "name": "週刊女性",
         "publisher": "主婦と生活社",
         "cover_url": "https://img.fujisan.co.jp/images/products/backnumbers/1158653_n.jpg",
@@ -274,6 +286,12 @@
         "publisher": "ワニブックス",
         "cover_url": "https://img.fujisan.co.jp/images/products/backnumbers/1158652_n.jpg",
         "issue_date": "2014年9月号 (2014年07月26日発売)"
+    },
+    {
+        "name": "Cinema Square",
+        "publisher": "日之出出版",
+        "cover_url": "https://img.fujisan.co.jp/images/products/backnumbers/9999998_n.jpg",
+        "issue_date": "Vol.64 (2014年07月19日発売)"
     },
     {
         "name": "CM NOW boys",
@@ -396,6 +414,12 @@
         "issue_date": "2013年5月号 (2013年03月23日発売)"
     },
     {
+        "name": "LOADED",
+        "publisher": "メディアボーイ",
+        "cover_url": "https://img.fujisan.co.jp/images/products/backnumbers/9999995.jpg",
+        "issue_date": "vol.8 (2013年03月23日発売)"
+    },
+    {
         "name": "週刊女性",
         "publisher": "主婦と生活社",
         "cover_url": "https://img.fujisan.co.jp/images/products/backnumbers/1158569_n.jpg",
@@ -414,7 +438,7 @@
         "issue_date": "No.1844 (2013年02月13日発売)"
     },
     {
-        "name": "MEN’S NON-NO",
+        "name": "MEN'S NON-NO",
         "publisher": "集英社",
         "cover_url": "https://img.fujisan.co.jp/images/products/backnumbers/1000902_n.jpg",
         "issue_date": "2013年3月号 (2013年02月09日発売)"
@@ -424,6 +448,12 @@
         "publisher": "朝日新聞出版",
         "cover_url": "https://img.fujisan.co.jp/images/products/backnumbers/893205_n.jpg",
         "issue_date": "2013年2/1号 (2013年01月22日発売)"
+    },
+    {
+        "name": "men's FUDGE",
+        "publisher": "三栄書房",
+        "cover_url": "https://img.fujisan.co.jp/images/products/backnumbers/9999996.jpg",
+        "issue_date": "2012年12月号 (2012年10月24日発売)"
     },
     {
         "name": "BARFOUT！",
@@ -436,6 +466,12 @@
         "publisher": "",
         "cover_url": "https://img.fujisan.co.jp/images/products/backnumbers/855371_n.jpg",
         "issue_date": "Vol.30 No.9 (2012年8月20日発売)"
+    },
+    {
+        "name": "COOL TRANS",
+        "publisher": "ワニブックス",
+        "cover_url": "https://img.fujisan.co.jp/images/products/backnumbers/819508_n.jpg",
+        "issue_date": "No.203 (2012年07月24日発売)"
     },
     {
         "name": "スカパー!TVガイドBS+CS",
