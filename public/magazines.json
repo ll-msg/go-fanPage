@@ -132,6 +132,12 @@
         "issue_date": "Vol.274 (2018年06月19日発売)"
     },
     {
+        "name": "たまごクラブ",
+        "publisher": "ベネッセコーポレーション",
+        "cover_url": "https://img.fujisan.co.jp/images/products/backnumbers/9999993.jpg",
+        "issue_date": "2017年12月号 (2017年11月15日発売)"
+    },
+    {
         "name": "週刊女性",
         "publisher": "主婦と生活社",
         "cover_url": "https://img.fujisan.co.jp/images/products/backnumbers/1575079_n.jpg",
@@ -438,6 +444,12 @@
         "issue_date": "No.1844 (2013年02月13日発売)"
     },
     {
+        "name": "NHKステラ",
+        "publisher": "NHK財団",
+        "cover_url": "https://img.fujisan.co.jp/images/products/backnumbers/907209_n.jpg",
+        "issue_date": "2013年2/22号 (2013年02月13日発売)"
+    },
+    {
         "name": "MEN'S NON-NO",
         "publisher": "集英社",
         "cover_url": "https://img.fujisan.co.jp/images/products/backnumbers/1000902_n.jpg",
@@ -484,6 +496,12 @@
         "publisher": "",
         "cover_url": "https://img.fujisan.co.jp/images/products/backnumbers/855370_n.jpg",
         "issue_date": "2012年9月号 (2012年6月23日発売)"
+    },
+    {
+        "name": "NHKステラ",
+        "publisher": "NHK財団",
+        "cover_url": "https://img.fujisan.co.jp/images/products/backnumbers/803032_n.jpg",
+        "issue_date": "2012年6/8号 (2012年5月30日発売)"
     },
     {
         "name": "Dramatic Actor",
