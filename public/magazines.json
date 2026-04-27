@@ -204,6 +204,12 @@
         "issue_date": "2016年6/27号 (2016年06月20日発売)"
     },
     {
+        "name": "Omosan Street",
+        "publisher": "",
+        "cover_url": "https://img.fujisan.co.jp/images/products/backnumbers/9999991_n.jpg",
+        "issue_date": "vol.043 (2016年06月16日発売)"
+    },
+    {
         "name": "スカパー!TVガイドBS+CS",
         "publisher": "東京ニュース通信社",
         "cover_url": "https://img.fujisan.co.jp/images/products/backnumbers/1384547_n.jpg",
@@ -306,6 +312,12 @@
         "issue_date": "Vol.4 (2014年07月16日発売)"
     },
     {
+        "name": "小説 野性時代",
+        "publisher": "KADOKAWA",
+        "cover_url": "https://img.fujisan.co.jp/images/products/backnumbers/9999990_n.jpg",
+        "issue_date": "vol.129 (2014年07月11日発売)"
+    },
+    {
         "name": "週刊朝日",
         "publisher": "朝日新聞出版",
         "cover_url": "https://img.fujisan.co.jp/images/products/backnumbers/1105790_n.jpg",
@@ -358,6 +370,12 @@
         "publisher": "光文社",
         "cover_url": "https://img.fujisan.co.jp/images/products/backnumbers/1287949_n.jpg",
         "issue_date": "2014年3月号 (2014年01月17日発売)"
+    },
+    {
+        "name": "PLUS LUMINO",
+        "publisher": "",
+        "cover_url": "https://img.fujisan.co.jp/images/products/backnumbers/9999989_n.jpg",
+        "issue_date": "vol.60 (2013年08月25日発売)"
     },
     {
         "name": "awesome!",
