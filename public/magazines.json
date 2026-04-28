@@ -151,7 +151,7 @@
     },
     {
         "name": "WARP",
-        "publisher": "",
+        "publisher": "トランスワールドジャパン",
         "cover_url": "https://img.fujisan.co.jp/images/products/backnumbers/1482996_n.jpg",
         "issue_date": "2017年6月号 (2017年04月24日発売)"
     },
@@ -184,6 +184,12 @@
         "publisher": "中央公論新社",
         "cover_url": "https://img.fujisan.co.jp/images/products/backnumbers/1402792_n.jpg",
         "issue_date": "2016年9/13号 (2016年08月23日発売)"
+    },
+    {
+        "name": "WARP",
+        "publisher": "トランスワールドジャパン",
+        "cover_url": "https://img.fujisan.co.jp/images/products/backnumbers/1403992_n.jpg",
+        "issue_date": "2016年8・9月合并号 (2016年06月24日発売)"
     },
     {
         "name": "日経マネー",
@@ -523,7 +529,7 @@
     },
     {
         "name": "WARP",
-        "publisher": "",
+        "publisher": "トランスワールドジャパン",
         "cover_url": "https://img.fujisan.co.jp/images/products/backnumbers/855370_n.jpg",
         "issue_date": "2012年9月号 (2012年6月23日発売)"
     },
