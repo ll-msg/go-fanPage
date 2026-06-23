@@ -102,7 +102,6 @@ export default function SearchResults() {
   return (
     <div className="mx-auto w-full max-w-[1440px] px-4 sm:px-8 py-10">
       <div className="mb-6 font-heading">
-        <span className="cine-eyebrow">Search</span>
         <div className="mt-2 text-black/80">
           <span className="text-xl font-bold tracking-tight">搜索结果</span>
           <span className="text-black/55 ml-3 text-sm">共 <span className="font-cine">{filtered.length}</span> 条</span>
