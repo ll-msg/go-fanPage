@@ -2,7 +2,7 @@ export default function Info() {
   return (
     <div className="pt-16 pb-20 font-heading px-4">
       <div className="mx-auto max-w-2xl text-center">
-        <h1 className="text-2xl font-semibold mb-10">说明</h1>
+        <h1 className="text-3xl font-bold mb-10 tracking-tight">说明</h1>
         <p className="mt-2 text-gray-500 text-md">1. 本网站是个人做着玩的<b>绫野刚</b>作品简易汇总</p>
         <p className="mt-2 text-gray-500 text-md">2. 影视信息来自
             <a href="https://www.themoviedb.org/" target="_blank" rel="noreferrer" className="text-blue-600 hover:text-blue-700 hover:underline">

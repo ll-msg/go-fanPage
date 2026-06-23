@@ -6,7 +6,7 @@ import './pages/index.css'
 import HeaderButton from "./components/HeaderButton.jsx";
 import { Link } from "react-router-dom";
 import SearchResults from "./pages/SearchResults.jsx";
-import { FaSearch, FaBars } from "react-icons/fa";
+import { FaSearch, FaBars, FaFilm } from "react-icons/fa";
 import SearchModal from "./components/SearchModal.jsx";
 import { useState, useEffect } from "react";
 import { useWorks } from "./store/worksStore.jsx";
@@ -33,8 +33,11 @@ export default function App() {
   return (
     <Layout className='mainLayout'>
       <Header className="sticky top-0 z-50 flex items-center justify-between bg-black text-white border-b border-white/10 font-heading px-3 sm:px-6">
-          <Link to="" className="font-cute flex items-center gap-2 text-lg sm:text-xl text-white no-underline hover:text-white" onClick={() => clearScopeIds()}>
-            Ayn Archive
+          <Link to="" className="group flex items-center gap-2.5 no-underline hover:text-white" onClick={() => clearScopeIds()}>
+            <FaFilm className="text-white/90 group-hover:text-white transition-colors" size={20} />
+            <span className="font-cute text-lg sm:text-xl text-white">
+              Ayn Archive
+            </span>
           </Link>
           <div className="hidden md:flex items-center gap-3 lg:gap-6 text-white text-base sm:text-lg">
               <HeaderButton description="影视" target="" onClick={() => clearScopeIds()} />
@@ -70,6 +73,8 @@ export default function App() {
             </div>
           </Drawer>
       </Header>
+
+      <div className="film-strip" aria-hidden="true" />
 
       <Content className="mb-10">
         <SearchModal open={searchOpen} onClose={() => setSearchOpen(false)}/>

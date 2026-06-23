@@ -1,23 +1,14 @@
 import { useWorks } from "../store/worksStore";
-import { useState, useMemo, useEffect } from "react";
+import { useMemo } from "react";
 import { useSearchParams } from "react-router-dom";
 import CommonList from "../components/CommonList.jsx";
+import { usePageSize } from "../utils/usePageSize.js";
 
 export default function Magazine() {
     const { magazines } = useWorks();
     const [searchParams, setSearchParams] = useSearchParams();
-    
-    const [pageSize, setPageSize] = useState(
-        window.innerWidth < 640 ? 9 : 10
-    );
 
-    useEffect(() => {
-        const handleResize = () => {
-            setPageSize(window.innerWidth < 640 ? 9 : 10);
-        }
-        window.addEventListener("resize", handleResize);
-        return () => window.removeEventListener("resize", handleResize);
-    }, [])
+    const pageSize = usePageSize();
 
     // adapt magazine name
     const adaptedMagazines = useMemo(() => {
@@ -49,6 +40,8 @@ export default function Magazine() {
     }, [adaptedMagazines, page, pageSize]);
     
     return (
-        <CommonList data={adaptedMagazines} pagedData={pagemagazines} page={page} pageSize={pageSize} handlePageChange={handlePageChange} clickable={false} type="magazine" />
+        <div className="flex min-h-[calc(100vh-90px)] flex-col items-center justify-center">
+            <CommonList data={adaptedMagazines} pagedData={pagemagazines} page={page} pageSize={pageSize} handlePageChange={handlePageChange} clickable={false} type="magazine" />
+        </div>
     )
 }

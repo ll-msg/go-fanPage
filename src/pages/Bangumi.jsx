@@ -4,6 +4,10 @@ import { Timeline, DatePicker, FloatButton, ConfigProvider, Empty, Input } from 
 function ymFromDate(dateStr) {
   return (dateStr || "").slice(0, 7);
 }
+function ymIndex(ym) {
+  const [y, m] = (ym || "").split("-").map(Number);
+  return y * 12 + (m - 1);
+}
 function sortDesc(a, b) {
   return a > b ? -1 : a < b ? 1 : 0;
 }
@@ -53,6 +57,22 @@ export default function BangumiTimeline() {
     el?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
+  // find the month with programs closest to the picked one
+  const nearestYM = (target) => {
+    if (!ymOptions.length) return null;
+    const t = ymIndex(target);
+    let best = null;
+    let bestDiff = Infinity;
+    for (const ym of ymOptions) {
+      const diff = Math.abs(ymIndex(ym) - t);
+      if (diff < bestDiff) {
+        bestDiff = diff;
+        best = ym;
+      }
+    }
+    return best;
+  };
+
 
   // search
   const [query, setQuery] = useState("");
@@ -98,8 +118,10 @@ export default function BangumiTimeline() {
           <DatePicker picker="month" allowClear={false}
             onChange={(_, ym) => {
               if (!ym) return;
-              setJumpYM(ym);
-              scrollToYM(ym);
+              const target = nearestYM(ym);
+              if (!target) return;
+              setJumpYM(target);
+              scrollToYM(target);
             }}
             placeholder="选择年月"
           />

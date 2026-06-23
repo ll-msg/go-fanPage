@@ -81,7 +81,7 @@ export default function FilmPage() {
       {/* poster + info */}
       <div className="grid grid-cols-12 gap-6">
         <div className="col-span-12 sm:col-span-4 md:col-span-3 flex justify-center sm:justify-start">
-          <div className="w-[160px] sm:w-full rounded-xl overflow-hidden border border-white/10 bg-white/5">
+          <div className="cine-frame w-[160px] sm:w-full rounded-md overflow-hidden bg-white">
             <img src={url} onError={(e) => {
               e.currentTarget.src = placeholder
             }} alt="poster" className="w-full h-auto block" loading="lazy"/>
@@ -93,7 +93,7 @@ export default function FilmPage() {
             <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3">
               <div>
                 <h1 className="text-2xl md:text-3xl font-semibold leading-tight">
-                  {movie?.title || movie?.name} <span className="text-black/60">({movie?.release_date?.split("-")[0] || movie?.first_air_date?.split("-")[0]})</span>
+                  {movie?.title || movie?.name} <span className="font-cine tracking-wider text-black/55">({movie?.release_date?.split("-")[0] || movie?.first_air_date?.split("-")[0]})</span>
                 </h1>
                 <div className="mt-5 flex flex-wrap gap-2">
                   {movie?.genre?.map((g, i) => (<Tag key={i}>{g}</Tag>))}

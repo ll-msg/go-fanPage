@@ -1,16 +1,15 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
 import { Pagination } from "antd";
 import { useWorks } from "../store/worksStore";
 import FilmCards from "../components/FilmCards.jsx";
+import { usePageSize } from "../utils/usePageSize.js";
 
 
 export default function SearchResults() {
   const { works, setScopeIds } = useWorks();
   const [params, setparams] = useSearchParams();
-  const [pageSize, setPageSize] = useState(
-    window.innerWidth < 640 ? 9 : 10
-  );
+  const pageSize = usePageSize();
 
   const q = (params.get("q") || "").trim();
   const keyword = q.toLowerCase();
@@ -85,16 +84,6 @@ export default function SearchResults() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  // page size
-  useEffect(() => {
-    const handleResize = () => {
-      setPageSize(window.innerWidth < 640 ? 9 : 10);
-    }
-
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, [])
-
   // search results ids
   useEffect(() => {
     setScopeIds(filtered.map((work) => String(work.id)));
@@ -111,13 +100,16 @@ export default function SearchResults() {
   const pagemovies = filtered.slice(start, start + pageSize);
 
   return (
-    <div className="px-8 py-10">
-      <div className="mb-4 text-black/80 font-heading">
-        <span className="font-semibold">搜索结果：</span>
-        <span className="text-black/60 ml-2">共 {filtered.length} 条</span>
+    <div className="mx-auto w-full max-w-[1440px] px-4 sm:px-8 py-10">
+      <div className="mb-6 font-heading">
+        <span className="cine-eyebrow">Search</span>
+        <div className="mt-2 text-black/80">
+          <span className="text-xl font-bold tracking-tight">搜索结果</span>
+          <span className="text-black/55 ml-3 text-sm">共 <span className="font-cine">{filtered.length}</span> 条</span>
+        </div>
       </div>
 
-      <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-5">
+      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-7 gap-2 sm:gap-3">
         {pagemovies.map((item) => (
           <FilmCards key={item.id} item={item} />
         ))}

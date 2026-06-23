@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Caveat:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,8 +6,67 @@
 
 .mainLayout {
   min-height: 100vh;
-  background: transparent; 
+  background: transparent;
   position: relative;
   z-index: 1;
 }
 
+/* ===== Black & white cinematic decorations (light theme preserved) ===== */
+
+/* Classic film strip: black band with two rows of white perforations */
+.film-strip {
+  position: relative;
+  height: 22px;
+  background: #111;
+}
+.film-strip::before,
+.film-strip::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: repeating-linear-gradient(90deg, #fff 0 5px, transparent 5px 12px);
+}
+.film-strip::before { top: 3px; }
+.film-strip::after { bottom: 3px; }
+
+/* Thin vertical perforation accent (e.g. card edge) */
+.film-perf {
+  background: repeating-linear-gradient(180deg, #111 0 5px, transparent 5px 11px);
+}
+
+/* Cinematic eyebrow label: uppercase, letter-spaced, with a short rule */
+.cine-eyebrow {
+  font-family: "Oswald", "Microsoft YaHei", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-weight: 500;
+  font-size: 0.7rem;
+  color: #111;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.cine-eyebrow::before {
+  content: "";
+  width: 26px;
+  height: 2px;
+  background: #111;
+}
+
+/* Soft drop shadow for posters / stills (no border, keeps image color) */
+.cine-frame {
+  box-shadow: 0 14px 30px -12px rgba(0, 0, 0, 0.45);
+  transition: box-shadow 0.35s ease, transform 0.35s ease;
+}
+.group:hover .cine-frame,
+.cine-frame:hover {
+  box-shadow: 0 22px 44px -12px rgba(0, 0, 0, 0.6);
+}
+
+/* selection in mono */
+::selection {
+  background: #111;
+  color: #fff;
+}

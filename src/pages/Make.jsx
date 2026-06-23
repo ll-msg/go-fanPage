@@ -217,7 +217,7 @@ export default function Make() {
       <div className="mx-auto max-w-2xl py-6">
         <div className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
           <div>
-            <Title level={2} className="!mb-1 !font-heading !text-2xl !tracking-tight">
+            <Title level={2} className="!mb-1 !mt-2 !font-heading !text-2xl !tracking-tight">
               Go酱九宫格
             </Title>
             <Paragraph className="!mb-0 !text-sm !text-black/55 !font-heading">

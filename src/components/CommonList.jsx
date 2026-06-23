@@ -3,13 +3,13 @@ import FilmCards from "./FilmCards";
 
 export default function CommonList({ data, pagedData, page, pageSize, handlePageChange, clickable=true, type="movie" }) {
   return (
-    <div className="px-3 py-4 sm:px-6 sm:py-10">
-      <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-5">
+    <div className="mx-auto w-full max-w-[1440px] px-3 pt-2 pb-4 sm:px-6 sm:pt-4 sm:pb-10">
+      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-7 gap-2 sm:gap-3">
         {pagedData.map((item) => (
-          <FilmCards 
-            key={item.id} 
-            item={item} 
-            clickable={clickable} 
+          <FilmCards
+            key={item.id}
+            item={item}
+            clickable={clickable}
             type={type}
           />
         ))}

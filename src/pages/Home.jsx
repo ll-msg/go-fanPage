@@ -1,25 +1,16 @@
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo } from "react";
 import { useWorks } from "../store/worksStore";
 import { useSearchParams } from "react-router-dom";
 import CommonList from "../components/CommonList.jsx";
+import { usePageSize } from "../utils/usePageSize.js";
 
 export default function Home() {
   const { works } = useWorks();
-  const [pageSize, setPageSize] = useState(
-    window.innerWidth < 640 ? 9 : 10
-  );
+  const pageSize = usePageSize();
   const [filter, setFilter] = useState("all");
   const [searchParams, setSearchParams] = useSearchParams();
 
   const page = Number(searchParams.get("p")) || 1;
-
-  useEffect(() => {
-    const handleResize = () => {
-      setPageSize(window.innerWidth < 640 ? 9 : 10);
-    }
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, [])
 
   const watchedIds = JSON.parse(localStorage.getItem("watched") || "[]");
   const watchedCount = watchedIds.length;
@@ -62,8 +53,8 @@ export default function Home() {
 
   return (
     <div className="px-3 py-4 sm:px-6 sm:py-10">
-      <div className="mb-6 sm:mb-8">
-        
+      <div className="mb-3 sm:mb-4">
+
         <div className="mb-3 font-heading">
           <div className="text-sm text-black/70 mb-3">
             已看 {watchedCount} / {totalCount}，补完进度 {progress.toFixed(1)}%
