@@ -21,6 +21,11 @@ function computePageSize() {
   const cols = colsForWidth(w);
 
   const isMobile = w < 640;
+  // On phones, browser toolbars eat a variable chunk of innerHeight and
+  // collapse on scroll, so height-based sizing is unreliable. Use a fixed
+  // number of rows instead; scrolling to the pagination bar is fine there.
+  if (isMobile) return cols * 3;
+
   const gap = isMobile ? 8 : 12;
   const sidePadding = isMobile ? 24 : 48; // px-3 / sm:px-6 on both sides
   const gridWidth = Math.min(w, 1440) - sidePadding; // max-w-[1440px] cap
@@ -41,7 +46,15 @@ export function usePageSize() {
   const [pageSize, setPageSize] = useState(computePageSize);
 
   useEffect(() => {
-    const onResize = () => setPageSize(computePageSize());
+    // iOS fires resize when the toolbar collapses on scroll; on phones the
+    // page size only depends on width, so ignore height-only changes there.
+    let lastWidth = window.innerWidth;
+    const onResize = () => {
+      const w = window.innerWidth;
+      if (w < 640 && w === lastWidth) return;
+      lastWidth = w;
+      setPageSize(computePageSize());
+    };
     window.addEventListener("resize", onResize);
     return () => window.removeEventListener("resize", onResize);
   }, []);
