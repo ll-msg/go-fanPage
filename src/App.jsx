@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import FilmPage from "./pages/FilmPage.jsx"
 import { Layout, Drawer } from 'antd';
@@ -8,7 +8,9 @@ import { Link } from "react-router-dom";
 import SearchResults from "./pages/SearchResults.jsx";
 import { FaSearch, FaBars, FaFilm } from "react-icons/fa";
 import SearchModal from "./components/SearchModal.jsx";
-import { useState, useEffect } from "react";
+import MagazineSearchModal from "./components/MagazineSearchModal.jsx";
+import { magazineNameOptions } from "./utils/magazine.js";
+import { useState, useEffect, useMemo } from "react";
 import { useWorks } from "./store/worksStore.jsx";
 import Bangumi from "./pages/Bangumi.jsx";
 import Info from "./pages/Info.jsx";
@@ -21,8 +23,15 @@ const { Header, Content } = Layout;
 export default function App() {
 
   const [searchOpen, setSearchOpen] = useState(false);
-  const { loadWorks, clearScopeIds, loadMagazines } = useWorks();
+  const { loadWorks, clearScopeIds, loadMagazines, magazines } = useWorks();
   const [menuOpen, setMenuOpen] = useState(false);
+  const { pathname } = useLocation();
+
+  // On the magazine page the search icon opens the magazine filter
+  // (name / time) instead of the film search.
+  const magazineItems = pathname === "/magazine" ? magazines : null;
+  const magazineTitle = "筛选表纸杂";
+  const magazineNames = useMemo(() => magazineNameOptions(magazineItems), [magazineItems]);
   
   useEffect(() => {
     loadWorks();
@@ -43,7 +52,6 @@ export default function App() {
               <HeaderButton description="影视" target="" onClick={() => clearScopeIds()} />
               <HeaderButton description="表纸杂" target="/magazine" onClick={() => clearScopeIds()}  />
               <HeaderButton description="番组" target="/bangumi" onClick={() => clearScopeIds()}  />
-              <HeaderButton description="工具" target="/make" onClick={() => clearScopeIds()}  />
               <HeaderButton description="说明" target="/info" onClick={() => clearScopeIds()}  />
               <button className="flex items-center justify-center w-9 h-9 rounded-md hover:bg-white/10 transition-colors" onClick={() => setSearchOpen(true)}>
                 <FaSearch size={18} className="text-white" />
@@ -68,7 +76,6 @@ export default function App() {
               <Link to="/" onClick={() => { clearScopeIds(); setMenuOpen(false); }}>影视</Link>
               <Link to="/magazine" onClick={() => { clearScopeIds(); setMenuOpen(false); }}>表纸杂</Link>
               <Link to="/bangumi" onClick={() => { clearScopeIds(); setMenuOpen(false); }}>番组</Link>
-              <Link to="/make" onClick={() => { clearScopeIds(); setMenuOpen(false); }}>工具</Link>
               <Link to="/info" onClick={() => { clearScopeIds(); setMenuOpen(false); }}>说明</Link>
             </div>
           </Drawer>
@@ -77,7 +84,11 @@ export default function App() {
       <div className="film-strip" aria-hidden="true" />
 
       <Content className="mb-10">
-        <SearchModal open={searchOpen} onClose={() => setSearchOpen(false)}/>
+        {magazineItems ? (
+          <MagazineSearchModal open={searchOpen} onClose={() => setSearchOpen(false)} nameOptions={magazineNames} title={magazineTitle} />
+        ) : (
+          <SearchModal open={searchOpen} onClose={() => setSearchOpen(false)}/>
+        )}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/works/:id" element={<FilmPage />} />

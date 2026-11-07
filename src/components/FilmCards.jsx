@@ -1,12 +1,13 @@
 import { useNavigate } from "react-router-dom";
-import { getDisplayTitle, getPosterUrl } from "../utils/poster";
+import { getDisplayTitle, getPosterCandidates } from "../utils/poster";
 import { useState } from "react";
 
 export default function FilmCards({ item, clickable=true, type="movie" }) {
     const navigate = useNavigate();
     const title = getDisplayTitle(item);
-    const poster = getPosterUrl(item, type);
-    const placeholder = `${import.meta.env.BASE_URL}posters/placeholder.jpg`
+    const candidates = getPosterCandidates(item, type);
+    const [srcIndex, setSrcIndex] = useState(0);
+    const poster = candidates[Math.min(srcIndex, candidates.length - 1)];
     const year = (item.release_date || item.first_air_date || "").slice(0, 4);
     const [showFull, setShowFull] = useState(false);
 
@@ -29,8 +30,9 @@ export default function FilmCards({ item, clickable=true, type="movie" }) {
             onClick={handleClick}
         >
             {poster ? (
-                <img src={poster} onError={(e) => {
-                e.currentTarget.src = placeholder
+                <img src={poster} onError={() => {
+                    // try the next candidate (other extension, then placeholder)
+                    setSrcIndex((i) => Math.min(i + 1, candidates.length - 1));
                 }} alt={title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
             ) : (
                 <div className="w-full h-full flex items-center justify-center p-2 text-center text-white/55 text-xs font-heading leading-snug">
