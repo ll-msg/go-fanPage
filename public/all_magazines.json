@@ -1,0 +1,7619 @@
+[
+  {
+    "name": "TVstation",
+    "publisher": "",
+    "cover_url": "0.jpg",
+    "issue_date": "2017-01-05",
+    "issue": "2017年2号"
+  },
+  {
+    "name": "InRed",
+    "publisher": "",
+    "cover_url": "1.jpg",
+    "issue_date": "2017-01-07",
+    "issue": "2017年2月号"
+  },
+  {
+    "name": "日本映画navi",
+    "publisher": "",
+    "cover_url": "2.jpg",
+    "issue_date": "2017-01-12",
+    "issue": "vol.67",
+    "works": [
+      "movie:384973"
+    ],
+    "kind": "promo",
+    "note": "《新宿天鹅2》 绫野刚×浅野忠信",
+    "xlsx_row": 425
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "3.jpg",
+    "issue_date": "2017-01-12",
+    "issue": "2017年2月号",
+    "works": [
+      "movie:384973"
+    ],
+    "kind": "promo",
+    "note": "aim at 《新宿天鹅2》",
+    "photographer": "sai",
+    "pages": 16,
+    "xlsx_row": 426
+  },
+  {
+    "name": "andGIRL",
+    "publisher": "",
+    "cover_url": "4.jpg",
+    "issue_date": "2017-01-12",
+    "issue": "2017年2月号",
+    "works": [],
+    "xlsx_row": 428
+  },
+  {
+    "name": "2nd",
+    "publisher": "",
+    "cover_url": "5.jpg",
+    "issue_date": "2017-01-16",
+    "issue": "2017年3月号"
+  },
+  {
+    "name": "週刊ヤングマガジン",
+    "publisher": "",
+    "cover_url": "6.jpg",
+    "issue_date": "2017-01-16",
+    "issue": "2017 No.7"
+  },
+  {
+    "name": "JELLY",
+    "publisher": "",
+    "cover_url": "7.jpg",
+    "issue_date": "2017-01-17",
+    "issue": "2017年3月号",
+    "works": [
+      "movie:384973"
+    ],
+    "kind": "promo",
+    "note": "《新宿天鹅2》",
+    "photographer": "押尾健太郎",
+    "pages": 2,
+    "xlsx_row": 433
+  },
+  {
+    "name": "週刊女性",
+    "publisher": "",
+    "cover_url": "8.jpg",
+    "issue_date": "2017-01-17",
+    "issue": "2017年1/31号"
+  },
+  {
+    "name": "週刊ザテレビジョン",
+    "publisher": "",
+    "cover_url": "9.jpg",
+    "issue_date": "2017-01-18",
+    "issue": "2017年1/27号"
+  },
+  {
+    "name": "SPRiNG",
+    "publisher": "",
+    "cover_url": "10.jpg",
+    "issue_date": "2017-01-23",
+    "issue": "2017年3月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "浅野忠信×绫野刚",
+    "xlsx_row": 432
+  },
+  {
+    "name": "BARFOUT!",
+    "publisher": "",
+    "cover_url": "11.jpg",
+    "issue_date": "2017-01-25",
+    "issue": "Vol.257",
+    "works": [
+      "movie:384973"
+    ],
+    "kind": "promo",
+    "note": "《新宿天鹅2》",
+    "photographer": "皆川聪",
+    "pages": 6,
+    "xlsx_row": 429
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "12.jpg",
+    "issue_date": "2017-03-11",
+    "issue": "2017年4月号"
+  },
+  {
+    "name": "TVstation",
+    "publisher": "",
+    "cover_url": "13.jpg",
+    "issue_date": "2017-03-15",
+    "issue": "2017年3/18号"
+  },
+  {
+    "name": "週刊ザテレビジョン",
+    "publisher": "",
+    "cover_url": "14.jpg",
+    "issue_date": "2017-03-22",
+    "issue": "2017年3/31号"
+  },
+  {
+    "name": "TVガイド",
+    "publisher": "",
+    "cover_url": "15.jpg",
+    "issue_date": "2017-03-22",
+    "issue": "2017年3/31号"
+  },
+  {
+    "name": "SODA",
+    "publisher": "",
+    "cover_url": "16.jpg",
+    "issue_date": "2017-03-23",
+    "issue": "2017年5月号",
+    "works": [],
+    "kind": "other",
+    "note": "背负人生",
+    "photographer": "平岩亨",
+    "pages": 6,
+    "xlsx_row": 438
+  },
+  {
+    "name": "月刊ザテレビジョン",
+    "publisher": "",
+    "cover_url": "17.jpg",
+    "issue_date": "2017-03-24",
+    "issue": "2017年5月号"
+  },
+  {
+    "name": "月刊デジタルTVガイド",
+    "publisher": "",
+    "cover_url": "18.jpg",
+    "issue_date": "2017-03-24",
+    "issue": "2017年5月号"
+  },
+  {
+    "name": "B=PASS",
+    "publisher": "",
+    "cover_url": "19.jpg",
+    "issue_date": "2017-03-27",
+    "issue": "2017年5月号"
+  },
+  {
+    "name": "TV LIFE Premium",
+    "publisher": "",
+    "cover_url": "20.jpg",
+    "issue_date": "2017-03-30",
+    "issue": "Vol.21",
+    "works": [
+      "tv:71313"
+    ],
+    "kind": "promo",
+    "note": "《弗兰肯斯坦之恋》",
+    "xlsx_row": 439
+  },
+  {
+    "name": "Men's JOKER",
+    "publisher": "",
+    "cover_url": "21.jpg",
+    "issue_date": "2017-04-10",
+    "issue": "2017年5月号",
+    "works": [
+      "tv:71313"
+    ],
+    "kind": "promo",
+    "note": "《弗兰肯斯坦之恋》",
+    "photographer": "kazuhiro sawataishi",
+    "pages": 4,
+    "xlsx_row": 436
+  },
+  {
+    "name": "TV LIFE",
+    "publisher": "",
+    "cover_url": "22.jpg",
+    "issue_date": "2017-04-12",
+    "issue": "2017年4/28号"
+  },
+  {
+    "name": "週刊女性",
+    "publisher": "",
+    "cover_url": "23.jpg",
+    "issue_date": "2017-04-18",
+    "issue": "2017年5/2号",
+    "works": [
+      "tv:71313"
+    ],
+    "kind": "promo",
+    "note": "《弗兰肯斯坦之恋》",
+    "photographer": "伊藤和幸",
+    "pages": 3,
+    "xlsx_row": 437
+  },
+  {
+    "name": "月刊TVnavi",
+    "publisher": "",
+    "cover_url": "24.jpg",
+    "issue_date": "2017-04-24",
+    "issue": "2017年6月号"
+  },
+  {
+    "name": "WARP",
+    "publisher": "",
+    "cover_url": "25.jpg",
+    "issue_date": "2017-04-24",
+    "issue": "2017年6月号",
+    "works": [
+      "tv:71313"
+    ],
+    "kind": "promo",
+    "note": "《弗兰肯斯坦之恋》",
+    "photographer": "石毛伦太郎",
+    "pages": 5,
+    "xlsx_row": 442
+  },
+  {
+    "name": "メトロポリターナ",
+    "publisher": "",
+    "cover_url": "26.jpg",
+    "issue_date": "2017-05-10",
+    "issue": "2017年5月号"
+  },
+  {
+    "name": "CINEMA SQUARE",
+    "publisher": "",
+    "cover_url": "27.jpg",
+    "issue_date": "2017-05-12",
+    "issue": "Vol.92",
+    "works": [
+      "movie:452706"
+    ],
+    "kind": "promo",
+    "note": "《武曲》 绫野刚×村上虹郎",
+    "xlsx_row": 435
+  },
+  {
+    "name": "月刊ソングス",
+    "publisher": "",
+    "cover_url": "28.jpg",
+    "issue_date": "2017-05-15",
+    "issue": "2017年5月号 Vol.173",
+    "works": [
+      "movie:452706"
+    ],
+    "kind": "promo",
+    "note": "《武曲》 绫野 刚×村上虹郎",
+    "photographer": "竹中圭树",
+    "pages": 4,
+    "xlsx_row": 443
+  },
+  {
+    "name": "キネマ旬報",
+    "publisher": "",
+    "cover_url": "29.jpg",
+    "issue_date": "2017-05-20",
+    "issue": "No.1747",
+    "works": [
+      "movie:452706"
+    ],
+    "kind": "promo",
+    "note": "《武曲》 绫野刚×村上虹郎",
+    "photographer": "铃木裕介",
+    "pages": 5,
+    "xlsx_row": 441
+  },
+  {
+    "name": "TVガイドAlpha",
+    "publisher": "",
+    "cover_url": "30.jpg",
+    "issue_date": "2017-05-22",
+    "issue": "EPISODE E（第5号）",
+    "works": [
+      "movie:452706"
+    ],
+    "kind": "promo",
+    "note": "《武曲》",
+    "photographer": "GENKI",
+    "pages": 8,
+    "xlsx_row": 440
+  },
+  {
+    "name": "週刊女性",
+    "publisher": "",
+    "cover_url": "31.jpg",
+    "issue_date": "2017-05-30",
+    "issue": "2017年6/13号"
+  },
+  {
+    "name": "週刊ザテレビジョン",
+    "publisher": "",
+    "cover_url": "32.jpg",
+    "issue_date": "2017-05-31",
+    "issue": "2017年6/9号"
+  },
+  {
+    "name": "TVガイドPLUS",
+    "publisher": "",
+    "cover_url": "33.jpg",
+    "issue_date": "2017-10-02",
+    "issue": "vol.28"
+  },
+  {
+    "name": "TVnavi SMILE",
+    "publisher": "",
+    "cover_url": "34.jpg",
+    "issue_date": "2017-10-03",
+    "issue": "2017年11月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "二宫和也&绫野刚",
+    "photographer": "西村彩子",
+    "pages": 4,
+    "xlsx_row": 455
+  },
+  {
+    "name": "FRaU",
+    "publisher": "",
+    "cover_url": "35.jpg",
+    "issue_date": "2017-10-12",
+    "issue": "2017年11月号",
+    "works": [
+      "tv:9999969"
+    ],
+    "kind": "promo",
+    "note": "绫野刚&星野源 《产科医鸿鸟》",
+    "xlsx_row": 454
+  },
+  {
+    "name": "モーニング",
+    "publisher": "",
+    "cover_url": "36.jpg",
+    "issue_date": "2017-10-12",
+    "issue": "2017年46号",
+    "works": [
+      "tv:9999969"
+    ],
+    "kind": "promo",
+    "note": "《产科医鸿鸟》（含封底）",
+    "xlsx_row": 451
+  },
+  {
+    "name": "たまごクラブ",
+    "publisher": "",
+    "cover_url": "37.jpg",
+    "issue_date": "2017-10-13",
+    "issue": "2017年11月号",
+    "works": [
+      "tv:9999969"
+    ],
+    "kind": "promo",
+    "note": "《产科医鸿鸟》",
+    "xlsx_row": 458
+  },
+  {
+    "name": "月刊TVnavi",
+    "publisher": "",
+    "cover_url": "38.jpg",
+    "issue_date": "2017-10-24",
+    "issue": "2017年12月号"
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "39.jpg",
+    "issue_date": "2018-01-12",
+    "issue": "2018年2月号"
+  },
+  {
+    "name": "BARFOUT!",
+    "publisher": "",
+    "cover_url": "40.jpg",
+    "issue_date": "2018-06-19",
+    "issue": "Vol.274",
+    "works": [
+      "movie:525150"
+    ],
+    "kind": "promo",
+    "note": "《朋克武士》",
+    "photographer": "kAN SAWA",
+    "pages": 14,
+    "xlsx_row": 464
+  },
+  {
+    "name": "CUT",
+    "publisher": "",
+    "cover_url": "41.jpg",
+    "issue_date": "2018-06-19",
+    "issue": "2018年7月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "绫野刚×宫藤官九郎×石井岳龙",
+    "xlsx_row": 466
+  },
+  {
+    "name": "キネマ旬報",
+    "publisher": "",
+    "cover_url": "42.jpg",
+    "issue_date": "2018-06-20",
+    "issue": "No.1783",
+    "works": [
+      "movie:525150"
+    ],
+    "kind": "promo",
+    "note": "《朋克武士》",
+    "photographer": "平岩亨",
+    "xlsx_row": 468
+  },
+  {
+    "name": "TokyoWalker",
+    "publisher": "",
+    "cover_url": "43.jpg",
+    "issue_date": "2018-06-20",
+    "issue": "2018年7月号",
+    "works": [],
+    "kind": "other",
+    "note": "绫野刚与刨冰的关系",
+    "photographer": "荒木勇人",
+    "pages": 4,
+    "xlsx_row": 469
+  },
+  {
+    "name": "TVガイド",
+    "publisher": "",
+    "cover_url": "44.jpg",
+    "issue_date": "2018-06-20",
+    "issue": "2018年6/29号"
+  },
+  {
+    "name": "デジタルTVガイド",
+    "publisher": "",
+    "cover_url": "45.jpg",
+    "issue_date": "2018-06-23",
+    "issue": "2018年8月号"
+  },
+  {
+    "name": "週刊女性",
+    "publisher": "",
+    "cover_url": "46.jpg",
+    "issue_date": "2018-06-26",
+    "issue": "2018年7/10号",
+    "works": [
+      "movie:525150"
+    ],
+    "kind": "promo",
+    "note": "《朋克武士》",
+    "photographer": "森田晃博",
+    "pages": 3,
+    "xlsx_row": 465
+  },
+  {
+    "name": "TV LIFE",
+    "publisher": "",
+    "cover_url": "47.jpg",
+    "issue_date": "2018-06-27",
+    "issue": "2018年7/13号"
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "48.jpg",
+    "issue_date": "2018-07-12",
+    "issue": "2018年8月号"
+  },
+  {
+    "name": "TVガイドAlpha",
+    "publisher": "",
+    "cover_url": "49.jpg",
+    "issue_date": "2018-07-18",
+    "issue": "EPISODE N",
+    "works": [],
+    "kind": "other",
+    "note": "鹫津先生",
+    "photographer": "北岛明",
+    "pages": 8,
+    "xlsx_row": 467
+  },
+  {
+    "name": "TVstation",
+    "publisher": "",
+    "cover_url": "50.jpg",
+    "issue_date": "2018-07-18",
+    "issue": "2018年7/21号"
+  },
+  {
+    "name": "月刊ザテレビジョン",
+    "publisher": "",
+    "cover_url": "51.jpg",
+    "issue_date": "2018-07-24",
+    "issue": "2018年9月号"
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "52.jpg",
+    "issue_date": "2019-01-12",
+    "issue": "2019年2月号"
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "53.jpg",
+    "issue_date": "2019-09-12",
+    "issue": "2019年10月号",
+    "works": [
+      "movie:582589"
+    ],
+    "kind": "promo",
+    "note": "《闭锁病栋》",
+    "photographer": "宫胁进",
+    "pages": 4,
+    "xlsx_row": 473
+  },
+  {
+    "name": "チャンネルガイド",
+    "publisher": "",
+    "cover_url": "54.jpg",
+    "issue_date": "2019-09-25",
+    "issue": "2019年10月号"
+  },
+  {
+    "name": "OCEANS",
+    "publisher": "",
+    "cover_url": "55.jpg",
+    "issue_date": "2019-09-25",
+    "issue": "2019年11月号",
+    "works": [
+      "movie:619067"
+    ],
+    "kind": "promo",
+    "note": "《乐园》",
+    "pages": 1,
+    "xlsx_row": 483
+  },
+  {
+    "name": "家庭画報",
+    "publisher": "",
+    "cover_url": "56.jpg",
+    "issue_date": "2019-10-01",
+    "issue": "2019年11月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "绫野刚×杉咲花",
+    "xlsx_row": 481
+  },
+  {
+    "name": "mini",
+    "publisher": "",
+    "cover_url": "57.jpg",
+    "issue_date": "2019-10-01",
+    "issue": "2019年11月号"
+  },
+  {
+    "name": "CINEMA SQUARE",
+    "publisher": "",
+    "cover_url": "58.jpg",
+    "issue_date": "2019-10-01",
+    "issue": "vol.115",
+    "works": [
+      "movie:619067"
+    ],
+    "kind": "promo",
+    "note": "绫野刚×佐藤浩市（《乐园》）",
+    "photographer": "外山繁",
+    "pages": 5,
+    "xlsx_row": 474
+  },
+  {
+    "name": "キネマ旬報",
+    "publisher": "",
+    "cover_url": "59.jpg",
+    "issue_date": "2019-10-05",
+    "issue": "No.1822"
+  },
+  {
+    "name": "CREA",
+    "publisher": "",
+    "cover_url": "60.jpg",
+    "issue_date": "2019-10-07",
+    "issue": "2019年11月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "笑福亭鹤瓶×绫野刚",
+    "xlsx_row": 478
+  },
+  {
+    "name": "美人百花",
+    "publisher": "",
+    "cover_url": "61.jpg",
+    "issue_date": "2019-10-12",
+    "issue": "2019年11月号",
+    "works": [
+      "movie:619067"
+    ],
+    "kind": "promo",
+    "note": "《乐园》",
+    "pages": 2,
+    "xlsx_row": 482
+  },
+  {
+    "name": "野性時代",
+    "publisher": "",
+    "cover_url": "62.jpg",
+    "issue_date": "2019-10-12",
+    "issue": "2019年11月号",
+    "works": [
+      "movie:619067"
+    ],
+    "kind": "promo",
+    "note": "《乐园》",
+    "xlsx_row": 477
+  },
+  {
+    "name": "anan",
+    "publisher": "",
+    "cover_url": "63.jpg",
+    "issue_date": "2019-10-16",
+    "issue": "No.2171"
+  },
+  {
+    "name": "CUT",
+    "publisher": "",
+    "cover_url": "64.jpg",
+    "issue_date": "2019-10-19",
+    "issue": "2019年11月号",
+    "works": [
+      "movie:619067"
+    ],
+    "kind": "promo",
+    "note": "绫野刚×吉田修一（《乐园》）",
+    "photographer": "半泽克夫",
+    "pages": 6,
+    "xlsx_row": 479
+  },
+  {
+    "name": "AERA",
+    "publisher": "",
+    "cover_url": "65.jpg",
+    "issue_date": "2019-10-21",
+    "issue": "2019年10/28号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "笑福亭鹤瓶×绫野刚×小松奈奈",
+    "xlsx_row": 476
+  },
+  {
+    "name": "ViVi",
+    "publisher": "",
+    "cover_url": "66.jpg",
+    "issue_date": "2019-10-23",
+    "issue": "2019年12月号"
+  },
+  {
+    "name": "レタスクラブ",
+    "publisher": "",
+    "cover_url": "67.jpg",
+    "issue_date": "2019-10-25",
+    "issue": "2019 11月増刊号",
+    "works": [
+      "movie:619067"
+    ],
+    "kind": "promo",
+    "note": "《乐园》",
+    "photographer": "小泽正朗",
+    "pages": 2,
+    "xlsx_row": 480
+  },
+  {
+    "name": "週刊ザテレビジョン",
+    "publisher": "",
+    "cover_url": "68.jpg",
+    "issue_date": "2020-03-11",
+    "issue": "2020年3/20号"
+  },
+  {
+    "name": "TV LIFE",
+    "publisher": "",
+    "cover_url": "69.jpg",
+    "issue_date": "2020-03-11",
+    "issue": "2020年3/27号"
+  },
+  {
+    "name": "TVガイドAlpha",
+    "publisher": "",
+    "cover_url": "70.jpg",
+    "issue_date": "2020-03-18",
+    "issue": "EPISODE CC",
+    "works": [
+      "tv:106524"
+    ],
+    "kind": "promo",
+    "note": "绫野刚×星野源 MIU404采访",
+    "photographer": "蒂姆·加洛",
+    "pages": 8,
+    "xlsx_row": 489
+  },
+  {
+    "name": "月刊ザテレビジョン",
+    "publisher": "",
+    "cover_url": "71.jpg",
+    "issue_date": "2020-03-24",
+    "issue": "2020年5月号"
+  },
+  {
+    "name": "TVnavi",
+    "publisher": "",
+    "cover_url": "72.jpg",
+    "issue_date": "2020-03-24",
+    "issue": "2020年5月号"
+  },
+  {
+    "name": "デジタルTVガイド",
+    "publisher": "",
+    "cover_url": "73.jpg",
+    "issue_date": "2020-03-24",
+    "issue": "2020年5月号"
+  },
+  {
+    "name": "月刊TVガイド",
+    "publisher": "",
+    "cover_url": "74.jpg",
+    "issue_date": "2020-03-24",
+    "issue": "2020年5月号"
+  },
+  {
+    "name": "月刊TVfan",
+    "publisher": "",
+    "cover_url": "75.jpg",
+    "issue_date": "2020-03-24",
+    "issue": "2020年5月号"
+  },
+  {
+    "name": "TVstation",
+    "publisher": "",
+    "cover_url": "76.jpg",
+    "issue_date": "2020-03-25",
+    "issue": "2020年8号"
+  },
+  {
+    "name": "装苑",
+    "publisher": "",
+    "cover_url": "77.jpg",
+    "issue_date": "2020-03-28",
+    "issue": "2020年5月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "吉田尤尼×绫野刚",
+    "photographer": "吉田尤尼",
+    "pages": 2,
+    "xlsx_row": 503
+  },
+  {
+    "name": "oggi",
+    "publisher": "",
+    "cover_url": "78.jpg",
+    "issue_date": "2020-03-28",
+    "issue": "2020年5月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "坏男人 蜷川实花×绫野刚",
+    "photographer": "蜷川实花",
+    "xlsx_row": 498
+  },
+  {
+    "name": "GLOW",
+    "publisher": "",
+    "cover_url": "79.jpg",
+    "issue_date": "2020-04-01",
+    "issue": "2020年5月号",
+    "works": [
+      "tv:106524"
+    ],
+    "kind": "promo",
+    "note": "绫野刚×星野源",
+    "photographer": "柴田Fumiko",
+    "pages": 4,
+    "xlsx_row": 497
+  },
+  {
+    "name": "TVstation",
+    "publisher": "",
+    "cover_url": "80.jpg",
+    "issue_date": "2020-07-08",
+    "issue": "2020年15号"
+  },
+  {
+    "name": "TV LIFE",
+    "publisher": "",
+    "cover_url": "81.jpg",
+    "issue_date": "2020-07-08",
+    "issue": "2020年7/24号"
+  },
+  {
+    "name": "SWITCH",
+    "publisher": "",
+    "cover_url": "82.jpg",
+    "issue_date": "2020-07-20",
+    "issue": "Vol.38 No.8",
+    "works": [
+      "tv:106524"
+    ],
+    "kind": "promo",
+    "note": "MIU404 拍摄现场报道",
+    "pages": 2,
+    "xlsx_row": 506
+  },
+  {
+    "name": "RiCE",
+    "publisher": "",
+    "cover_url": "83.jpg",
+    "issue_date": "2020-10-30",
+    "issue": "No.16",
+    "works": [],
+    "kind": "dialogue",
+    "note": "绫野刚×炸猪排",
+    "photographer": "蜷川实花",
+    "xlsx_row": 510
+  },
+  {
+    "name": "家庭画報",
+    "publisher": "",
+    "cover_url": "84.jpg",
+    "issue_date": "2021-01-01",
+    "issue": "2021年1月号"
+  },
+  {
+    "name": "ESSE",
+    "publisher": "",
+    "cover_url": "85.jpg",
+    "issue_date": "2021-01-04",
+    "issue": "2021年2月号",
+    "works": [
+      "movie:736146"
+    ],
+    "kind": "promo",
+    "note": "《黑道与家族 The Family》",
+    "pages": 2,
+    "xlsx_row": 519
+  },
+  {
+    "name": "CINEMA SQUARE",
+    "publisher": "",
+    "cover_url": "86.jpg",
+    "issue_date": "2021-01-04",
+    "issue": "Vol.125",
+    "works": [],
+    "kind": "dialogue",
+    "note": "绫野刚×常田大希",
+    "xlsx_row": 515
+  },
+  {
+    "name": "大人のおしゃれ手帖",
+    "publisher": "",
+    "cover_url": "87.jpg",
+    "issue_date": "2021-01-07",
+    "issue": "2021年2月号",
+    "works": [
+      "movie:736146"
+    ],
+    "kind": "promo",
+    "note": "《黑道与家族 The Family》",
+    "xlsx_row": 520
+  },
+  {
+    "name": "CUT",
+    "publisher": "",
+    "cover_url": "88.jpg",
+    "issue_date": "2021-01-19",
+    "issue": "2021年2月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "绫野刚×常田大希",
+    "photographer": "笠井尔示",
+    "pages": 8,
+    "xlsx_row": 518
+  },
+  {
+    "name": "SWITCH",
+    "publisher": "",
+    "cover_url": "89.jpg",
+    "issue_date": "2021-01-20",
+    "issue": "Vol.39 No.2",
+    "works": [
+      "movie:736146"
+    ],
+    "kind": "promo",
+    "note": "《黑道与家族 The Family》",
+    "photographer": "Taka Mayumi",
+    "xlsx_row": 512
+  },
+  {
+    "name": "DVD＆動画配信でーた",
+    "publisher": "",
+    "cover_url": "90.jpg",
+    "issue_date": "2021-01-20",
+    "issue": "2021年2月号"
+  },
+  {
+    "name": "BARFOUT!",
+    "publisher": "",
+    "cover_url": "91.jpg",
+    "issue_date": "2021-01-20",
+    "issue": "Vol.305",
+    "works": [
+      "movie:736146"
+    ],
+    "kind": "promo",
+    "note": "《黑道与家族 The Family》",
+    "photographer": "岩本幸一郎",
+    "pages": 8,
+    "xlsx_row": 517
+  },
+  {
+    "name": "レタスクラブ",
+    "publisher": "",
+    "cover_url": "92.jpg",
+    "issue_date": "2021-01-25",
+    "issue": "2021年2月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "绫野刚×馆博",
+    "photographer": "小泽正朗",
+    "pages": 2,
+    "xlsx_row": 516
+  },
+  {
+    "name": "CUT",
+    "publisher": "",
+    "cover_url": "93.jpg",
+    "issue_date": "2021-03-19",
+    "issue": "2021年4月号",
+    "works": [
+      "tv:121853"
+    ],
+    "kind": "promo",
+    "note": "《深恋》 单人采访",
+    "photographer": "南阿沙美",
+    "pages": 8,
+    "xlsx_row": 523
+  },
+  {
+    "name": "TVfan",
+    "publisher": "",
+    "cover_url": "94.jpg",
+    "issue_date": "2021-03-24",
+    "issue": "2021年5月号",
+    "works": [
+      "tv:121853"
+    ],
+    "kind": "promo",
+    "note": "《深恋》",
+    "xlsx_row": 524
+  },
+  {
+    "name": "月刊テレビガイド",
+    "publisher": "",
+    "cover_url": "95.jpg",
+    "issue_date": "2021-03-24",
+    "issue": "2021年5月号",
+    "works": [
+      "tv:121853"
+    ],
+    "kind": "promo",
+    "note": "《深恋》 别册",
+    "xlsx_row": 527
+  },
+  {
+    "name": "週刊ザテレビジョン",
+    "publisher": "",
+    "cover_url": "96.jpg",
+    "issue_date": "2021-03-24",
+    "issue": "2021年4/2号",
+    "works": [
+      "tv:121853"
+    ],
+    "kind": "promo",
+    "note": "《深恋》",
+    "xlsx_row": 525
+  },
+  {
+    "name": "月刊ザテレビジョン",
+    "publisher": "",
+    "cover_url": "97.jpg",
+    "issue_date": "2021-03-24",
+    "issue": "2021年5月号"
+  },
+  {
+    "name": "GINGER",
+    "publisher": "",
+    "cover_url": "98.jpg",
+    "issue_date": "2021-12-22",
+    "issue": "2022年2月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "美味的娱乐话题 绫野刚×横滨流星",
+    "photographer": "sasu tai",
+    "pages": 4,
+    "xlsx_row": 540
+  },
+  {
+    "name": "TV bros.",
+    "publisher": "",
+    "cover_url": "99.jpg",
+    "issue_date": "2021-12-23",
+    "issue": "2022年2月号",
+    "works": [
+      "tv:137967"
+    ],
+    "kind": "promo",
+    "note": "《新闻记者》采访",
+    "photographer": "桑岛智辉",
+    "pages": 7,
+    "xlsx_row": 541
+  },
+  {
+    "name": "ESSE",
+    "publisher": "",
+    "cover_url": "100.jpg",
+    "issue_date": "2023-05-01",
+    "issue": "2023年6月号",
+    "works": [
+      "movie:995206"
+    ],
+    "kind": "promo",
+    "note": "《走到尽头》 冈田准一×绫野刚",
+    "xlsx_row": 564
+  },
+  {
+    "name": "CINEMA STARS",
+    "publisher": "",
+    "cover_url": "101.jpg",
+    "issue_date": "2023-05-02",
+    "issue": "vol.7",
+    "works": [
+      "movie:995206"
+    ],
+    "kind": "promo",
+    "note": "《走到尽头》 冈田准一×绫野刚",
+    "photographer": "Toyoda Ryo",
+    "pages": 8,
+    "xlsx_row": 560
+  },
+  {
+    "name": "anan",
+    "publisher": "",
+    "cover_url": "102.jpg",
+    "issue_date": "2023-05-10",
+    "issue": "No.2347",
+    "works": [
+      "movie:995206"
+    ],
+    "kind": "promo",
+    "note": "《走到尽头》 冈田准一×绫野刚",
+    "photographer": "樽木优美子",
+    "pages": 6,
+    "xlsx_row": 562
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "103.jpg",
+    "issue_date": "2023-05-12",
+    "issue": "2023年6月号",
+    "works": [
+      "movie:995206"
+    ],
+    "kind": "promo",
+    "note": "《走到尽头》 冈田准一×绫野刚",
+    "photographer": "宫胁进",
+    "pages": 10,
+    "xlsx_row": 563
+  },
+  {
+    "name": "キネマ旬報",
+    "publisher": "",
+    "cover_url": "104.jpg",
+    "issue_date": "2023-05-19",
+    "issue": "No.1923",
+    "works": [
+      "movie:995206"
+    ],
+    "kind": "promo",
+    "note": "《走到尽头》 特辑",
+    "xlsx_row": 561
+  },
+  {
+    "name": "SWITCH",
+    "publisher": "",
+    "cover_url": "105.jpg",
+    "issue_date": "2023-05-20",
+    "issue": "Vol.41 No.6",
+    "works": [],
+    "photographer": "Taka Mayumi",
+    "pages": 10,
+    "xlsx_row": 565
+  },
+  {
+    "name": "SWITCH",
+    "publisher": "",
+    "cover_url": "106.jpg",
+    "issue_date": "2023-09-20",
+    "issue": "Vol.41 No.10"
+  },
+  {
+    "name": "TVガイドPERSON",
+    "publisher": "",
+    "cover_url": "107.jpg",
+    "issue_date": "2023-11-09",
+    "issue": "vol.135",
+    "works": [
+      "movie:1115167"
+    ],
+    "kind": "promo",
+    "note": "《花腐》 绫野刚×柄本佑",
+    "photographer": "Toyoda Ryo",
+    "pages": 8,
+    "xlsx_row": 569
+  },
+  {
+    "name": "毎日新聞 夕刊",
+    "publisher": "",
+    "cover_url": "108.jpg",
+    "issue_date": "2023-11-09",
+    "issue": ""
+  },
+  {
+    "name": "月刊コミックビーム",
+    "publisher": "",
+    "cover_url": "109.jpg",
+    "issue_date": "2023-11-10",
+    "issue": "2023年12月号"
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "110.jpg",
+    "issue_date": "2023-11-10",
+    "issue": "2023年12月号",
+    "works": [
+      "movie:1115167"
+    ],
+    "kind": "promo",
+    "note": "《花腐》",
+    "photographer": "宅间国博",
+    "pages": 6,
+    "xlsx_row": 568
+  },
+  {
+    "name": "映画情報誌C＋T",
+    "publisher": "",
+    "cover_url": "111.jpg",
+    "issue_date": "2023-11-20",
+    "issue": ""
+  },
+  {
+    "name": "anan",
+    "publisher": "",
+    "cover_url": "112.jpg",
+    "issue_date": "2023-12-13",
+    "issue": "No.2376"
+  },
+  {
+    "name": "CUT",
+    "publisher": "",
+    "cover_url": "113.jpg",
+    "issue_date": "2023-12-19",
+    "issue": "2024年1月号",
+    "works": [
+      "movie:1070507"
+    ],
+    "kind": "promo",
+    "note": "《去唱卡拉OK吧》 绫野刚×",
+    "pages": 8,
+    "xlsx_row": 570
+  },
+  {
+    "name": "ダ・ヴィンチ",
+    "publisher": "",
+    "cover_url": "114.jpg",
+    "issue_date": "2024-01-06",
+    "issue": "2024年2月号"
+  },
+  {
+    "name": "アニメージュ",
+    "publisher": "",
+    "cover_url": "115.jpg",
+    "issue_date": "2024-01-10",
+    "issue": "2024年2月号",
+    "works": [
+      "movie:1070507"
+    ],
+    "kind": "promo",
+    "note": "绫野刚x斋藤润"
+  },
+  {
+    "name": "SWITCH",
+    "publisher": "",
+    "cover_url": "116.jpg",
+    "issue_date": "2024-01-20",
+    "issue": "Vol.42 No.2"
+  },
+  {
+    "name": "TV Bros.",
+    "publisher": "",
+    "cover_url": "117.jpg",
+    "issue_date": "2024-07-31",
+    "issue": "2024年9月号",
+    "works": [
+      "tv:249906"
+    ],
+    "kind": "promo",
+    "note": "绫野刚x丰川悦司（封面）"
+  },
+  {
+    "name": "小説すばる",
+    "publisher": "",
+    "cover_url": "118.jpg",
+    "issue_date": "2024-08-17",
+    "issue": "2024年9月号"
+  },
+  {
+    "name": "VOGUE JAPAN",
+    "publisher": "",
+    "cover_url": "119.jpg",
+    "issue_date": "2024-11-01",
+    "issue": "2024年12月号"
+  },
+  {
+    "name": "UOMO",
+    "publisher": "",
+    "cover_url": "120.jpg",
+    "issue_date": "2025-03-25",
+    "issue": "2025年5月号"
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "121.jpg",
+    "issue_date": "2025-05-12",
+    "issue": "2025年6月号"
+  },
+  {
+    "name": "キネマ旬報",
+    "publisher": "",
+    "cover_url": "122.jpg",
+    "issue_date": "2025-05-20",
+    "issue": "No.1964"
+  },
+  {
+    "name": "TV LIFE",
+    "publisher": "",
+    "cover_url": "123.jpg",
+    "issue_date": "2025-06-11",
+    "issue": "2025年6/27号"
+  },
+  {
+    "name": "CUT",
+    "publisher": "",
+    "cover_url": "124.jpg",
+    "issue_date": "2025-06-19",
+    "issue": "2025年7月号"
+  },
+  {
+    "name": "月刊TVガイド",
+    "publisher": "",
+    "cover_url": "125.jpg",
+    "issue_date": "2025-06-24",
+    "issue": "2025年8月号"
+  },
+  {
+    "name": "anan スペシャルエディション",
+    "publisher": "",
+    "cover_url": "126.jpg",
+    "issue_date": "2025-06-25",
+    "issue": "No.2452",
+    "works": [
+      "movie:1423983"
+    ],
+    "kind": "promo",
+    "note": "绫野刚x龟梨和也（封面）"
+  },
+  {
+    "name": "キネマ旬報NEXT",
+    "publisher": "",
+    "cover_url": "127.jpg",
+    "issue_date": "2025-09-01",
+    "issue": "Vol.66"
+  },
+  {
+    "name": "CUT",
+    "publisher": "",
+    "cover_url": "128.jpg",
+    "issue_date": "2026-09-18",
+    "issue": "2026年10月号",
+    "works": [
+      "movie:9999970"
+    ],
+    "kind": "promo",
+    "note": "《mentor》三人组"
+  },
+  {
+    "name": "日経エンタテインメント",
+    "publisher": "",
+    "cover_url": "129.jpg",
+    "issue_date": "2021-04-02",
+    "issue": "2021年5月号",
+    "works": [
+      "tv:121853"
+    ],
+    "kind": "promo",
+    "note": "《深恋》 单人采访",
+    "photographer": "桥本胜美",
+    "pages": 5,
+    "xlsx_row": 531
+  },
+  {
+    "name": "TVnavi",
+    "publisher": "",
+    "cover_url": "130.jpg",
+    "issue_date": "2021-04-24",
+    "issue": "2021年6月号",
+    "works": [
+      "tv:121853"
+    ],
+    "kind": "promo",
+    "note": "《深恋》",
+    "xlsx_row": 532
+  },
+  {
+    "name": "デジタルTVガイド",
+    "publisher": "",
+    "cover_url": "131.jpg",
+    "issue_date": "2021-04-24",
+    "issue": "2021年6月号",
+    "works": [
+      "tv:121853"
+    ],
+    "kind": "promo",
+    "note": "《深恋》",
+    "xlsx_row": 535
+  },
+  {
+    "name": "GOETHE",
+    "publisher": "",
+    "cover_url": "132.jpg",
+    "issue_date": "2021-04-24",
+    "issue": "2021年6月号",
+    "works": [],
+    "kind": "other",
+    "note": "连载 EYEVAN",
+    "photographer": "操上和美",
+    "pages": 1,
+    "xlsx_row": 533
+  },
+  {
+    "name": "Numero",
+    "publisher": "",
+    "cover_url": "133.jpg",
+    "issue_date": "2021-04-28",
+    "issue": "2021年6月号"
+  },
+  {
+    "name": "週刊プレイボーイ",
+    "publisher": "",
+    "cover_url": "135.jpg",
+    "issue_date": "2021-10-18",
+    "issue": "No.44",
+    "works": [
+      "tv:136110"
+    ],
+    "kind": "promo",
+    "note": "《筋肉人TLL》 采访",
+    "pages": 3,
+    "xlsx_row": 539
+  },
+  {
+    "name": "CUT",
+    "publisher": "",
+    "cover_url": "136.jpg",
+    "issue_date": "2022-06-17",
+    "issue": "2022年7月号",
+    "works": [
+      "tv:203935"
+    ],
+    "kind": "promo",
+    "note": "《老将新生》",
+    "pages": 8,
+    "xlsx_row": 544
+  },
+  {
+    "name": "TV LIFE",
+    "publisher": "",
+    "cover_url": "137.jpg",
+    "issue_date": "2022-06-22",
+    "issue": "2022年7/8号",
+    "works": [
+      "tv:203935"
+    ],
+    "kind": "promo",
+    "note": "《老将新生》",
+    "photographer": "中村功",
+    "pages": 1,
+    "xlsx_row": 546
+  },
+  {
+    "name": "週刊ザテレビジョン",
+    "publisher": "",
+    "cover_url": "138.jpg",
+    "issue_date": "2022-06-22",
+    "issue": "2022年7/1号"
+  },
+  {
+    "name": "月刊ザテレビジョン",
+    "publisher": "",
+    "cover_url": "139.jpg",
+    "issue_date": "2022-06-23",
+    "issue": "2022年8月号",
+    "works": [
+      "tv:203935"
+    ],
+    "kind": "promo",
+    "note": "《老将新生》",
+    "photographer": "藤本和史",
+    "pages": 1,
+    "xlsx_row": 548
+  },
+  {
+    "name": "おとなのデジタルTVナビ",
+    "publisher": "",
+    "cover_url": "140.jpg",
+    "issue_date": "2022-06-24",
+    "issue": "2022年8月号",
+    "works": [
+      "tv:203935"
+    ],
+    "kind": "promo",
+    "note": "《老将新生》",
+    "photographer": "吉井裕志",
+    "pages": 2,
+    "xlsx_row": 550
+  },
+  {
+    "name": "月刊TVfan",
+    "publisher": "",
+    "cover_url": "141.jpg",
+    "issue_date": "2022-06-24",
+    "issue": "2022年8月号"
+  },
+  {
+    "name": "GINGER",
+    "publisher": "",
+    "cover_url": "142.jpg",
+    "issue_date": "2022-10-21",
+    "issue": "2022年12月号",
+    "works": [],
+    "kind": "interview",
+    "note": "portrait 采访",
+    "photographer": "笠井尔示",
+    "pages": 2,
+    "xlsx_row": 556
+  },
+  {
+    "name": "GOETHE",
+    "publisher": "",
+    "cover_url": "143.jpg",
+    "issue_date": "2022-10-25",
+    "issue": "2022年12月号",
+    "works": [],
+    "kind": "interview",
+    "note": "portrait 采访",
+    "photographer": "笠井尔示",
+    "pages": 4,
+    "xlsx_row": 555
+  },
+  {
+    "name": "CUT",
+    "publisher": "",
+    "cover_url": "144.jpg",
+    "issue_date": "2023-04-19",
+    "issue": "2023年5月号",
+    "works": [
+      "movie:995206"
+    ],
+    "kind": "promo",
+    "note": "《走到尽头》 冈田准一×绫野刚",
+    "pages": 6,
+    "xlsx_row": 559
+  },
+  {
+    "name": "50,50 FIFTY GENTLEMEN OF EYEVAN",
+    "publisher": "",
+    "cover_url": "145.jpg",
+    "issue_date": "2023-10-06",
+    "issue": ""
+  },
+  {
+    "name": "週刊TVガイド",
+    "publisher": "",
+    "cover_url": "146.jpg",
+    "issue_date": "2023-10-18",
+    "issue": "2023年10月27日号",
+    "works": [
+      "movie:1115167"
+    ],
+    "kind": "promo",
+    "note": "《花腐》 绫野刚×柄本佑",
+    "xlsx_row": 566
+  },
+  {
+    "name": "CUT",
+    "publisher": "",
+    "cover_url": "147.jpg",
+    "issue_date": "2023-10-19",
+    "issue": "2023年11月号",
+    "works": [
+      "movie:1115167"
+    ],
+    "kind": "promo",
+    "note": "《花腐》",
+    "photographer": "奥村宪彦",
+    "pages": 8,
+    "xlsx_row": 567
+  },
+  {
+    "name": "キネマ旬報",
+    "publisher": "",
+    "cover_url": "148.jpg",
+    "issue_date": "2023-10-19",
+    "issue": "No.1932"
+  },
+  {
+    "name": "岐阜新聞",
+    "publisher": "",
+    "cover_url": "149.jpg",
+    "issue_date": "2023-10-28",
+    "issue": ""
+  },
+  {
+    "name": "映画芸術",
+    "publisher": "",
+    "cover_url": "150.jpg",
+    "issue_date": "2023-10-30",
+    "issue": "No.485"
+  },
+  {
+    "name": "TV Bros",
+    "publisher": "",
+    "cover_url": "151.jpg",
+    "issue_date": "2023-10-31",
+    "issue": "2023年12月号"
+  },
+  {
+    "name": "cinema★cinema",
+    "publisher": "",
+    "cover_url": "152.jpg",
+    "issue_date": "2017-06-01",
+    "issue": "No.69",
+    "works": [],
+    "kind": "dialogue",
+    "note": "绫野 刚&村上虹郎",
+    "photographer": "kazuko tanaka",
+    "pages": 6,
+    "xlsx_row": 445
+  },
+  {
+    "name": "FLIX plus",
+    "publisher": "",
+    "cover_url": "153.jpg",
+    "issue_date": "2017-06-05",
+    "issue": "Vol.22",
+    "works": [],
+    "kind": "dialogue",
+    "note": "绫野 刚&村上虹郎",
+    "photographer": "七海麻子",
+    "pages": 8,
+    "xlsx_row": 444
+  },
+  {
+    "name": "PRESIDENT WOMAN",
+    "publisher": "",
+    "cover_url": "154.jpg",
+    "issue_date": "2017-06-07",
+    "issue": "vol.27",
+    "works": [
+      "movie:452706"
+    ],
+    "kind": "promo",
+    "note": "《武曲》",
+    "xlsx_row": 446
+  },
+  {
+    "name": "CREA",
+    "publisher": "",
+    "cover_url": "155.jpg",
+    "issue_date": "2017-06-07",
+    "issue": "2017年7月号"
+  },
+  {
+    "name": "TV LIFE",
+    "publisher": "",
+    "cover_url": "157.jpg",
+    "issue_date": "2017-09-06",
+    "issue": "2017年9/22号"
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "158.jpg",
+    "issue_date": "2017-09-12",
+    "issue": "2017年10月号"
+  },
+  {
+    "name": "TVガイドAlpha",
+    "publisher": "",
+    "cover_url": "159.jpg",
+    "issue_date": "2017-09-12",
+    "issue": "EPISODE H",
+    "works": [],
+    "kind": "dialogue",
+    "note": "佐藤健×绫野刚",
+    "photographer": "北井博也",
+    "pages": 8,
+    "xlsx_row": 447
+  },
+  {
+    "name": "CUT",
+    "publisher": "",
+    "cover_url": "160.jpg",
+    "issue_date": "2017-09-19",
+    "issue": "2017年10月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "佐藤健×绫野刚",
+    "photographer": "ryu tamagawa",
+    "pages": 8,
+    "xlsx_row": 449
+  },
+  {
+    "name": "ViVi",
+    "publisher": "",
+    "cover_url": "162.jpg",
+    "issue_date": "2017-10-23",
+    "issue": "2017年12月号",
+    "works": [
+      "tv:9999969"
+    ],
+    "kind": "promo",
+    "note": "绫野刚&星野源 《产科医鸿鸟》",
+    "photographer": "东京祐",
+    "pages": 2,
+    "xlsx_row": 461
+  },
+  {
+    "name": "CanCam",
+    "publisher": "",
+    "cover_url": "163.jpg",
+    "issue_date": "2017-09-23",
+    "issue": "2017年11月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "佐藤健×绫野刚",
+    "pages": 7,
+    "xlsx_row": 453
+  },
+  {
+    "name": "月刊TVnavi",
+    "publisher": "",
+    "cover_url": "164.jpg",
+    "issue_date": "2017-09-23",
+    "issue": "2017年11月号"
+  },
+  {
+    "name": "VoCE",
+    "publisher": "",
+    "cover_url": "165.jpg",
+    "issue_date": "2017-09-23",
+    "issue": "2017年11月号",
+    "works": [
+      "tv:9999969"
+    ],
+    "kind": "promo",
+    "note": "绫野刚&星野源 《产科医鸿鸟》",
+    "photographer": "冈部太郎",
+    "pages": 4,
+    "xlsx_row": 457
+  },
+  {
+    "name": "JUNON",
+    "publisher": "",
+    "cover_url": "166.jpg",
+    "issue_date": "2017-09-23",
+    "issue": "2017年11月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "佐藤健×绫野刚",
+    "xlsx_row": 452
+  },
+  {
+    "name": "月刊ザテレビジョン",
+    "publisher": "",
+    "cover_url": "167.jpg",
+    "issue_date": "2017-09-23",
+    "issue": "2017年11月号"
+  },
+  {
+    "name": "TV LIFE Premium",
+    "publisher": "",
+    "cover_url": "168.jpg",
+    "issue_date": "2017-09-27",
+    "issue": "vol.23",
+    "works": [
+      "tv:9999969"
+    ],
+    "kind": "promo",
+    "note": "佐藤健×绫野刚、绫野刚×星野源×坂口健太郎",
+    "xlsx_row": 448
+  },
+  {
+    "name": "Domani",
+    "publisher": "",
+    "cover_url": "169.jpg",
+    "issue_date": "2017-09-30",
+    "issue": "2017年11月号"
+  },
+  {
+    "name": "eclat",
+    "publisher": "",
+    "cover_url": "170.jpg",
+    "issue_date": "2017-11-01",
+    "issue": "2017年12月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "二宫和也×绫野刚",
+    "xlsx_row": 462
+  },
+  {
+    "name": "AHKAH 2017-2018 just the TWO of US",
+    "publisher": "",
+    "cover_url": "171.jpg",
+    "issue_date": "2017-11-02",
+    "issue": ""
+  },
+  {
+    "name": "キネマ旬報",
+    "publisher": "",
+    "cover_url": "172.jpg",
+    "issue_date": "2017-11-04",
+    "issue": "No.1764",
+    "works": [],
+    "kind": "dialogue",
+    "note": "二宫和也×绫野刚",
+    "photographer": "林和也",
+    "pages": 4,
+    "xlsx_row": 456
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "173.jpg",
+    "issue_date": "2017-11-10",
+    "issue": "2017年12月号",
+    "works": [
+      "tv:9999969"
+    ],
+    "kind": "promo",
+    "note": "《产科医鸿鸟》",
+    "photographer": "sai",
+    "pages": 6,
+    "xlsx_row": 459
+  },
+  {
+    "name": "たまごクラブ",
+    "publisher": "",
+    "cover_url": "174.jpg",
+    "issue_date": "2017-11-15",
+    "issue": "2017年12月号"
+  },
+  {
+    "name": "ひよこクラブ",
+    "publisher": "",
+    "cover_url": "175.jpg",
+    "issue_date": "2017-11-15",
+    "issue": "2017年12月号"
+  },
+  {
+    "name": "月刊Piano",
+    "publisher": "",
+    "cover_url": "176.jpg",
+    "issue_date": "2017-11-20",
+    "issue": "2017年12月号"
+  },
+  {
+    "name": "デジタルTVガイド",
+    "publisher": "",
+    "cover_url": "177.jpg",
+    "issue_date": "2017-11-24",
+    "issue": "2018年1月号"
+  },
+  {
+    "name": "CUT",
+    "publisher": "",
+    "cover_url": "178.jpg",
+    "issue_date": "2018-02-19",
+    "issue": "2018年3月号",
+    "works": [
+      "movie:525150"
+    ],
+    "kind": "promo",
+    "note": "《朋克武士》",
+    "photographer": "笠井尔示",
+    "pages": 8,
+    "xlsx_row": 463
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "179.jpg",
+    "issue_date": "2018-03-12",
+    "issue": "2018年4月号"
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "180.jpg",
+    "issue_date": "2018-05-11",
+    "issue": "2018年6月号"
+  },
+  {
+    "name": "IN★POCKET",
+    "publisher": "",
+    "cover_url": "181.jpg",
+    "issue_date": "2018-08-10",
+    "issue": "2018年8月号"
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "182.jpg",
+    "issue_date": "2018-09-12",
+    "issue": "2018年10月号"
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "183.jpg",
+    "issue_date": "2018-11-12",
+    "issue": "2018年12月号"
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "184.jpg",
+    "issue_date": "2019-03-12",
+    "issue": "2019年4月号"
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "185.jpg",
+    "issue_date": "2019-05-11",
+    "issue": "2019年6月号"
+  },
+  {
+    "name": "ダ・ヴィンチ",
+    "publisher": "",
+    "cover_url": "186.jpg",
+    "issue_date": "2020-02-06",
+    "issue": "2020年3月号",
+    "works": [
+      "movie:660064"
+    ],
+    "kind": "promo",
+    "note": "《影里》",
+    "photographer": "纲中健太",
+    "pages": 4,
+    "xlsx_row": 491
+  },
+  {
+    "name": "InRed",
+    "publisher": "",
+    "cover_url": "187.jpg",
+    "issue_date": "2020-02-07",
+    "issue": "2020年3月号",
+    "works": [
+      "movie:660064"
+    ],
+    "kind": "promo",
+    "note": "《影里》",
+    "photographer": "天野良子",
+    "pages": 2,
+    "xlsx_row": 488
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "188.jpg",
+    "issue_date": "2020-02-12",
+    "issue": "2020年3月号",
+    "works": [],
+    "kind": "other",
+    "note": "Glisten. 白色绫野先生",
+    "photographer": "sai",
+    "pages": 18,
+    "xlsx_row": 487
+  },
+  {
+    "name": "東京カレンダー",
+    "publisher": "",
+    "cover_url": "189.jpg",
+    "issue_date": "2020-02-21",
+    "issue": "2020年4月号",
+    "works": [],
+    "kind": "other",
+    "note": "有阴影的男人 绫野刚",
+    "photographer": "yoko nakata",
+    "pages": 6,
+    "xlsx_row": 494
+  },
+  {
+    "name": "週刊ザテレビジョン",
+    "publisher": "",
+    "cover_url": "190.jpg",
+    "issue_date": "2020-02-26",
+    "issue": "2020年3/6号"
+  },
+  {
+    "name": "TVstation",
+    "publisher": "",
+    "cover_url": "192.jpg",
+    "issue_date": "2020-04-08",
+    "issue": "2020年8号"
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "193.jpg",
+    "issue_date": "2020-04-11",
+    "issue": "2020年5月号",
+    "works": [
+      "tv:106524"
+    ],
+    "kind": "promo",
+    "note": "绫野刚×星野源",
+    "photographer": "sai",
+    "pages": 8,
+    "xlsx_row": 495
+  },
+  {
+    "name": "awesome!",
+    "publisher": "",
+    "cover_url": "194.jpg",
+    "issue_date": "2020-04-11",
+    "issue": "Vol.35",
+    "works": [
+      "tv:106524"
+    ],
+    "kind": "promo",
+    "note": "绫野刚×星野源",
+    "photographer": "后藤伦人",
+    "pages": 13,
+    "xlsx_row": 492
+  },
+  {
+    "name": "SWITCH",
+    "publisher": "",
+    "cover_url": "195.jpg",
+    "issue_date": "2020-04-20",
+    "issue": "Vol.38 No.5",
+    "works": [
+      "tv:106524"
+    ],
+    "kind": "promo",
+    "note": "绫野刚×星野源",
+    "photographer": "SASAHARA KIYOAKI",
+    "pages": 14,
+    "xlsx_row": 499
+  },
+  {
+    "name": "週刊ザテレビジョン",
+    "publisher": "",
+    "cover_url": "196.jpg",
+    "issue_date": "2020-04-22",
+    "issue": "2020年5/1号"
+  },
+  {
+    "name": "TV LIFE Premium",
+    "publisher": "",
+    "cover_url": "197.jpg",
+    "issue_date": "2020-04-23",
+    "issue": "Vol.31",
+    "works": [
+      "tv:106524"
+    ],
+    "kind": "promo",
+    "note": "绫野刚×星野源",
+    "photographer": "干川修",
+    "pages": 4,
+    "xlsx_row": 493
+  },
+  {
+    "name": "おとなのデジタルTVナビ",
+    "publisher": "",
+    "cover_url": "198.jpg",
+    "issue_date": "2020-04-24",
+    "issue": "2020年6月号"
+  },
+  {
+    "name": "週刊ザテレビジョン",
+    "publisher": "",
+    "cover_url": "199.jpg",
+    "issue_date": "2020-04-28",
+    "issue": "2020年5/8・5/15・5/22合併号"
+  },
+  {
+    "name": "anan",
+    "publisher": "",
+    "cover_url": "200.jpg",
+    "issue_date": "2020-05-13",
+    "issue": "No.2200",
+    "works": [
+      "tv:106524"
+    ],
+    "kind": "promo",
+    "note": "绫野刚×星野源",
+    "photographer": "伊藤彰纪",
+    "pages": 14,
+    "xlsx_row": 496
+  },
+  {
+    "name": "産経新聞",
+    "publisher": "",
+    "cover_url": "201.jpg",
+    "issue_date": "2020-08-02",
+    "issue": ""
+  },
+  {
+    "name": "日経エンタテインメント",
+    "publisher": "",
+    "cover_url": "202.jpg",
+    "issue_date": "2020-08-04",
+    "issue": "2020年9月号",
+    "works": [
+      "tv:106524"
+    ],
+    "kind": "promo",
+    "note": "MIU404",
+    "photographer": "桥本胜美",
+    "pages": 5,
+    "xlsx_row": 509
+  },
+  {
+    "name": "TVstation",
+    "publisher": "",
+    "cover_url": "203.jpg",
+    "issue_date": "2020-08-05",
+    "issue": "17号"
+  },
+  {
+    "name": "SWITCH",
+    "publisher": "",
+    "cover_url": "204.jpg",
+    "issue_date": "2020-08-20",
+    "issue": "Vol.38 No.9",
+    "works": [],
+    "kind": "dialogue",
+    "note": "绫野刚×塚原亚由子",
+    "photographer": "Tada",
+    "pages": 6,
+    "xlsx_row": 508
+  },
+  {
+    "name": "anan",
+    "publisher": "",
+    "cover_url": "205.jpg",
+    "issue_date": "2020-09-02",
+    "issue": "No.2215",
+    "works": [
+      "tv:106524"
+    ],
+    "kind": "promo",
+    "note": "绫野刚×星野源",
+    "photographer": "伊藤彰纪",
+    "xlsx_row": 507
+  },
+  {
+    "name": "キネマ旬報",
+    "publisher": "",
+    "cover_url": "206.jpg",
+    "issue_date": "2020-12-19",
+    "issue": "No.1832"
+  },
+  {
+    "name": "SWITCH",
+    "publisher": "",
+    "cover_url": "207.jpg",
+    "issue_date": "2021-08-20",
+    "issue": "Vol.39 No.9",
+    "works": [],
+    "kind": "other",
+    "note": "如此优雅的自由",
+    "photographer": "操上和美",
+    "pages": "14+6",
+    "xlsx_row": 537
+  },
+  {
+    "name": "smart HEAD/夏",
+    "publisher": "",
+    "cover_url": "208.jpg",
+    "issue_date": "2001-01-01",
+    "issue": "",
+    "works": [],
+    "kind": "fashion",
+    "note": "川井刚 发型模特",
+    "pages": 2,
+    "xlsx_row": 3
+  },
+  {
+    "name": "smart HEAD/秋冬",
+    "publisher": "",
+    "cover_url": "209.jpg",
+    "issue_date": "2001-01-01",
+    "issue": "",
+    "works": [],
+    "kind": "fashion",
+    "note": "川井刚 发型模特",
+    "pages": 1,
+    "xlsx_row": 4
+  },
+  {
+    "name": "Hot-Dog PRESS",
+    "publisher": "",
+    "cover_url": "210.jpg",
+    "issue_date": "2002-02-01",
+    "issue": "2/11号",
+    "works": [],
+    "kind": "other",
+    "note": "进化中的牛仔裤学习  以GO名义",
+    "photographer": "永井守",
+    "pages": 12,
+    "xlsx_row": 5
+  },
+  {
+    "name": "PICT-UP",
+    "publisher": "",
+    "cover_url": "211.jpg",
+    "issue_date": "2003-01-01",
+    "issue": "2003年8号",
+    "works": [],
+    "kind": "ad",
+    "note": "广告（Vantan电影学院）",
+    "pages": 1,
+    "xlsx_row": 6
+  },
+  {
+    "name": "特撮ニュータイプ",
+    "publisher": "",
+    "cover_url": "212.jpg",
+    "issue_date": "2003-11-01",
+    "issue": "2003年11月号",
+    "works": [
+      "tv:9999989"
+    ],
+    "kind": "promo",
+    "note": "《假面骑士555》相关",
+    "pages": "1+2",
+    "xlsx_row": 7
+  },
+  {
+    "name": "東映ヒーローMAX",
+    "publisher": "",
+    "cover_url": "213.jpg",
+    "issue_date": "2003-10-01",
+    "issue": "Vol.7",
+    "works": [
+      "tv:9999989"
+    ],
+    "kind": "promo",
+    "note": "绫野刚×藤田玲 《假面骑士555》",
+    "photographer": "丸山刚史",
+    "pages": 3,
+    "xlsx_row": 8
+  },
+  {
+    "name": "男優倶楽部",
+    "publisher": "",
+    "cover_url": "214.jpg",
+    "issue_date": "2004-01-03",
+    "issue": "Vol.14",
+    "works": [
+      "tv:9999989"
+    ],
+    "kind": "promo",
+    "note": "《假面骑士555》",
+    "pages": 1,
+    "xlsx_row": 9
+  },
+  {
+    "name": "DOOP",
+    "publisher": "",
+    "cover_url": "215.jpg",
+    "issue_date": "2004-01-01",
+    "issue": "vol.6",
+    "works": [],
+    "kind": "fashion",
+    "note": "EVISU JEANS 模特",
+    "photographer": "山下启",
+    "pages": 2,
+    "xlsx_row": 12
+  },
+  {
+    "name": "Top Stage",
+    "publisher": "",
+    "cover_url": "216.jpg",
+    "issue_date": "2004-05-01",
+    "issue": "vol.9",
+    "works": [
+      "stage:9999974"
+    ],
+    "kind": "promo",
+    "note": "村上幸平×绫野刚  《恋骨损》",
+    "photographer": "taro",
+    "pages": 2,
+    "xlsx_row": 10
+  },
+  {
+    "name": "ヒーローヴィジョン",
+    "publisher": "",
+    "cover_url": "217.jpg",
+    "issue_date": "2004-08-01",
+    "issue": "Vol.15",
+    "works": [
+      "stage:9999974"
+    ],
+    "kind": "promo",
+    "note": "《恋骨损》",
+    "photographer": "富永智子",
+    "pages": 3,
+    "xlsx_row": 11
+  },
+  {
+    "name": "FADER JAPAN",
+    "publisher": "",
+    "cover_url": "218.jpg",
+    "issue_date": "2006-02-01",
+    "issue": "Vol.02",
+    "works": [
+      "movie:579810"
+    ],
+    "kind": "promo",
+    "note": "Life采访",
+    "photographer": "笠井尔示",
+    "pages": 8,
+    "xlsx_row": 13
+  },
+  {
+    "name": "acteur",
+    "publisher": "",
+    "cover_url": "219.jpg",
+    "issue_date": "2007-02-10",
+    "issue": "No.5",
+    "works": [
+      "movie:579810"
+    ],
+    "kind": "promo",
+    "note": "Life采访",
+    "photographer": "吉冈诚",
+    "pages": 2,
+    "xlsx_row": 14
+  },
+  {
+    "name": "CREA",
+    "publisher": "",
+    "cover_url": "220.jpg",
+    "issue_date": "2007-02-01",
+    "issue": "2007年2月号",
+    "works": [],
+    "kind": "other",
+    "note": "和老家的9只狗狗",
+    "pages": 2,
+    "xlsx_row": 15
+  },
+  {
+    "name": "caspa!",
+    "publisher": "",
+    "cover_url": "221.jpg",
+    "issue_date": "2009-04-03",
+    "issue": "vol.4",
+    "works": [
+      "movie:25716"
+    ],
+    "kind": "promo",
+    "note": "《热血高校2》",
+    "photographer": "yuya wada",
+    "pages": 6,
+    "xlsx_row": 20
+  },
+  {
+    "name": "JUNON",
+    "publisher": "",
+    "cover_url": "222.jpg",
+    "issue_date": "2009-04-23",
+    "issue": "2009年6月号",
+    "works": [
+      "movie:25716"
+    ],
+    "kind": "promo",
+    "note": "《热血高校2》幕后",
+    "photographer": "神户健太郎",
+    "pages": 2,
+    "xlsx_row": 16
+  },
+  {
+    "name": "ヒーローヴィジョン",
+    "publisher": "",
+    "cover_url": "223.jpg",
+    "issue_date": "2009-07-23",
+    "issue": "Vol.33",
+    "works": [],
+    "kind": "dialogue",
+    "note": "斋藤工×绫野刚",
+    "photographer": "斋藤工",
+    "pages": 4,
+    "xlsx_row": 17
+  },
+  {
+    "name": "BEST ACTOR",
+    "publisher": "",
+    "cover_url": "224.jpg",
+    "issue_date": "2009-08-11",
+    "issue": "Vol.7",
+    "works": [
+      "movie:48230"
+    ],
+    "kind": "promo",
+    "note": "田中圭×绫野 刚  《多襄丸》",
+    "photographer": "有马里沙",
+    "pages": 5,
+    "xlsx_row": 18
+  },
+  {
+    "name": "FINE BOYS",
+    "publisher": "",
+    "cover_url": "225.jpg",
+    "issue_date": "2009-09-01",
+    "issue": "2009年9月号",
+    "works": [],
+    "photographer": "井上英祐",
+    "pages": 1,
+    "xlsx_row": 19
+  },
+  {
+    "name": "Gyao Magagine",
+    "publisher": "",
+    "cover_url": "226.jpg",
+    "issue_date": "2009-10-01",
+    "issue": "2009年10月号",
+    "works": [
+      "movie:48230"
+    ],
+    "kind": "promo",
+    "note": "多襄丸",
+    "pages": 3,
+    "xlsx_row": 21
+  },
+  {
+    "name": "BEST ACTOR",
+    "publisher": "",
+    "cover_url": "228.jpg",
+    "issue_date": "2009-12-01",
+    "issue": "Vol.8",
+    "works": [
+      "movie:243756"
+    ],
+    "kind": "promo",
+    "note": "《涩谷》擦肩而过的人们，相依的心",
+    "photographer": "高桥Shinono",
+    "pages": 5,
+    "xlsx_row": 23
+  },
+  {
+    "name": "VISUALBOY BRUSH",
+    "publisher": "",
+    "cover_url": "229.jpg",
+    "issue_date": "2009-12-01",
+    "issue": "Vol.5",
+    "works": [],
+    "kind": "dialogue",
+    "note": "忍成修吾×绫野刚",
+    "photographer": "Sato Tetsuo",
+    "pages": 4,
+    "xlsx_row": 24
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "230.jpg",
+    "issue_date": "2010-01-01",
+    "issue": "Vol.28",
+    "works": [
+      "movie:69461"
+    ],
+    "kind": "promo",
+    "note": "山田孝之×小出惠介×绫野刚 《Surely Someday》 连载S#1",
+    "xlsx_row": 26
+  },
+  {
+    "name": "JUNON",
+    "publisher": "",
+    "cover_url": "231.jpg",
+    "issue_date": "2009-11-21",
+    "issue": "1月号",
+    "works": [
+      "movie:69461"
+    ],
+    "kind": "promo",
+    "note": "《Surely Someday》",
+    "pages": 2,
+    "xlsx_row": 27
+  },
+  {
+    "name": "BEST ACTOR",
+    "publisher": "",
+    "cover_url": "232.jpg",
+    "issue_date": "2010-02-01",
+    "issue": "Vol.9",
+    "works": [],
+    "kind": "other",
+    "note": "Birthday",
+    "photographer": "加藤Arata",
+    "pages": 8,
+    "xlsx_row": 28
+  },
+  {
+    "name": "Gyao Magagine",
+    "publisher": "",
+    "cover_url": "233.jpg",
+    "issue_date": "2010-02-02",
+    "issue": "",
+    "works": [
+      "movie:579810"
+    ],
+    "kind": "promo",
+    "note": "Life采访",
+    "pages": 2,
+    "xlsx_row": 29
+  },
+  {
+    "name": "real FACES",
+    "publisher": "",
+    "cover_url": "234.jpg",
+    "issue_date": "2010-03-01",
+    "issue": "2010年3月号",
+    "works": [],
+    "kind": "other",
+    "note": "flower",
+    "photographer": "CHITO YOSHIDA",
+    "pages": 3,
+    "xlsx_row": 30
+  },
+  {
+    "name": "anan",
+    "publisher": "",
+    "cover_url": "235.jpg",
+    "issue_date": "2010-03-31",
+    "issue": "No.1703",
+    "works": [],
+    "kind": "other",
+    "note": "心动男子",
+    "pages": 1,
+    "xlsx_row": 31
+  },
+  {
+    "name": "cinema★cinema",
+    "publisher": "",
+    "cover_url": "236.jpg",
+    "issue_date": "2010-04-01",
+    "issue": "Vol.24",
+    "works": [
+      "movie:69461"
+    ],
+    "kind": "promo",
+    "note": "《Surely Someday》",
+    "photographer": "干川修",
+    "pages": 7,
+    "xlsx_row": 32
+  },
+  {
+    "name": "smart",
+    "publisher": "",
+    "cover_url": "237.jpg",
+    "issue_date": "2010-05-01",
+    "issue": "2010年5月号",
+    "works": [],
+    "kind": "other",
+    "note": "绫野刚演绎4个瞩目品牌",
+    "photographer": "NOBUYUKI SEKI",
+    "pages": 4,
+    "xlsx_row": 33
+  },
+  {
+    "name": "+act mini",
+    "publisher": "",
+    "cover_url": "238.jpg",
+    "issue_date": "2010-06-01",
+    "issue": "Vol.9",
+    "works": [
+      "tv:34633"
+    ],
+    "kind": "promo",
+    "note": "Mother",
+    "photographer": "浦田大作",
+    "pages": 4,
+    "xlsx_row": 34
+  },
+  {
+    "name": "cinema★cinema",
+    "publisher": "",
+    "cover_url": "239.jpg",
+    "issue_date": "2010-06-30",
+    "issue": "Vol.25",
+    "works": [
+      "movie:69461"
+    ],
+    "kind": "promo",
+    "note": "《Surely Someday》6人座谈会",
+    "photographer": "naoki kimura",
+    "pages": 7,
+    "xlsx_row": 35
+  },
+  {
+    "name": "ACTORS magazine",
+    "publisher": "",
+    "cover_url": "240.jpg",
+    "issue_date": "2010-07-01",
+    "issue": "Vol.1",
+    "works": [
+      "movie:69461"
+    ],
+    "kind": "promo",
+    "note": "《Surely Someday》铃木亮平×绫野刚",
+    "photographer": "高桥Shinono",
+    "pages": 4,
+    "xlsx_row": 36
+  },
+  {
+    "name": "CINEMA SQUARE",
+    "publisher": "",
+    "cover_url": "241.jpg",
+    "issue_date": "2010-07-01",
+    "issue": "vol.32",
+    "works": [
+      "movie:69461"
+    ],
+    "kind": "promo",
+    "note": "《Surely Someday》",
+    "photographer": "外山繁",
+    "pages": 8,
+    "xlsx_row": 37
+  },
+  {
+    "name": "men's FUDGE",
+    "publisher": "",
+    "cover_url": "242.jpg",
+    "issue_date": "2010-07-01",
+    "issue": "2010年7月号",
+    "works": [],
+    "xlsx_row": 38
+  },
+  {
+    "name": "号外+act.",
+    "publisher": "",
+    "cover_url": "243.jpg",
+    "issue_date": "2010-07-02",
+    "issue": "vol.01",
+    "works": [
+      "movie:69461"
+    ],
+    "kind": "promo",
+    "note": "《Surely Someday》特辑",
+    "xlsx_row": 25
+  },
+  {
+    "name": "プレミアムJUNON",
+    "publisher": "",
+    "cover_url": "244.jpg",
+    "issue_date": "2010-07-04",
+    "issue": "2010年7月号",
+    "works": [],
+    "xlsx_row": 73
+  },
+  {
+    "name": "non-no",
+    "publisher": "",
+    "cover_url": "245.jpg",
+    "issue_date": "2010-07-20",
+    "issue": "No.15,16合併号",
+    "works": [],
+    "photographer": "Kakuta Miho",
+    "pages": 1,
+    "xlsx_row": 39
+  },
+  {
+    "name": "Hanako",
+    "publisher": "",
+    "cover_url": "246.jpg",
+    "issue_date": "2010-07-22",
+    "issue": "No.976",
+    "works": [
+      "movie:69461"
+    ],
+    "kind": "promo",
+    "note": "《Surely Someday》",
+    "pages": 1,
+    "xlsx_row": 40
+  },
+  {
+    "name": "VISUALBOY BRUSH",
+    "publisher": "",
+    "cover_url": "247.jpg",
+    "issue_date": "2010-07-26",
+    "issue": "Vol.9",
+    "works": [
+      "movie:69461"
+    ],
+    "kind": "promo",
+    "note": "《Surely Someday》 附DVD",
+    "photographer": "Sato Tetsuo",
+    "pages": 3,
+    "xlsx_row": 41
+  },
+  {
+    "name": "+act mini",
+    "publisher": "",
+    "cover_url": "248.jpg",
+    "issue_date": "2010-07-31",
+    "issue": "Vol.10",
+    "works": [],
+    "xlsx_row": 42
+  },
+  {
+    "name": "NEIGHBORHOOD MAG",
+    "publisher": "",
+    "cover_url": "249.jpg",
+    "issue_date": "2010-09-01",
+    "issue": "vol.6",
+    "works": [],
+    "kind": "other",
+    "note": "LUKER BY NEIGHBORHOOD feat.绫野刚",
+    "photographer": "akira maeda",
+    "pages": 6,
+    "xlsx_row": 43
+  },
+  {
+    "name": "ACTORS magazine",
+    "publisher": "",
+    "cover_url": "250.jpg",
+    "issue_date": "2010-10-08",
+    "issue": "Vol.2",
+    "works": [],
+    "kind": "other",
+    "note": "ロン毛リーゼント　スカート？",
+    "photographer": "加藤Arata",
+    "pages": 6,
+    "xlsx_row": 44
+  },
+  {
+    "name": "装苑",
+    "publisher": "",
+    "cover_url": "251.jpg",
+    "issue_date": "2010-10-01",
+    "issue": "2010年10月号",
+    "works": [
+      "movie:74135"
+    ],
+    "kind": "promo",
+    "note": "装苑男子 《杀戮都市GANTZ》",
+    "pages": 2,
+    "xlsx_row": 45
+  },
+  {
+    "name": "anan",
+    "publisher": "",
+    "cover_url": "252.jpg",
+    "issue_date": "2010-10-06",
+    "issue": "10/13号",
+    "works": [],
+    "kind": "other",
+    "note": "心动男子白皮书",
+    "photographer": "山口彻花",
+    "pages": 2,
+    "xlsx_row": 46
+  },
+  {
+    "name": "Otome continue",
+    "publisher": "",
+    "cover_url": "253.jpg",
+    "issue_date": "2010-11-03",
+    "issue": "Vol.3",
+    "works": [],
+    "kind": "dialogue",
+    "note": "妄想纯文学×绫野刚（夏目漱石）",
+    "photographer": "片桐沙织",
+    "pages": 6,
+    "xlsx_row": 47
+  },
+  {
+    "name": "zipper",
+    "publisher": "",
+    "cover_url": "254.jpg",
+    "issue_date": "2010-11-01",
+    "issue": "2010年11月号",
+    "works": [
+      "movie:69461"
+    ],
+    "kind": "promo",
+    "note": "TSUGI   《Surely Someday》",
+    "photographer": "大辻隆广",
+    "pages": 1,
+    "xlsx_row": 48
+  },
+  {
+    "name": "LOADED",
+    "publisher": "",
+    "cover_url": "255.jpg",
+    "issue_date": "2011-01-01",
+    "issue": "2011.SPRING&SUMMER",
+    "works": [],
+    "kind": "other",
+    "note": "散发魅惑的妖艳花纹夏日休闲风",
+    "photographer": "shiro katagiri",
+    "pages": 5,
+    "xlsx_row": 49
+  },
+  {
+    "name": "CINEMA SQUARE",
+    "publisher": "",
+    "cover_url": "256.jpg",
+    "issue_date": "2011-02-01",
+    "issue": "Vol.36",
+    "works": [],
+    "kind": "other",
+    "note": "想要追随的男人们",
+    "photographer": "外山繁",
+    "pages": 3,
+    "xlsx_row": 50
+  },
+  {
+    "name": "SODA",
+    "publisher": "",
+    "cover_url": "257.jpg",
+    "issue_date": "2011-03-01",
+    "issue": "2011年3/1月号",
+    "works": [],
+    "kind": "other",
+    "note": "活在今天，活在此刻",
+    "photographer": "中川有纪子",
+    "pages": 6,
+    "xlsx_row": 51
+  },
+  {
+    "name": "CUT",
+    "publisher": "",
+    "cover_url": "258.jpg",
+    "issue_date": "2011-03-19",
+    "issue": "No.283",
+    "works": [],
+    "kind": "dialogue",
+    "note": "山田孝之×绫野刚",
+    "photographer": "笠井尔示",
+    "pages": 8,
+    "xlsx_row": 52
+  },
+  {
+    "name": "cinema★cinema",
+    "publisher": "",
+    "cover_url": "259.jpg",
+    "issue_date": "2011-03-04",
+    "issue": "No.30",
+    "works": [
+      "movie:74135"
+    ],
+    "kind": "promo",
+    "note": "山田孝之×绫野刚 《杀戮都市GANTZ》",
+    "pages": 4,
+    "xlsx_row": 53
+  },
+  {
+    "name": "CINEMA SQUARE",
+    "publisher": "",
+    "cover_url": "260.jpg",
+    "issue_date": "2011-04-23",
+    "issue": "Vol.38",
+    "works": [
+      "movie:74135"
+    ],
+    "kind": "promo",
+    "note": "山田孝之×绫野刚 《杀戮都市GANTZ》",
+    "pages": 4,
+    "xlsx_row": 54
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "261.jpg",
+    "issue_date": "2011-05-01",
+    "issue": "Vol.32",
+    "works": [],
+    "kind": "dialogue",
+    "note": "山田孝之×绫野刚　连载　S♯.9",
+    "xlsx_row": 55
+  },
+  {
+    "name": "JUNON",
+    "publisher": "",
+    "cover_url": "262.jpg",
+    "issue_date": "2011-03-23",
+    "issue": "2011年5月号",
+    "works": [],
+    "xlsx_row": 56
+  },
+  {
+    "name": "smart",
+    "publisher": "",
+    "cover_url": "263.jpg",
+    "issue_date": "2011-05-01",
+    "issue": "",
+    "works": [],
+    "kind": "other",
+    "note": "自然＆放松 VANS",
+    "photographer": "TOMO HASEGAWA",
+    "pages": 3,
+    "xlsx_row": 57
+  },
+  {
+    "name": "Men's non-no",
+    "publisher": "",
+    "cover_url": "264.jpg",
+    "issue_date": "2011-05-01",
+    "issue": "2011年5月号",
+    "works": [],
+    "xlsx_row": 58
+  },
+  {
+    "name": "FLIX",
+    "publisher": "",
+    "cover_url": "265.jpg",
+    "issue_date": "2011-04-21",
+    "issue": "Vol.205",
+    "works": [],
+    "kind": "other",
+    "note": "山田孝之＆绫野刚",
+    "photographer": "石井孝典",
+    "pages": 7,
+    "xlsx_row": 59
+  },
+  {
+    "name": "SODA",
+    "publisher": "",
+    "cover_url": "266.jpg",
+    "issue_date": "2011-06-01",
+    "issue": "2011年6/1月号",
+    "works": [],
+    "kind": "other",
+    "note": "山田孝之＆绫野刚",
+    "xlsx_row": 60
+  },
+  {
+    "name": "ACTORS magazine",
+    "publisher": "",
+    "cover_url": "267.jpg",
+    "issue_date": "2011-07-11",
+    "issue": "Vol.5",
+    "works": [],
+    "kind": "other",
+    "note": "火伤（石井裕也）",
+    "xlsx_row": 61
+  },
+  {
+    "name": "MORE",
+    "publisher": "",
+    "cover_url": "268.jpg",
+    "issue_date": "2011-08-01",
+    "issue": "2011年8月号",
+    "works": [],
+    "xlsx_row": 62
+  },
+  {
+    "name": "ACTORS magazine",
+    "publisher": "",
+    "cover_url": "269.jpg",
+    "issue_date": "2011-10-01",
+    "issue": "Vol.6",
+    "works": [],
+    "kind": "other",
+    "note": "火伤（金发）",
+    "xlsx_row": 63
+  },
+  {
+    "name": "Tarzan",
+    "publisher": "",
+    "cover_url": "270.jpg",
+    "issue_date": "2011-10-01",
+    "issue": "10/27号",
+    "works": [],
+    "kind": "other",
+    "note": "クルマ日和。",
+    "pages": 2,
+    "xlsx_row": 65
+  },
+  {
+    "name": "別冊+act.",
+    "publisher": "",
+    "cover_url": "271.jpg",
+    "issue_date": "2011-10-07",
+    "issue": "Vol.6",
+    "works": [],
+    "kind": "other",
+    "note": "绫野刚体验《黑暗中的对话》",
+    "xlsx_row": 66
+  },
+  {
+    "name": "コーラス",
+    "publisher": "",
+    "cover_url": "272.jpg",
+    "issue_date": "2011-10-01",
+    "issue": "11月号",
+    "works": [],
+    "kind": "other",
+    "note": "少女漫画视角 用照片讲述理想的达令Vol.19",
+    "photographer": "蜷川实花",
+    "pages": 5,
+    "xlsx_row": 67
+  },
+  {
+    "name": "CINEMA SQUARE",
+    "publisher": "",
+    "cover_url": "273.jpg",
+    "issue_date": "2011-10-03",
+    "issue": "Vol.41",
+    "works": [
+      "movie:333332"
+    ],
+    "kind": "promo",
+    "note": "《孤独的行星》",
+    "photographer": "秋仓康介",
+    "pages": 5,
+    "xlsx_row": 64
+  },
+  {
+    "name": "Dramatic Actor",
+    "publisher": "",
+    "cover_url": "274.jpg",
+    "issue_date": "2011-11-01",
+    "issue": "Vol.2",
+    "works": [
+      "movie:333332"
+    ],
+    "kind": "promo",
+    "note": "《孤独的行星》",
+    "photographer": "岛田香",
+    "pages": 4,
+    "xlsx_row": 68
+  },
+  {
+    "name": "cinema★cinema",
+    "publisher": "",
+    "cover_url": "275.jpg",
+    "issue_date": "2011-10-01",
+    "issue": "No.34",
+    "works": [
+      "movie:333332"
+    ],
+    "kind": "promo",
+    "note": "《孤独的行星》",
+    "pages": 2,
+    "xlsx_row": 69
+  },
+  {
+    "name": "ACTORS magazine",
+    "publisher": "",
+    "cover_url": "276.jpg",
+    "issue_date": "2011-12-14",
+    "issue": "Vol.7",
+    "works": [],
+    "kind": "other",
+    "note": "火伤（新井浩文）",
+    "xlsx_row": 70
+  },
+  {
+    "name": "+act mini",
+    "publisher": "",
+    "cover_url": "277.jpg",
+    "issue_date": "2011-10-31",
+    "issue": "Vol.15",
+    "works": [
+      "movie:1378476"
+    ],
+    "kind": "promo",
+    "note": "闭眼闪耀",
+    "photographer": "京介",
+    "pages": 4,
+    "xlsx_row": 71
+  },
+  {
+    "name": "NHKステラウィークリー",
+    "publisher": "",
+    "cover_url": "278.jpg",
+    "issue_date": "2012-12-01",
+    "issue": "11/30号",
+    "works": [],
+    "kind": "interview",
+    "note": "裸男 采访",
+    "photographer": "川口俊介",
+    "pages": 3,
+    "xlsx_row": 72
+  },
+  {
+    "name": "NHKステラウィークリー",
+    "publisher": "",
+    "cover_url": "279.jpg",
+    "issue_date": "2012-01-11",
+    "issue": "1/20号",
+    "works": [
+      "tv:9999982"
+    ],
+    "kind": "promo",
+    "note": "《康乃馨》 采访",
+    "photographer": "筱原伸佳",
+    "pages": 4,
+    "xlsx_row": 74
+  },
+  {
+    "name": "週刊女性",
+    "publisher": "",
+    "cover_url": "280.jpg",
+    "issue_date": "2012-01-24",
+    "issue": "2/7号",
+    "works": [
+      "tv:9999982"
+    ],
+    "kind": "promo",
+    "note": "《康乃馨》 黑白报道",
+    "photographer": "广濑靖士",
+    "pages": 1,
+    "xlsx_row": 75
+  },
+  {
+    "name": "別冊+act.",
+    "publisher": "",
+    "cover_url": "281.jpg",
+    "issue_date": "2012-02-01",
+    "issue": "Vol.7",
+    "works": [],
+    "kind": "dialogue",
+    "note": "绫野刚×中村文则",
+    "xlsx_row": 76
+  },
+  {
+    "name": "anan",
+    "publisher": "",
+    "cover_url": "282.jpg",
+    "issue_date": "2012-02-01",
+    "issue": "2/15号",
+    "works": [],
+    "xlsx_row": 77
+  },
+  {
+    "name": "LOADED",
+    "publisher": "",
+    "cover_url": "283.jpg",
+    "issue_date": "2012-03-24",
+    "issue": "Vol.3",
+    "works": [],
+    "kind": "other",
+    "note": "NOID.春季系列 feat.绫野刚",
+    "xlsx_row": 78
+  },
+  {
+    "name": "ACTORS magazine",
+    "publisher": "",
+    "cover_url": "284.jpg",
+    "issue_date": "2012-03-01",
+    "issue": "Vol.8",
+    "works": [],
+    "kind": "other",
+    "note": "火伤（井浦新）",
+    "xlsx_row": 79
+  },
+  {
+    "name": "VOGUE girl",
+    "publisher": "",
+    "cover_url": "285.jpg",
+    "issue_date": "2012-03-01",
+    "issue": "No.3",
+    "works": [
+      "movie:104524"
+    ],
+    "kind": "promo",
+    "note": "《狼狈》",
+    "photographer": "蜷川实花",
+    "pages": 6,
+    "xlsx_row": 80
+  },
+  {
+    "name": "TVfan cross",
+    "publisher": "",
+    "cover_url": "286.jpg",
+    "issue_date": "2012-03-01",
+    "issue": "",
+    "works": [
+      "tv:118637",
+      "tv:9999982"
+    ],
+    "kind": "promo",
+    "note": "《开拓者们》·《康乃馨》",
+    "photographer": "kurosu miyuki",
+    "pages": 4,
+    "xlsx_row": 81
+  },
+  {
+    "name": "Dramatic Actor",
+    "publisher": "",
+    "cover_url": "287.jpg",
+    "issue_date": "2012-04-28",
+    "issue": "Vol.4",
+    "works": [],
+    "kind": "interview",
+    "note": "绫野刚 10000字采访",
+    "photographer": "小林Baku",
+    "pages": 8,
+    "xlsx_row": 82
+  },
+  {
+    "name": "FREECELL",
+    "publisher": "",
+    "cover_url": "288.jpg",
+    "issue_date": "2012-04-01",
+    "issue": "Vol.10",
+    "works": [],
+    "kind": "other",
+    "note": "表现欲 摄影：本间隆",
+    "photographer": "本间隆",
+    "pages": 6,
+    "xlsx_row": 83
+  },
+  {
+    "name": "POPEYE",
+    "publisher": "",
+    "cover_url": "289.jpg",
+    "issue_date": "2012-04-01",
+    "issue": "2012年4月号",
+    "works": [],
+    "kind": "other",
+    "note": "サンドベージュな誕生日",
+    "photographer": "松田美由纪",
+    "xlsx_row": 84
+  },
+  {
+    "name": "anan",
+    "publisher": "",
+    "cover_url": "290.jpg",
+    "issue_date": "2012-04-18",
+    "issue": "No.1804",
+    "works": [],
+    "xlsx_row": 85
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "291.jpg",
+    "issue_date": "2012-03-27",
+    "issue": "Vol.38"
+  },
+  {
+    "name": "FREECELL",
+    "publisher": "",
+    "cover_url": "292.jpg",
+    "issue_date": "2012-05-01",
+    "issue": "Vol.11",
+    "works": [
+      "movie:104524"
+    ],
+    "kind": "promo",
+    "note": "《狼狈》",
+    "photographer": "MARCO",
+    "pages": 6,
+    "xlsx_row": 87
+  },
+  {
+    "name": "GINZA",
+    "publisher": "",
+    "cover_url": "293.jpg",
+    "issue_date": "2012-05-01",
+    "issue": "2012年5月号",
+    "works": [],
+    "xlsx_row": 88
+  },
+  {
+    "name": "JUNON",
+    "publisher": "",
+    "cover_url": "294.jpg",
+    "issue_date": "2012-03-23",
+    "issue": "2012年5月号",
+    "works": [],
+    "kind": "other",
+    "note": "猫科男子·绫野刚",
+    "xlsx_row": 89
+  },
+  {
+    "name": "SPUR",
+    "publisher": "",
+    "cover_url": "295.jpg",
+    "issue_date": "2012-06-01",
+    "issue": "6月号",
+    "works": [],
+    "kind": "other",
+    "note": "蓝玫瑰",
+    "xlsx_row": 90
+  },
+  {
+    "name": "Good Rocks!",
+    "publisher": "",
+    "cover_url": "296.jpg",
+    "issue_date": "2012-06-29",
+    "issue": "vol.29",
+    "works": [],
+    "kind": "dialogue",
+    "note": "蜷川实花×绫野刚",
+    "photographer": "SAKI HIRAIWA",
+    "pages": 8,
+    "xlsx_row": 91
+  },
+  {
+    "name": "日経エンタテインメント",
+    "publisher": "",
+    "cover_url": "297.jpg",
+    "issue_date": "2012-06-01",
+    "issue": "6月号",
+    "works": [],
+    "kind": "other",
+    "note": "【NEXT BREAKERS】",
+    "photographer": "阿久津知宏",
+    "pages": 1,
+    "xlsx_row": 92
+  },
+  {
+    "name": "CINEMA SQUARE",
+    "publisher": "",
+    "cover_url": "298.jpg",
+    "issue_date": "2012-06-01",
+    "issue": "Vol.45",
+    "works": [
+      "movie:104524"
+    ],
+    "kind": "promo",
+    "note": "《狼狈》",
+    "photographer": "松村昭人",
+    "pages": 4,
+    "xlsx_row": 93
+  },
+  {
+    "name": "CUT",
+    "publisher": "",
+    "cover_url": "299.jpg",
+    "issue_date": "2012-06-01",
+    "issue": "2012年6月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "绫野刚×笠井尔示（浴血）",
+    "photographer": "笠井尔示",
+    "xlsx_row": 94
+  },
+  {
+    "name": "NHKステラウィークリー",
+    "publisher": "",
+    "cover_url": "300.jpg",
+    "issue_date": "2012-06-01",
+    "issue": "6/8号",
+    "works": [],
+    "kind": "other",
+    "note": "英国特辑",
+    "photographer": "筱原伸佳",
+    "pages": 4,
+    "xlsx_row": 95
+  },
+  {
+    "name": "Numero TOKYO",
+    "publisher": "",
+    "cover_url": "301.jpg",
+    "issue_date": "2012-06-01",
+    "issue": "No.57",
+    "works": [],
+    "kind": "other",
+    "note": "让人移不开视线的男人，绫野刚",
+    "photographer": "蜷川实花",
+    "pages": 6,
+    "xlsx_row": 96
+  },
+  {
+    "name": "cinema★cinema SP",
+    "publisher": "",
+    "cover_url": "303.jpg",
+    "issue_date": "2012-07-01",
+    "issue": "01",
+    "works": [],
+    "xlsx_row": 98
+  },
+  {
+    "name": "SENSE",
+    "publisher": "",
+    "cover_url": "304.jpg",
+    "issue_date": "2012-07-01",
+    "issue": "2012年7月号",
+    "works": [],
+    "kind": "other",
+    "note": "《IN MY ROOM》杂志刊载版",
+    "photographer": "蜷川实花",
+    "pages": 2,
+    "xlsx_row": 99
+  },
+  {
+    "name": "smart",
+    "publisher": "",
+    "cover_url": "305.jpg",
+    "issue_date": "2012-07-01",
+    "issue": "2012年7月号",
+    "works": [],
+    "xlsx_row": 100
+  },
+  {
+    "name": "CREA",
+    "publisher": "",
+    "cover_url": "306.jpg",
+    "issue_date": "2012-07-01",
+    "issue": "2012年7月号",
+    "works": [],
+    "kind": "other",
+    "note": "ANOTHER　WORLD",
+    "photographer": "kosuke mae",
+    "pages": 4,
+    "xlsx_row": 101
+  },
+  {
+    "name": "MORE",
+    "publisher": "",
+    "cover_url": "307.jpg",
+    "issue_date": "2012-07-01",
+    "issue": "2012年7月号",
+    "works": [],
+    "kind": "other",
+    "note": "那个男人，反差感十足",
+    "xlsx_row": 102
+  },
+  {
+    "name": "SODA",
+    "publisher": "",
+    "cover_url": "308.jpg",
+    "issue_date": "2012-07-01",
+    "issue": "2012年7月号",
+    "works": [],
+    "kind": "other",
+    "note": "刹那，活着的实感",
+    "photographer": "山胁佳代",
+    "pages": 6,
+    "xlsx_row": 103
+  },
+  {
+    "name": "演劇男子",
+    "publisher": "",
+    "cover_url": "309.jpg",
+    "issue_date": "2012-07-01",
+    "issue": "vol.2",
+    "works": [
+      "stage:9999976"
+    ],
+    "kind": "promo",
+    "note": "短发胡子（《迷幻之痛》报道）",
+    "xlsx_row": 104
+  },
+  {
+    "name": "日本映画navi",
+    "publisher": "",
+    "cover_url": "310.jpg",
+    "issue_date": "2012-11-19",
+    "issue": "Vol.37"
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "311.jpg",
+    "issue_date": "2012-05-26",
+    "issue": "Vol.39",
+    "works": [
+      "movie:104524"
+    ],
+    "kind": "promo",
+    "note": "《狼狈》",
+    "xlsx_row": 86
+  },
+  {
+    "name": "婦人公論",
+    "publisher": "",
+    "cover_url": "312.jpg",
+    "issue_date": "2012-07-01",
+    "issue": "2012年7月22日号",
+    "works": [],
+    "pages": 1,
+    "xlsx_row": 107
+  },
+  {
+    "name": "SWITCH",
+    "publisher": "",
+    "cover_url": "313.jpg",
+    "issue_date": "2012-07-01",
+    "issue": "Vol.30 No.9",
+    "works": [
+      "movie:127533"
+    ],
+    "kind": "promo",
+    "note": "《浪客剑心》",
+    "xlsx_row": 108
+  },
+  {
+    "name": "CM NOW",
+    "publisher": "",
+    "cover_url": "314.jpg",
+    "issue_date": "2012-06-08",
+    "issue": "Vol.157",
+    "works": [],
+    "kind": "other",
+    "note": "CMNOWboys",
+    "photographer": "中场敏博",
+    "pages": 2,
+    "xlsx_row": 110
+  },
+  {
+    "name": "日本映画magazine",
+    "publisher": "",
+    "cover_url": "315.jpg",
+    "issue_date": "2012-07-02",
+    "issue": "Vol.27",
+    "works": [],
+    "kind": "other",
+    "note": "特辑 导演证言＆电影目录",
+    "photographer": "细居幸次郎",
+    "pages": 12,
+    "xlsx_row": 109
+  },
+  {
+    "name": "ACTORS magazine",
+    "publisher": "",
+    "cover_url": "316.jpg",
+    "issue_date": "2012-08-01",
+    "issue": "Vol.9",
+    "works": [],
+    "kind": "other",
+    "note": "火伤（莉莉子）",
+    "photographer": "细居幸次郎",
+    "pages": 6,
+    "xlsx_row": 111
+  },
+  {
+    "name": "cinema★cinema",
+    "publisher": "",
+    "cover_url": "317.jpg",
+    "issue_date": "2012-08-01",
+    "issue": "No.38",
+    "works": [
+      "movie:104524"
+    ],
+    "kind": "promo",
+    "note": "《狼狈》",
+    "photographer": "干川修",
+    "pages": 3,
+    "xlsx_row": 112
+  },
+  {
+    "name": "FLIX",
+    "publisher": "",
+    "cover_url": "318.jpg",
+    "issue_date": "2012-06-21",
+    "issue": "No.212",
+    "works": [
+      "movie:104524"
+    ],
+    "kind": "promo",
+    "note": "《狼狈》",
+    "photographer": "建部裕之",
+    "pages": 4,
+    "xlsx_row": 113
+  },
+  {
+    "name": "CM NOW boys",
+    "publisher": "",
+    "cover_url": "319.jpg",
+    "issue_date": "2012-08-22",
+    "issue": "Vol.2",
+    "works": [],
+    "kind": "interview",
+    "note": "三得利·ALL-FREE·优衣库 采访",
+    "photographer": "中场敏博",
+    "pages": 7,
+    "xlsx_row": 114
+  },
+  {
+    "name": "TV taro",
+    "publisher": "",
+    "cover_url": "320.jpg",
+    "issue_date": "2012-08-01",
+    "issue": "",
+    "works": [
+      "movie:104524"
+    ],
+    "kind": "promo",
+    "note": "《狼狈》",
+    "photographer": "村上厚志",
+    "pages": 2,
+    "xlsx_row": 115
+  },
+  {
+    "name": "InRed",
+    "publisher": "",
+    "cover_url": "321.jpg",
+    "issue_date": "2012-07-06",
+    "issue": "8月号",
+    "works": [
+      "movie:104524"
+    ],
+    "kind": "promo",
+    "note": "《狼狈》",
+    "photographer": "miyuki kurosu",
+    "pages": 2,
+    "xlsx_row": 117
+  },
+  {
+    "name": "FRaU",
+    "publisher": "",
+    "cover_url": "322.jpg",
+    "issue_date": "2012-08-01",
+    "issue": "2012年8月号",
+    "works": [],
+    "xlsx_row": 118
+  },
+  {
+    "name": "KELLy",
+    "publisher": "",
+    "cover_url": "323.jpg",
+    "issue_date": "2012-06-23",
+    "issue": "8月号",
+    "works": [
+      "movie:104524"
+    ],
+    "kind": "promo",
+    "note": "《狼狈》",
+    "photographer": "川岛英嗣",
+    "pages": 1,
+    "xlsx_row": 119
+  },
+  {
+    "name": "non-no",
+    "publisher": "",
+    "cover_url": "324.jpg",
+    "issue_date": "2012-08-01",
+    "issue": "2012年8月号",
+    "works": [],
+    "kind": "other",
+    "note": "贴身跟拍绫野刚！",
+    "photographer": "胜冈Momoko",
+    "pages": 8,
+    "xlsx_row": 120
+  },
+  {
+    "name": "MAQUIA",
+    "publisher": "",
+    "cover_url": "325.jpg",
+    "issue_date": "2012-08-01",
+    "issue": "2012年8月号",
+    "works": [
+      "movie:104524"
+    ],
+    "kind": "promo",
+    "note": "《狼狈》",
+    "photographer": "奥村惠子",
+    "pages": 1,
+    "xlsx_row": 121
+  },
+  {
+    "name": "装苑",
+    "publisher": "",
+    "cover_url": "326.jpg",
+    "issue_date": "2012-08-01",
+    "issue": "2012年8月号",
+    "works": [
+      "movie:104524"
+    ],
+    "kind": "promo",
+    "note": "《狼狈》",
+    "xlsx_row": 123
+  },
+  {
+    "name": "CHOKi CHOKi",
+    "publisher": "",
+    "cover_url": "327.jpg",
+    "issue_date": "2012-08-01",
+    "issue": "Vol.26",
+    "works": [
+      "movie:104524"
+    ],
+    "kind": "promo",
+    "note": "《狼狈》",
+    "photographer": "Chani Kim",
+    "pages": 1,
+    "xlsx_row": 124
+  },
+  {
+    "name": "家の光",
+    "publisher": "",
+    "cover_url": "328.jpg",
+    "issue_date": "2012-08-01",
+    "issue": "",
+    "works": [
+      "movie:104524"
+    ],
+    "kind": "promo",
+    "note": "《狼狈》",
+    "photographer": "永田忠彦",
+    "pages": 4,
+    "xlsx_row": 125
+  },
+  {
+    "name": "LOADED",
+    "publisher": "",
+    "cover_url": "329.jpg",
+    "issue_date": "2012-08-01",
+    "issue": "Vol.5",
+    "works": [],
+    "kind": "other",
+    "note": "有光泽的名人夏日风格！",
+    "photographer": "kuniharu wakabayashi",
+    "pages": 1,
+    "xlsx_row": 135
+  },
+  {
+    "name": "BAILA",
+    "publisher": "",
+    "cover_url": "330.jpg",
+    "issue_date": "2012-08-01",
+    "issue": "2012年8月号",
+    "works": [
+      "stage:9999976"
+    ],
+    "kind": "promo",
+    "note": "绫野刚的OFF  《迷幻之痛》",
+    "photographer": "金玖美",
+    "pages": 4,
+    "xlsx_row": 136
+  },
+  {
+    "name": "BLENDA",
+    "publisher": "",
+    "cover_url": "331.jpg",
+    "issue_date": "2012-07-06",
+    "issue": "8月号",
+    "works": [
+      "movie:104524"
+    ],
+    "kind": "promo",
+    "note": "《狼狈》",
+    "photographer": "中岛功补",
+    "pages": 1,
+    "xlsx_row": 116
+  },
+  {
+    "name": "VoCE",
+    "publisher": "",
+    "cover_url": "332.jpg",
+    "issue_date": "2012-06-23",
+    "issue": "2012年8月号",
+    "works": [],
+    "xlsx_row": 122
+  },
+  {
+    "name": "spring",
+    "publisher": "",
+    "cover_url": "333.jpg",
+    "issue_date": "2012-09-01",
+    "issue": "2012年9月号",
+    "works": [
+      "movie:104524"
+    ],
+    "kind": "promo",
+    "note": "《狼狈》（黑白报道）",
+    "xlsx_row": 126
+  },
+  {
+    "name": "With",
+    "publisher": "",
+    "cover_url": "334.jpg",
+    "issue_date": "2012-07-28",
+    "issue": "9月号",
+    "works": [
+      "movie:104524"
+    ],
+    "kind": "promo",
+    "note": "幕后与台前 《狼狈》",
+    "photographer": "笠井尔示",
+    "pages": 4,
+    "xlsx_row": 127
+  },
+  {
+    "name": "acteur",
+    "publisher": "",
+    "cover_url": "335.jpg",
+    "issue_date": "2012-09-01",
+    "issue": "No.31",
+    "works": [
+      "stage:9999976"
+    ],
+    "kind": "promo",
+    "note": "《迷幻之痛》",
+    "photographer": "铃木裕介",
+    "pages": 7,
+    "xlsx_row": 128
+  },
+  {
+    "name": "CUT",
+    "publisher": "",
+    "cover_url": "336.jpg",
+    "issue_date": "2012-08-18",
+    "issue": "2012年9月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "Liam×绫野刚",
+    "photographer": "Mitch IKEDA",
+    "pages": 8,
+    "xlsx_row": 129
+  },
+  {
+    "name": "ELLE a table",
+    "publisher": "",
+    "cover_url": "337.jpg",
+    "issue_date": "2012-09-01",
+    "issue": "2012年9月号",
+    "works": [],
+    "kind": "other",
+    "note": "记忆中难忘的料理是什么？",
+    "photographer": "神户健太郎",
+    "pages": 3,
+    "xlsx_row": 130
+  },
+  {
+    "name": "LOOK at STAR!!",
+    "publisher": "",
+    "cover_url": "338.jpg",
+    "issue_date": "2012-09-01",
+    "issue": "2012年9月号",
+    "works": [
+      "stage:9999976"
+    ],
+    "kind": "promo",
+    "note": "《迷幻之痛》",
+    "xlsx_row": 131
+  },
+  {
+    "name": "からだにいいこと",
+    "publisher": "",
+    "cover_url": "339.jpg",
+    "issue_date": "2012-09-01",
+    "issue": "2012年9月号",
+    "works": [],
+    "kind": "other",
+    "note": "被绫野刚治愈的TIME",
+    "photographer": "野口博",
+    "pages": 2,
+    "xlsx_row": 132
+  },
+  {
+    "name": "日本映画magazine",
+    "publisher": "",
+    "cover_url": "340.jpg",
+    "issue_date": "2012-09-21",
+    "issue": "Vol.28",
+    "works": [
+      "movie:142178"
+    ],
+    "kind": "promo",
+    "note": "《得买新鞋了》",
+    "photographer": "吉场正和",
+    "pages": 8,
+    "xlsx_row": 133
+  },
+  {
+    "name": "COOL TRANS",
+    "publisher": "",
+    "cover_url": "341.jpg",
+    "issue_date": "2012-07-24",
+    "issue": "9月号",
+    "works": [],
+    "xlsx_row": 134
+  },
+  {
+    "name": "Street Jack",
+    "publisher": "",
+    "cover_url": "342.jpg",
+    "issue_date": "2012-09-01",
+    "issue": "2012年9月号",
+    "works": [],
+    "photographer": "yuuki yamamoto",
+    "pages": 1,
+    "xlsx_row": 137
+  },
+  {
+    "name": "ar",
+    "publisher": "",
+    "cover_url": "343.jpg",
+    "issue_date": "2012-08-10",
+    "issue": "9月号",
+    "works": [],
+    "photographer": "神户健太郎",
+    "pages": 2,
+    "xlsx_row": 138
+  },
+  {
+    "name": "Warp",
+    "publisher": "",
+    "cover_url": "344.jpg",
+    "issue_date": "2012-06-23",
+    "issue": "08，09月号",
+    "works": [],
+    "xlsx_row": 97
+  },
+  {
+    "name": "BARFOUT!",
+    "publisher": "",
+    "cover_url": "345.jpg",
+    "issue_date": "2012-10-18",
+    "issue": "206",
+    "works": [],
+    "kind": "other",
+    "note": "与白嬉戏的红",
+    "photographer": "ryudai takano",
+    "pages": 14,
+    "xlsx_row": 140
+  },
+  {
+    "name": "FLIX",
+    "publisher": "",
+    "cover_url": "346.jpg",
+    "issue_date": "2012-08-21",
+    "issue": "No.213",
+    "works": [
+      "movie:127533"
+    ],
+    "kind": "promo",
+    "note": "《浪客剑心》",
+    "xlsx_row": 141
+  },
+  {
+    "name": "Quick Japan",
+    "publisher": "",
+    "cover_url": "347.jpg",
+    "issue_date": "2012-10-01",
+    "issue": "Vol.104",
+    "works": [],
+    "kind": "other",
+    "note": "疾驰的30岁的真面目",
+    "xlsx_row": 142
+  },
+  {
+    "name": "JELLY",
+    "publisher": "",
+    "cover_url": "348.jpg",
+    "issue_date": "2012-10-01",
+    "issue": "2012年10月号",
+    "works": [
+      "movie:127533"
+    ],
+    "kind": "promo",
+    "note": "最当红男子 《浪客剑心》",
+    "photographer": "石黑淳二",
+    "pages": 4,
+    "xlsx_row": 143
+  },
+  {
+    "name": "non-no",
+    "publisher": "",
+    "cover_url": "349.jpg",
+    "issue_date": "2012-10-01",
+    "issue": "2012年10月号",
+    "works": [
+      "stage:9999976"
+    ],
+    "kind": "promo",
+    "note": "《迷幻之痛》",
+    "pages": 1,
+    "xlsx_row": 144
+  },
+  {
+    "name": "mina",
+    "publisher": "",
+    "cover_url": "350.jpg",
+    "issue_date": "2012-08-20",
+    "issue": "10月号",
+    "works": [],
+    "kind": "other",
+    "note": "关于过去、现在与未来",
+    "photographer": "平间至",
+    "pages": 4,
+    "xlsx_row": 145
+  },
+  {
+    "name": "CINEMA SQUARE",
+    "publisher": "",
+    "cover_url": "351.jpg",
+    "issue_date": "2012-10-01",
+    "issue": "Vol.47",
+    "works": [
+      "movie:142178"
+    ],
+    "kind": "promo",
+    "note": "《得买新鞋了》",
+    "photographer": "堤隆繁",
+    "pages": 4,
+    "xlsx_row": 146
+  },
+  {
+    "name": "ダ・ヴィンチ",
+    "publisher": "",
+    "cover_url": "352.jpg",
+    "issue_date": "2012-09-06",
+    "issue": "2012年10月号",
+    "works": [],
+    "kind": "interview",
+    "note": "采访·村上春树",
+    "photographer": "斋藤葵",
+    "pages": 6,
+    "xlsx_row": 147
+  },
+  {
+    "name": "ESSE",
+    "publisher": "",
+    "cover_url": "353.jpg",
+    "issue_date": "2012-11-01",
+    "issue": "2012年11月号",
+    "works": [],
+    "pages": 2,
+    "xlsx_row": 148
+  },
+  {
+    "name": "cinema★cinema",
+    "publisher": "",
+    "cover_url": "354.jpg",
+    "issue_date": "2012-11-01",
+    "issue": "No.40",
+    "works": [
+      "movie:142178"
+    ],
+    "kind": "promo",
+    "note": "《得买新鞋了》",
+    "photographer": "kunihiro fukumoto",
+    "pages": 8,
+    "xlsx_row": 149
+  },
+  {
+    "name": "CINEMA SQUARE",
+    "publisher": "",
+    "cover_url": "355.jpg",
+    "issue_date": "2012-11-30",
+    "issue": "vol.48",
+    "works": [
+      "movie:836254"
+    ],
+    "kind": "promo",
+    "note": "《譬如柠檬》",
+    "photographer": "椿孝",
+    "pages": 5,
+    "xlsx_row": 150
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "356.jpg",
+    "issue_date": "2012-09-27",
+    "issue": "Vol.41",
+    "works": [
+      "movie:220003"
+    ],
+    "kind": "promo",
+    "note": "《夏之终结》拍摄现场报道 连载S♯.18",
+    "xlsx_row": 151
+  },
+  {
+    "name": "ACTORS magazine",
+    "publisher": "",
+    "cover_url": "357.jpg",
+    "issue_date": "2012-10-18",
+    "issue": "Vol.10",
+    "works": [],
+    "kind": "other",
+    "note": "火伤（岩井俊二）",
+    "photographer": "加藤Arata",
+    "pages": 6,
+    "xlsx_row": 152
+  },
+  {
+    "name": "SODA",
+    "publisher": "",
+    "cover_url": "358.jpg",
+    "issue_date": "2012-11-01",
+    "issue": "2012年11月号",
+    "works": [],
+    "kind": "other",
+    "note": "人的有限，表演的无限",
+    "photographer": "山胁佳代",
+    "pages": 6,
+    "xlsx_row": 153
+  },
+  {
+    "name": "TV LIFE Premium",
+    "publisher": "",
+    "cover_url": "359.jpg",
+    "issue_date": "2012-10-17",
+    "issue": "Vol.3",
+    "works": [
+      "movie:142178"
+    ],
+    "kind": "promo",
+    "note": "《得买新鞋了》",
+    "photographer": "干川修",
+    "pages": 2,
+    "xlsx_row": 154
+  },
+  {
+    "name": "TVガイド PERSON",
+    "publisher": "",
+    "cover_url": "360.jpg",
+    "issue_date": "2012-09-28",
+    "issue": "Vol.2",
+    "works": [
+      "movie:135799",
+      "movie:142178"
+    ],
+    "kind": "promo",
+    "note": "NO FUTURE?   《那夜的武士》·《得买新鞋了》",
+    "photographer": "细居幸次郎",
+    "pages": 8,
+    "xlsx_row": 155
+  },
+  {
+    "name": "月刊　EXILE",
+    "publisher": "",
+    "cover_url": "361.jpg",
+    "issue_date": "2012-11-01",
+    "issue": "2012年11月号",
+    "works": [],
+    "kind": "other",
+    "note": "在巴黎发现的事",
+    "photographer": "奥山智明",
+    "pages": 4,
+    "xlsx_row": 156
+  },
+  {
+    "name": "日本映画magazine",
+    "publisher": "",
+    "cover_url": "362.jpg",
+    "issue_date": "2012-11-15",
+    "issue": "Vol.29",
+    "works": [
+      "movie:135799"
+    ],
+    "kind": "promo",
+    "note": "《那夜的武士》",
+    "photographer": "荒木勇人",
+    "pages": 6,
+    "xlsx_row": 157
+  },
+  {
+    "name": "日経エンタテインメント",
+    "publisher": "",
+    "cover_url": "363.jpg",
+    "issue_date": "2012-10-04",
+    "issue": "11月号",
+    "works": [],
+    "kind": "interview",
+    "note": "战斗的男人采访",
+    "xlsx_row": 158
+  },
+  {
+    "name": "S Cawaii",
+    "publisher": "",
+    "cover_url": "364.jpg",
+    "issue_date": "2012-11-01",
+    "issue": "2012年11月号",
+    "works": [],
+    "kind": "other",
+    "note": "帅哥写真vol.19",
+    "photographer": "广冈雅树",
+    "pages": 2,
+    "xlsx_row": 159
+  },
+  {
+    "name": "CLASSY",
+    "publisher": "",
+    "cover_url": "365.jpg",
+    "issue_date": "2012-11-01",
+    "issue": "2012年11月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "向井理×绫野刚",
+    "photographer": "本间日吕志",
+    "pages": 4,
+    "xlsx_row": 160
+  },
+  {
+    "name": "SEDA",
+    "publisher": "",
+    "cover_url": "366.jpg",
+    "issue_date": "2012-11-01",
+    "issue": "2012年11月号",
+    "works": [
+      "movie:142178"
+    ],
+    "kind": "promo",
+    "note": "《得买新鞋了》",
+    "photographer": "堤隆繁",
+    "pages": 2,
+    "xlsx_row": 161
+  },
+  {
+    "name": "CanCam",
+    "publisher": "",
+    "cover_url": "367.jpg",
+    "issue_date": "2012-09-22",
+    "issue": ""
+  },
+  {
+    "name": "週刊女性",
+    "publisher": "",
+    "cover_url": "368.jpg",
+    "issue_date": "2012-11-20",
+    "issue": "12/4号",
+    "works": [],
+    "kind": "interview",
+    "note": "裸男采访",
+    "photographer": "伊藤和幸",
+    "pages": 2,
+    "xlsx_row": 163
+  },
+  {
+    "name": "anan",
+    "publisher": "",
+    "cover_url": "369.jpg",
+    "issue_date": "2012-12-05",
+    "issue": "No.1835",
+    "works": [],
+    "kind": "other",
+    "note": "关注此人！",
+    "photographer": "小笠原真纪",
+    "pages": 3,
+    "xlsx_row": 164
+  },
+  {
+    "name": "men's FUDGE",
+    "publisher": "",
+    "cover_url": "370.jpg",
+    "issue_date": "2012-12-01",
+    "issue": "2012年12月号",
+    "works": [],
+    "kind": "other",
+    "note": "绫野刚演绎优雅摩登风格",
+    "photographer": "sannomiya motofumi",
+    "pages": 3,
+    "xlsx_row": 165
+  },
+  {
+    "name": "美人百花",
+    "publisher": "",
+    "cover_url": "371.jpg",
+    "issue_date": "2012-12-01",
+    "issue": "2012年12月号",
+    "works": [
+      "movie:135799"
+    ],
+    "kind": "promo",
+    "note": "帅哥呢  《那夜的武士》",
+    "photographer": "本间日吕志",
+    "pages": 3,
+    "xlsx_row": 166
+  },
+  {
+    "name": "Men's non-no",
+    "publisher": "",
+    "cover_url": "372.jpg",
+    "issue_date": "2012-12-01",
+    "issue": "2012年12月号",
+    "works": [],
+    "kind": "other",
+    "note": "进化中的三原康裕 牛仔",
+    "photographer": "石毛伦太郎",
+    "pages": 2,
+    "xlsx_row": 167
+  },
+  {
+    "name": "cinema★cinema",
+    "publisher": "",
+    "cover_url": "373.jpg",
+    "issue_date": "2012-11-01",
+    "issue": "No.41",
+    "works": [],
+    "kind": "dialogue",
+    "note": "绫野刚×高桥努",
+    "photographer": "seiro ozawa",
+    "pages": 4,
+    "xlsx_row": 168
+  },
+  {
+    "name": "週刊女性",
+    "publisher": "",
+    "cover_url": "374.jpg",
+    "issue_date": "2013-01-15",
+    "issue": "1/29号",
+    "works": [
+      "tv:46077"
+    ],
+    "kind": "promo",
+    "note": "《八重之樱》",
+    "photographer": "伊藤和幸",
+    "pages": 2,
+    "xlsx_row": 169
+  },
+  {
+    "name": "acteur",
+    "publisher": "",
+    "cover_url": "375.jpg",
+    "issue_date": "2013-01-01",
+    "issue": "2013年1月号",
+    "works": [
+      "movie:836254"
+    ],
+    "kind": "promo",
+    "note": "《譬如柠檬》",
+    "photographer": "Kuroda Satomi",
+    "pages": 6,
+    "xlsx_row": 170
+  },
+  {
+    "name": "MORE",
+    "publisher": "",
+    "cover_url": "376.jpg",
+    "issue_date": "2013-01-01",
+    "issue": "2013年1月号",
+    "works": [],
+    "kind": "other",
+    "note": "赤裸的感性",
+    "photographer": "平岩亨",
+    "pages": 4,
+    "xlsx_row": 171
+  },
+  {
+    "name": "TVfan cross",
+    "publisher": "",
+    "cover_url": "378.jpg",
+    "issue_date": "2013-02-01",
+    "issue": "Vol.5",
+    "works": [
+      "tv:46077"
+    ],
+    "kind": "promo",
+    "note": "《八重之樱》",
+    "photographer": "tominaga tomoko",
+    "pages": 6,
+    "xlsx_row": 172
+  },
+  {
+    "name": "TVLIFE premium",
+    "publisher": "",
+    "cover_url": "379.jpg",
+    "issue_date": "2013-02-01",
+    "issue": "vol.4",
+    "works": [
+      "tv:50111"
+    ],
+    "kind": "promo",
+    "note": "《最完美的离婚》",
+    "photographer": "干川修",
+    "pages": 5,
+    "xlsx_row": 173
+  },
+  {
+    "name": "anan",
+    "publisher": "",
+    "cover_url": "380.jpg",
+    "issue_date": "2013-02-01",
+    "issue": "No.1844",
+    "works": [],
+    "kind": "other",
+    "note": "想要接近，能够接近吗？",
+    "photographer": "若木信吾",
+    "pages": 6,
+    "xlsx_row": 174
+  },
+  {
+    "name": "週刊女性",
+    "publisher": "",
+    "cover_url": "381.jpg",
+    "issue_date": "2013-01-29",
+    "issue": "2/12号",
+    "works": [],
+    "kind": "other",
+    "note": "《3年本》",
+    "photographer": "伊藤和幸",
+    "pages": 2,
+    "xlsx_row": 175
+  },
+  {
+    "name": "mina",
+    "publisher": "",
+    "cover_url": "382.jpg",
+    "issue_date": "2012-12-20",
+    "issue": "2月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "向井理×绫野刚",
+    "xlsx_row": 176
+  },
+  {
+    "name": "NHKステラウィークリー",
+    "publisher": "",
+    "cover_url": "383.jpg",
+    "issue_date": "2013-02-13",
+    "issue": "2/22号",
+    "works": [
+      "tv:46077"
+    ],
+    "kind": "promo",
+    "note": "《八重之樱》",
+    "photographer": "川口俊介",
+    "pages": 5,
+    "xlsx_row": 177
+  },
+  {
+    "name": "週刊女性",
+    "publisher": "",
+    "cover_url": "384.jpg",
+    "issue_date": "2013-03-12",
+    "issue": "3/26号",
+    "works": [
+      "tv:50111"
+    ],
+    "kind": "promo",
+    "note": "《最完美的离婚》",
+    "photographer": "伊藤和幸",
+    "pages": 2,
+    "xlsx_row": 178
+  },
+  {
+    "name": "TVnavi SMILE",
+    "publisher": "",
+    "cover_url": "385.jpg",
+    "issue_date": "2013-01-31",
+    "issue": "Vol.7",
+    "works": [
+      "tv:46077"
+    ],
+    "kind": "promo",
+    "note": "《八重之樱》",
+    "xlsx_row": 179
+  },
+  {
+    "name": "+act mini",
+    "publisher": "",
+    "cover_url": "386.jpg",
+    "issue_date": "2013-03-01",
+    "issue": "Vol.20",
+    "works": [],
+    "kind": "other",
+    "note": "特别企划 蓝色夹克、斜靠在墙上的那张",
+    "photographer": "地主晋",
+    "pages": 10,
+    "xlsx_row": 180
+  },
+  {
+    "name": "Hanako FOR MEN",
+    "publisher": "",
+    "cover_url": "387.jpg",
+    "issue_date": "2013-03-28",
+    "issue": "vol.7",
+    "works": [],
+    "kind": "other",
+    "note": "西装要配领带",
+    "photographer": "keiichi nitta",
+    "pages": 5,
+    "xlsx_row": 181
+  },
+  {
+    "name": "LOADED",
+    "publisher": "",
+    "cover_url": "388.jpg",
+    "issue_date": "2013-03-24",
+    "issue": "Vol.8",
+    "works": [],
+    "kind": "other",
+    "note": "Mr.LOADED",
+    "photographer": "笠井尔示",
+    "pages": 4,
+    "xlsx_row": 182
+  },
+  {
+    "name": "Men's non-no",
+    "publisher": "",
+    "cover_url": "389.jpg",
+    "issue_date": "2013-03-01",
+    "issue": "2013年3月号",
+    "works": [],
+    "kind": "other",
+    "note": "材质摩登的引力",
+    "photographer": "kiyotaka hatanaka",
+    "pages": 3,
+    "xlsx_row": 183
+  },
+  {
+    "name": "TVガイド PERSON",
+    "publisher": "",
+    "cover_url": "390.jpg",
+    "issue_date": "2013-02-14",
+    "issue": "Vol.6",
+    "works": [],
+    "kind": "other",
+    "note": "Feel!!!",
+    "photographer": "松田忠雄",
+    "pages": 12,
+    "xlsx_row": 184
+  },
+  {
+    "name": "ダ・ヴィンチ",
+    "publisher": "",
+    "cover_url": "391.jpg",
+    "issue_date": "2013-02-06",
+    "issue": "2013年3月号",
+    "works": [],
+    "kind": "interview",
+    "note": "《3年本》采访",
+    "pages": 1,
+    "xlsx_row": 185
+  },
+  {
+    "name": "JUNON",
+    "publisher": "",
+    "cover_url": "392.jpg",
+    "issue_date": "2013-01-23",
+    "issue": "2012年3月号"
+  },
+  {
+    "name": "+act mini",
+    "publisher": "",
+    "cover_url": "393.jpg",
+    "issue_date": "2013-04-01",
+    "issue": "Vol.21",
+    "works": [
+      "tv:53441"
+    ],
+    "kind": "promo",
+    "note": "《飞翔情报室》报道 胎响握手会",
+    "pages": 3,
+    "xlsx_row": 187
+  },
+  {
+    "name": "ACTORS magazine",
+    "publisher": "",
+    "cover_url": "394.jpg",
+    "issue_date": "2013-04-05",
+    "issue": "Vol.11",
+    "works": [],
+    "kind": "other",
+    "note": "火伤（山田孝之）",
+    "photographer": "荒木勇人",
+    "pages": 6,
+    "xlsx_row": 188
+  },
+  {
+    "name": "Dramatic Actor",
+    "publisher": "",
+    "cover_url": "395.jpg",
+    "issue_date": "2013-04-01",
+    "issue": "Vol.8",
+    "works": [
+      "tv:53441"
+    ],
+    "kind": "promo",
+    "note": "《飞翔情报室》",
+    "photographer": "上田真梨子",
+    "pages": 5,
+    "xlsx_row": 189
+  },
+  {
+    "name": "GALAC",
+    "publisher": "",
+    "cover_url": "396.jpg",
+    "issue_date": "2013-04-01",
+    "issue": "2013年4月号",
+    "works": [
+      "tv:50111"
+    ],
+    "kind": "promo",
+    "note": "《最完美的离婚》",
+    "photographer": "山崎祥和",
+    "pages": 3,
+    "xlsx_row": 190
+  },
+  {
+    "name": "ViVi",
+    "publisher": "",
+    "cover_url": "397.jpg",
+    "issue_date": "2013-04-01",
+    "issue": "2013年4月号",
+    "works": [],
+    "kind": "other",
+    "note": "Beyond the lens",
+    "photographer": "eiki mori",
+    "pages": 2,
+    "xlsx_row": 191
+  },
+  {
+    "name": "SPUR",
+    "publisher": "",
+    "cover_url": "398.jpg",
+    "issue_date": "2013-04-01",
+    "issue": "2013年4月号",
+    "works": [],
+    "kind": "other",
+    "note": "绫野刚 「有时如花一般」",
+    "photographer": "kazuhiro fujita",
+    "pages": 4,
+    "xlsx_row": 192
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "399.jpg",
+    "issue_date": "2013-03-27",
+    "issue": "Vol.44"
+  },
+  {
+    "name": "週刊女性",
+    "publisher": "",
+    "cover_url": "400.jpg",
+    "issue_date": "2013-04-30",
+    "issue": "5/14,21合併号",
+    "works": [
+      "tv:46077",
+      "tv:53441"
+    ],
+    "kind": "promo",
+    "note": "《八重之樱》·《飞翔情报室》  不可预测：绫野刚",
+    "photographer": "西村彩子",
+    "pages": 8,
+    "xlsx_row": 194
+  },
+  {
+    "name": "家庭画報",
+    "publisher": "",
+    "cover_url": "401.jpg",
+    "issue_date": "2013-04-01",
+    "issue": "5月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "辛酸なめこ×绫野刚",
+    "pages": 2,
+    "xlsx_row": 195
+  },
+  {
+    "name": "AJ",
+    "publisher": "",
+    "cover_url": "402.jpg",
+    "issue_date": "2013-05-01",
+    "issue": "2013年5月号",
+    "works": [],
+    "kind": "other",
+    "note": "绫野刚",
+    "photographer": "erina fujiwara",
+    "pages": 7,
+    "xlsx_row": 196
+  },
+  {
+    "name": "Hanako FOR MEN",
+    "publisher": "",
+    "cover_url": "403.jpg",
+    "issue_date": "2013-05-30",
+    "issue": "vol.8",
+    "works": [],
+    "kind": "other",
+    "note": "PLAY BOY（西装）",
+    "photographer": "koji sato",
+    "pages": 5,
+    "xlsx_row": 197
+  },
+  {
+    "name": "TV LIFE Premium",
+    "publisher": "",
+    "cover_url": "404.jpg",
+    "issue_date": "2013-05-01",
+    "issue": "vol.5",
+    "works": [
+      "tv:53441"
+    ],
+    "kind": "promo",
+    "note": "《飞翔情报室》（新垣结衣×绫野刚）",
+    "xlsx_row": 198
+  },
+  {
+    "name": "ザテレビジョンZoom",
+    "publisher": "",
+    "cover_url": "405.jpg",
+    "issue_date": "2013-03-19",
+    "issue": "Vol.12",
+    "works": [
+      "tv:53441"
+    ],
+    "kind": "promo",
+    "note": "《飞翔情报室》",
+    "photographer": "西村康",
+    "pages": 3,
+    "xlsx_row": 199
+  },
+  {
+    "name": "ダ・ヴィンチ",
+    "publisher": "",
+    "cover_url": "406.jpg",
+    "issue_date": "2013-04-06",
+    "issue": "NO.229",
+    "works": [],
+    "kind": "dialogue",
+    "note": "新垣结衣×绫野刚",
+    "photographer": "石川信介",
+    "pages": 2,
+    "xlsx_row": 200
+  },
+  {
+    "name": "CINEMA SQUARE",
+    "publisher": "",
+    "cover_url": "407.jpg",
+    "issue_date": "2013-05-21",
+    "issue": "Vol.51",
+    "works": [
+      "movie:255949"
+    ],
+    "kind": "promo",
+    "note": "《沙尼达尔之花》",
+    "pages": 5,
+    "xlsx_row": 201
+  },
+  {
+    "name": "TVfan cross",
+    "publisher": "",
+    "cover_url": "408.jpg",
+    "issue_date": "2013-04-10",
+    "issue": "Vol.6",
+    "works": [
+      "tv:53441"
+    ],
+    "kind": "promo",
+    "note": "《飞翔情报室》",
+    "photographer": "fujimoto kazuhito",
+    "pages": 4,
+    "xlsx_row": 202
+  },
+  {
+    "name": "MEN'S CLUB",
+    "publisher": "",
+    "cover_url": "409.jpg",
+    "issue_date": "2013-03-23",
+    "issue": "2013年5月号",
+    "works": [],
+    "kind": "other",
+    "note": "背上春季包包，春光明媚",
+    "photographer": "yoshiyuki nagatomo",
+    "pages": 4,
+    "xlsx_row": 203
+  },
+  {
+    "name": "シアターマガジン　T.",
+    "publisher": "",
+    "cover_url": "410.jpg",
+    "issue_date": "2013-06-01",
+    "issue": "No.22",
+    "works": [],
+    "kind": "other",
+    "note": "活出角色的演员",
+    "photographer": "林Kazumi",
+    "pages": 6,
+    "xlsx_row": 204
+  },
+  {
+    "name": "AERA",
+    "publisher": "",
+    "cover_url": "411.jpg",
+    "issue_date": "2013-05-27",
+    "issue": "6/3号",
+    "works": [],
+    "xlsx_row": 205
+  },
+  {
+    "name": "MAMOR",
+    "publisher": "",
+    "cover_url": "412.jpg",
+    "issue_date": "2013-06-01",
+    "issue": "2013年6月号",
+    "works": [
+      "tv:53441"
+    ],
+    "kind": "promo",
+    "note": "《飞翔情报室》",
+    "xlsx_row": 206
+  },
+  {
+    "name": "日本映画navi",
+    "publisher": "",
+    "cover_url": "413.jpg",
+    "issue_date": "2013-06-06",
+    "issue": "Vol.40",
+    "works": [],
+    "kind": "dialogue",
+    "note": "绫野刚×石井岳龙 对谈",
+    "photographer": "黑泽义教",
+    "pages": 8,
+    "xlsx_row": 207
+  },
+  {
+    "name": "デ☆ビュー",
+    "publisher": "",
+    "cover_url": "414.jpg",
+    "issue_date": "2013-06-01",
+    "issue": "2013年6月号",
+    "works": [],
+    "xlsx_row": 208
+  },
+  {
+    "name": "ぴあ Movie Special",
+    "publisher": "",
+    "cover_url": "415.jpg",
+    "issue_date": "2013-06-18",
+    "issue": "Summer",
+    "works": [
+      "movie:255949"
+    ],
+    "kind": "promo",
+    "note": "《沙尼达尔之花》",
+    "photographer": "吉泽健太",
+    "pages": 4,
+    "xlsx_row": 209
+  },
+  {
+    "name": "プレミアムJUNON",
+    "publisher": "",
+    "cover_url": "416.jpg",
+    "issue_date": "2013-06-06",
+    "issue": "2013",
+    "works": [],
+    "xlsx_row": 210
+  },
+  {
+    "name": "cinema★cinema",
+    "publisher": "",
+    "cover_url": "417.jpg",
+    "issue_date": "2013-06-20",
+    "issue": "No.45",
+    "works": [
+      "movie:225145",
+      "movie:255949"
+    ],
+    "kind": "promo",
+    "note": "《科学小飞侠》,《沙尼达尔之花》",
+    "xlsx_row": 211
+  },
+  {
+    "name": "MAMOR",
+    "publisher": "",
+    "cover_url": "418.jpg",
+    "issue_date": "2013-05-21",
+    "issue": "7月号",
+    "works": [
+      "tv:53441"
+    ],
+    "kind": "promo",
+    "note": "《飞翔情报室》 仅照片",
+    "photographer": "高仓千鹤",
+    "pages": 1,
+    "xlsx_row": 212
+  },
+  {
+    "name": "ACTOR'S FACE",
+    "publisher": "",
+    "cover_url": "419.jpg",
+    "issue_date": "2013-07-01",
+    "issue": "Vol.1",
+    "works": [
+      "movie:225145"
+    ],
+    "kind": "promo",
+    "note": "《科学小飞侠》",
+    "photographer": "荒木勇人",
+    "pages": 8,
+    "xlsx_row": 213
+  },
+  {
+    "name": "BARFOUT!",
+    "publisher": "",
+    "cover_url": "420.jpg",
+    "issue_date": "2013-07-19",
+    "issue": "215",
+    "works": [
+      "movie:225145"
+    ],
+    "kind": "promo",
+    "note": "《科学小飞侠》",
+    "photographer": "若木信吾",
+    "pages": 18,
+    "xlsx_row": 214
+  },
+  {
+    "name": "JUNON",
+    "publisher": "",
+    "cover_url": "421.jpg",
+    "issue_date": "2013-05-23",
+    "issue": "2013年7月号",
+    "works": [],
+    "kind": "other",
+    "note": "改变自己的相遇",
+    "photographer": "小林Baku",
+    "pages": 3,
+    "xlsx_row": 215
+  },
+  {
+    "name": "ザテレビジョンCOLORS",
+    "publisher": "",
+    "cover_url": "422.jpg",
+    "issue_date": "2013-07-19",
+    "issue": "RED",
+    "works": [],
+    "kind": "other",
+    "note": "掌心的热度",
+    "photographer": "荒木勇人",
+    "pages": 8,
+    "xlsx_row": 216
+  },
+  {
+    "name": "日本映画magazine",
+    "publisher": "",
+    "cover_url": "423.jpg",
+    "issue_date": "2013-07-01",
+    "issue": "Vol.34",
+    "works": [
+      "movie:255949",
+      "movie:225145",
+      "movie:220003"
+    ],
+    "kind": "promo",
+    "note": "《沙尼达尔之花》《科学小飞侠》《夏之终结》",
+    "photographer": "荒木勇人",
+    "pages": 15,
+    "xlsx_row": 217
+  },
+  {
+    "name": "CINEMA SQUARE",
+    "publisher": "",
+    "cover_url": "424.jpg",
+    "issue_date": "2013-07-20",
+    "issue": "Vol.52",
+    "works": [
+      "movie:225145"
+    ],
+    "kind": "promo",
+    "note": "《科学小飞侠》",
+    "xlsx_row": 218
+  },
+  {
+    "name": "H",
+    "publisher": "",
+    "cover_url": "425.jpg",
+    "issue_date": "2013-07-01",
+    "issue": "7月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "松坂桃李×绫野刚",
+    "photographer": "OGATA",
+    "pages": 12,
+    "xlsx_row": 219
+  },
+  {
+    "name": "awesome!",
+    "publisher": "",
+    "cover_url": "426.jpg",
+    "issue_date": "2013-08-21",
+    "issue": "vol.11",
+    "works": [
+      "movie:225145"
+    ],
+    "kind": "promo",
+    "note": "《科学小飞侠》",
+    "photographer": "竹中圭树",
+    "pages": 25,
+    "xlsx_row": 220
+  },
+  {
+    "name": "MOVIEZ",
+    "publisher": "",
+    "cover_url": "427.jpg",
+    "issue_date": "2013-08-10",
+    "issue": "vol.2",
+    "works": [
+      "movie:225145"
+    ],
+    "kind": "promo",
+    "note": "《科学小飞侠》",
+    "photographer": "久富健太郎",
+    "pages": 10,
+    "xlsx_row": 221
+  },
+  {
+    "name": "FLIX",
+    "publisher": "",
+    "cover_url": "428.jpg",
+    "issue_date": "2013-06-21",
+    "issue": "No.218",
+    "works": [
+      "movie:255949"
+    ],
+    "kind": "promo",
+    "note": "《沙尼达尔之花》",
+    "photographer": "冈本武志",
+    "pages": 4,
+    "xlsx_row": 222
+  },
+  {
+    "name": "Grazia",
+    "publisher": "",
+    "cover_url": "429.jpg",
+    "issue_date": "2013-08-01",
+    "issue": "2013年8月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "绫野 刚×川上弘美 名为「虚构」的非虚构",
+    "xlsx_row": 223
+  },
+  {
+    "name": "キネマ旬報",
+    "publisher": "",
+    "cover_url": "430.jpg",
+    "issue_date": "2013-07-20",
+    "issue": "No.1642",
+    "works": [],
+    "kind": "other",
+    "note": "小心绫野刚",
+    "photographer": "冈本武志",
+    "xlsx_row": 224
+  },
+  {
+    "name": "日本映画navi",
+    "publisher": "",
+    "cover_url": "431.jpg",
+    "issue_date": "2013-08-06",
+    "issue": "vol.41",
+    "works": [
+      "movie:225145"
+    ],
+    "kind": "promo",
+    "note": "《科学小飞侠》 松坂桃李×绫野刚",
+    "photographer": "竹中圭树",
+    "pages": 10,
+    "xlsx_row": 225
+  },
+  {
+    "name": "ザテレビジョンZoom",
+    "publisher": "",
+    "cover_url": "432.jpg",
+    "issue_date": "2013-08-01",
+    "issue": "2013年8月9日",
+    "works": [],
+    "kind": "other",
+    "note": "与角色们的同居生活",
+    "photographer": "荒木勇人",
+    "pages": 3,
+    "xlsx_row": 226
+  },
+  {
+    "name": "PICT-UP",
+    "publisher": "",
+    "cover_url": "433.jpg",
+    "issue_date": "2013-08-01",
+    "issue": "#83",
+    "works": [
+      "movie:255949"
+    ],
+    "kind": "promo",
+    "note": "《沙尼达尔之花》",
+    "photographer": "堤隆繁",
+    "pages": 5,
+    "xlsx_row": 227
+  },
+  {
+    "name": "TVfan cross",
+    "publisher": "",
+    "cover_url": "434.jpg",
+    "issue_date": "2013-07-10",
+    "issue": "Vol.7",
+    "works": [
+      "movie:255949"
+    ],
+    "kind": "promo",
+    "note": "《沙尼达尔之花》",
+    "photographer": "伊东Hisashi",
+    "pages": 4,
+    "xlsx_row": 228
+  },
+  {
+    "name": "JILLE",
+    "publisher": "",
+    "cover_url": "435.jpg",
+    "issue_date": "2013-07-12",
+    "issue": "8月号",
+    "works": [],
+    "kind": "interview",
+    "note": "采访",
+    "xlsx_row": 229
+  },
+  {
+    "name": "EYESCREAM",
+    "publisher": "",
+    "cover_url": "436.jpg",
+    "issue_date": "2013-07-01",
+    "issue": "8月号",
+    "works": [],
+    "photographer": "蜷川实花",
+    "pages": 4,
+    "xlsx_row": 230
+  },
+  {
+    "name": "COOL TRANS",
+    "publisher": "",
+    "cover_url": "437.jpg",
+    "issue_date": "2013-06-24",
+    "issue": "8月号",
+    "works": [],
+    "xlsx_row": 231
+  },
+  {
+    "name": "InRed",
+    "publisher": "",
+    "cover_url": "438.jpg",
+    "issue_date": "2013-07-05",
+    "issue": "2013年08月号",
+    "works": [
+      "movie:255949"
+    ],
+    "kind": "promo",
+    "note": "《沙尼达尔之花》",
+    "xlsx_row": 232
+  },
+  {
+    "name": "marisol",
+    "publisher": "",
+    "cover_url": "439.jpg",
+    "issue_date": "2013-08-07",
+    "issue": "9月号",
+    "works": [],
+    "kind": "other",
+    "note": "People 绫野 刚",
+    "pages": 2,
+    "xlsx_row": 233
+  },
+  {
+    "name": "Miss Plus+",
+    "publisher": "",
+    "cover_url": "440.jpg",
+    "issue_date": "2013-08-01",
+    "issue": "2013年8月号",
+    "works": [
+      "movie:255949"
+    ],
+    "kind": "promo",
+    "note": "《沙尼达尔之花》",
+    "photographer": "eiji hikosaka",
+    "pages": 4,
+    "xlsx_row": 234
+  },
+  {
+    "name": "ar",
+    "publisher": "",
+    "cover_url": "441.jpg",
+    "issue_date": "2013-08-01",
+    "issue": "2013年8月号",
+    "works": [],
+    "xlsx_row": 235
+  },
+  {
+    "name": "hitoiki",
+    "publisher": "",
+    "cover_url": "442.jpg",
+    "issue_date": "2013-08-01",
+    "issue": "vol.77",
+    "works": [
+      "movie:255949"
+    ],
+    "kind": "promo",
+    "note": "《沙尼达尔之花》   全国理发生活卫生同业组合联合会发行",
+    "photographer": "阿部了",
+    "pages": 4,
+    "xlsx_row": 236
+  },
+  {
+    "name": "cinema★cinema SP",
+    "publisher": "",
+    "cover_url": "999.jpg",
+    "issue_date": "2013-08-01",
+    "issue": "2013年秋",
+    "works": [
+      "movie:225145"
+    ],
+    "kind": "promo",
+    "note": "《科学小飞侠》 松坂桃李×绫野刚",
+    "photographer": "干川修",
+    "pages": 8,
+    "xlsx_row": 237
+  },
+  {
+    "name": "EYESCREAM",
+    "publisher": "",
+    "cover_url": "443.jpg",
+    "issue_date": "2013-08-01",
+    "issue": "9月号",
+    "works": [],
+    "kind": "other",
+    "note": "品味由蓝色决定",
+    "photographer": "鹰野隆大",
+    "xlsx_row": 238
+  },
+  {
+    "name": "FRaU",
+    "publisher": "",
+    "cover_url": "444.jpg",
+    "issue_date": "2013-09-01",
+    "issue": "2013年9月号",
+    "works": [
+      "movie:225145"
+    ],
+    "kind": "promo",
+    "note": "《科学小飞侠》 松坂桃李×绫野刚",
+    "xlsx_row": 239
+  },
+  {
+    "name": "週刊女性",
+    "publisher": "",
+    "cover_url": "445.jpg",
+    "issue_date": "2013-08-20",
+    "issue": "9/3号",
+    "works": [
+      "movie:225145"
+    ],
+    "kind": "promo",
+    "note": "《科学小飞侠》 松坂桃李×绫野刚",
+    "photographer": "佐佐木Midori",
+    "pages": 2,
+    "xlsx_row": 240
+  },
+  {
+    "name": "H",
+    "publisher": "",
+    "cover_url": "446.jpg",
+    "issue_date": "2013-09-01",
+    "issue": "2013年9月号",
+    "works": [],
+    "kind": "other",
+    "note": "THE END OF MAGIC TIME",
+    "photographer": "笠井尔示",
+    "pages": 10,
+    "xlsx_row": 241
+  },
+  {
+    "name": "JUNON",
+    "publisher": "",
+    "cover_url": "447.jpg",
+    "issue_date": "2013-07-23",
+    "issue": "2013年9月号",
+    "works": [
+      "movie:225145"
+    ],
+    "kind": "promo",
+    "note": "《科学小飞侠》 松坂桃李×绫野刚",
+    "photographer": "小林Baku",
+    "pages": 5,
+    "xlsx_row": 242
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "448.jpg",
+    "issue_date": "2013-07-27",
+    "issue": "Vol.45",
+    "works": [
+      "movie:225145"
+    ],
+    "kind": "promo",
+    "note": "《科学小飞侠》 松坂桃李×绫野刚",
+    "photographer": "浦田大作",
+    "pages": 10,
+    "xlsx_row": 243
+  },
+  {
+    "name": "TVガイド PERSON",
+    "publisher": "",
+    "cover_url": "449.jpg",
+    "issue_date": "2013-08-09",
+    "issue": "Vol.12",
+    "works": [],
+    "kind": "other",
+    "note": "Ever-changing",
+    "photographer": "藤本和典",
+    "pages": 11,
+    "xlsx_row": 244
+  },
+  {
+    "name": "LEE",
+    "publisher": "",
+    "cover_url": "450.jpg",
+    "issue_date": "2013-09-01",
+    "issue": "2013年9月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "松坂桃李×绫野刚",
+    "xlsx_row": 245
+  },
+  {
+    "name": "mina",
+    "publisher": "",
+    "cover_url": "451.jpg",
+    "issue_date": "2013-09-01",
+    "issue": "2013年9月号",
+    "works": [],
+    "xlsx_row": 246
+  },
+  {
+    "name": "Ray",
+    "publisher": "",
+    "cover_url": "452.jpg",
+    "issue_date": "2013-09-01",
+    "issue": "2013年9月号",
+    "works": [
+      "movie:255949"
+    ],
+    "kind": "promo",
+    "note": "《沙尼达尔之花》",
+    "photographer": "miyuki kurosu",
+    "pages": 6,
+    "xlsx_row": 247
+  },
+  {
+    "name": "CLASSY",
+    "publisher": "",
+    "cover_url": "453.jpg",
+    "issue_date": "2013-09-01",
+    "issue": "2013年9月号",
+    "works": [],
+    "kind": "other",
+    "note": "当松坂桃李遇见绫野刚",
+    "photographer": "笠井尔示",
+    "pages": 4,
+    "xlsx_row": 248
+  },
+  {
+    "name": "S Cawaii",
+    "publisher": "",
+    "cover_url": "454.jpg",
+    "issue_date": "2013-09-01",
+    "issue": "2013年9月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "松坂桃李×绫野刚",
+    "photographer": "广冈雅树",
+    "pages": 6,
+    "xlsx_row": 249
+  },
+  {
+    "name": "AneCan",
+    "publisher": "",
+    "cover_url": "455.jpg",
+    "issue_date": "2013-09-01",
+    "issue": "2013年9月号",
+    "works": [
+      "movie:220003"
+    ],
+    "kind": "promo",
+    "note": "最想接近的演员 《夏之终结》",
+    "photographer": "Sai",
+    "pages": 2,
+    "xlsx_row": 250
+  },
+  {
+    "name": "ESSE",
+    "publisher": "",
+    "cover_url": "456.jpg",
+    "issue_date": "2013-08-07",
+    "issue": "9月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "松坂桃李×绫野刚",
+    "xlsx_row": 251
+  },
+  {
+    "name": "Spring",
+    "publisher": "",
+    "cover_url": "457.jpg",
+    "issue_date": "2013-08-23",
+    "issue": "10月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "满岛光×绫野刚",
+    "xlsx_row": 252
+  },
+  {
+    "name": "FLIX",
+    "publisher": "",
+    "cover_url": "458.jpg",
+    "issue_date": "2013-08-21",
+    "issue": "No.219",
+    "works": [
+      "movie:225145"
+    ],
+    "kind": "promo",
+    "note": "《科学小飞侠》",
+    "photographer": "蒂姆·加洛",
+    "pages": 10,
+    "xlsx_row": 253
+  },
+  {
+    "name": "GQ JAPAN",
+    "publisher": "",
+    "cover_url": "459.jpg",
+    "issue_date": "2013-12-01",
+    "issue": "No.127",
+    "works": [],
+    "kind": "other",
+    "note": "切斯特菲尔德大衣的男性美",
+    "photographer": "伊藤彰纪",
+    "pages": 3,
+    "xlsx_row": 254
+  },
+  {
+    "name": "ザテレビジョンCOLORS",
+    "publisher": "",
+    "cover_url": "460.jpg",
+    "issue_date": "2013-12-11",
+    "issue": "vol.4 WHITE",
+    "works": [],
+    "kind": "dialogue",
+    "note": "向井理×绫野刚",
+    "photographer": "桑岛智辉",
+    "pages": 8,
+    "xlsx_row": 255
+  },
+  {
+    "name": "ベストドレッサー・スタイルブック　2013",
+    "publisher": "",
+    "cover_url": "461.jpg",
+    "issue_date": "2013-12-03",
+    "issue": "",
+    "works": [],
+    "kind": "other",
+    "note": "演艺部门",
+    "photographer": "石井文仁",
+    "pages": 3,
+    "xlsx_row": 256
+  },
+  {
+    "name": "月刊TVnavi",
+    "publisher": "",
+    "cover_url": "462.jpg",
+    "issue_date": "2014-01-01",
+    "issue": "1月号",
+    "works": [
+      "tv:66187"
+    ],
+    "kind": "promo",
+    "note": "《全部成为F》",
+    "pages": 2,
+    "xlsx_row": 257
+  },
+  {
+    "name": "CM NOW",
+    "publisher": "",
+    "cover_url": "463.jpg",
+    "issue_date": "2013-12-10",
+    "issue": "vol.166",
+    "works": [],
+    "kind": "other",
+    "note": "green label relaxing",
+    "xlsx_row": 258
+  },
+  {
+    "name": "cinema★cinema SP",
+    "publisher": "",
+    "cover_url": "464.jpg",
+    "issue_date": "2014-03-20",
+    "issue": "2014年春",
+    "works": [
+      "movie:287778"
+    ],
+    "kind": "promo",
+    "note": "《只在那里发光》",
+    "photographer": "kazuko tanaka",
+    "pages": 6,
+    "xlsx_row": 272
+  },
+  {
+    "name": "cinema★cinema SP",
+    "publisher": "",
+    "cover_url": "465.jpg",
+    "issue_date": "2014-07-01",
+    "issue": "2014年夏",
+    "works": [
+      "movie:241868"
+    ],
+    "kind": "promo",
+    "note": "《鲁邦三世》",
+    "xlsx_row": 303
+  },
+  {
+    "name": "anan",
+    "publisher": "",
+    "cover_url": "466.jpg",
+    "issue_date": "2014-02-05",
+    "issue": "No.1892",
+    "works": [
+      "tv:50111"
+    ],
+    "kind": "promo",
+    "note": "《最完美的离婚》",
+    "photographer": "TOMMY",
+    "pages": 4,
+    "xlsx_row": 259
+  },
+  {
+    "name": "ダ・ヴィンチ",
+    "publisher": "",
+    "cover_url": "467.jpg",
+    "issue_date": "2014-01-06",
+    "issue": "NO.238",
+    "works": [
+      "tv:85157"
+    ],
+    "kind": "promo",
+    "note": "《S》采访",
+    "pages": 1,
+    "xlsx_row": 260
+  },
+  {
+    "name": "TVfan cross",
+    "publisher": "",
+    "cover_url": "468.jpg",
+    "issue_date": "2014-02-01",
+    "issue": "Vol.9",
+    "works": [],
+    "kind": "dialogue",
+    "note": "向井理×绫野刚",
+    "xlsx_row": 261
+  },
+  {
+    "name": "mina",
+    "publisher": "",
+    "cover_url": "469.jpg",
+    "issue_date": "2014-02-01",
+    "issue": "2014年2月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "向井理×绫野刚",
+    "photographer": "杉江拓哉",
+    "pages": 4,
+    "xlsx_row": 262
+  },
+  {
+    "name": "AneCan",
+    "publisher": "",
+    "cover_url": "470.jpg",
+    "issue_date": "2014-02-01",
+    "issue": "2014年2月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "向井理×绫野刚",
+    "pages": 2,
+    "xlsx_row": 263
+  },
+  {
+    "name": "anan",
+    "publisher": "",
+    "cover_url": "471.jpg",
+    "issue_date": "2014-03-01",
+    "issue": "No.1897",
+    "works": [],
+    "kind": "other",
+    "note": "私生活？不告诉你",
+    "photographer": "ND CHOW",
+    "pages": 4,
+    "xlsx_row": 264
+  },
+  {
+    "name": "non-no",
+    "publisher": "",
+    "cover_url": "472.jpg",
+    "issue_date": "2014-03-01",
+    "issue": "2014年3月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "向井理×绫野刚",
+    "xlsx_row": 265
+  },
+  {
+    "name": "CINEMA SQUARE",
+    "publisher": "",
+    "cover_url": "473.jpg",
+    "issue_date": "2014-03-19",
+    "issue": "Vol.60",
+    "works": [
+      "movie:287778"
+    ],
+    "kind": "promo",
+    "note": "《只在那里发光》",
+    "photographer": "坂本Kazuki",
+    "pages": 9,
+    "xlsx_row": 266
+  },
+  {
+    "name": "Screen+",
+    "publisher": "",
+    "cover_url": "474.jpg",
+    "issue_date": "2014-03-31",
+    "issue": "Vol.44",
+    "works": [
+      "movie:287778"
+    ],
+    "kind": "promo",
+    "note": "《只在那里发光》",
+    "photographer": "久保田司",
+    "pages": 16,
+    "xlsx_row": 267
+  },
+  {
+    "name": "SODA",
+    "publisher": "",
+    "cover_url": "475.jpg",
+    "issue_date": "2014-03-01",
+    "issue": "2014年3月号",
+    "works": [],
+    "xlsx_row": 268
+  },
+  {
+    "name": "+act mini",
+    "publisher": "",
+    "cover_url": "476.jpg",
+    "issue_date": "2014-01-29",
+    "issue": "Vol.24",
+    "works": [
+      "tv:85157"
+    ],
+    "kind": "promo",
+    "note": "《S-最后的警官-》",
+    "photographer": "sai",
+    "pages": 6,
+    "xlsx_row": 269
+  },
+  {
+    "name": "フィガロジャポン",
+    "publisher": "",
+    "cover_url": "477.jpg",
+    "issue_date": "2014-01-20",
+    "issue": "No.453",
+    "works": [],
+    "kind": "other",
+    "note": "FIGARO HOMME 与他的瞬间。vol.1",
+    "photographer": "TISCH",
+    "pages": 4,
+    "xlsx_row": 270
+  },
+  {
+    "name": "美ST",
+    "publisher": "",
+    "cover_url": "478.jpg",
+    "issue_date": "2014-03-01",
+    "issue": "2014年3月号",
+    "works": [],
+    "kind": "other",
+    "note": "斋藤薰的可阅读美容液",
+    "photographer": "中村和孝",
+    "pages": 4,
+    "xlsx_row": 271
+  },
+  {
+    "name": "週刊女性",
+    "publisher": "",
+    "cover_url": "479.jpg",
+    "issue_date": "2014-04-15",
+    "issue": "4/29号",
+    "works": [
+      "movie:287778"
+    ],
+    "kind": "promo",
+    "note": "《只在那里发光》",
+    "photographer": "伊藤和幸",
+    "pages": 2,
+    "xlsx_row": 273
+  },
+  {
+    "name": "CUT",
+    "publisher": "",
+    "cover_url": "480.jpg",
+    "issue_date": "2014-03-19",
+    "issue": "2014年4月号",
+    "works": [
+      "movie:253454"
+    ],
+    "kind": "promo",
+    "note": "《白雪公主杀人事件》",
+    "photographer": "高桥恭司",
+    "pages": 4,
+    "xlsx_row": 274
+  },
+  {
+    "name": "BARFOUT!",
+    "publisher": "",
+    "cover_url": "481.jpg",
+    "issue_date": "2014-03-19",
+    "issue": "Vol.223",
+    "works": [],
+    "kind": "other",
+    "note": "FEATURE",
+    "photographer": "原七郎",
+    "pages": 6,
+    "xlsx_row": 275
+  },
+  {
+    "name": "FLIX",
+    "publisher": "",
+    "cover_url": "482.jpg",
+    "issue_date": "2014-04-01",
+    "issue": "No.222",
+    "works": [
+      "movie:253454"
+    ],
+    "kind": "promo",
+    "note": "《白雪公主杀人事件》",
+    "photographer": "伊原正浩",
+    "pages": 4,
+    "xlsx_row": 276
+  },
+  {
+    "name": "LOCATION JAPAN",
+    "publisher": "",
+    "cover_url": "483.jpg",
+    "issue_date": "2014-03-15",
+    "issue": "No.62",
+    "works": [
+      "movie:253454"
+    ],
+    "kind": "promo",
+    "note": "《白雪公主杀人事件》",
+    "photographer": "安藤信之",
+    "pages": 6,
+    "xlsx_row": 277
+  },
+  {
+    "name": "TV Bros",
+    "publisher": "",
+    "cover_url": "484.jpg",
+    "issue_date": "2014-04-23",
+    "issue": "2014年4/26号",
+    "works": [
+      "tv:65528"
+    ],
+    "kind": "promo",
+    "note": "《漫长的告别》",
+    "xlsx_row": 278
+  },
+  {
+    "name": "TVガイド PERSON",
+    "publisher": "",
+    "cover_url": "485.jpg",
+    "issue_date": "2014-03-08",
+    "issue": "Vol.19",
+    "works": [],
+    "kind": "other",
+    "note": "Source of love",
+    "photographer": "本多晃子",
+    "pages": 11,
+    "xlsx_row": 279
+  },
+  {
+    "name": "キネマ旬報",
+    "publisher": "",
+    "cover_url": "486.jpg",
+    "issue_date": "2014-03-20",
+    "issue": "No.1659",
+    "works": [],
+    "kind": "other",
+    "note": "绫野刚，再一次",
+    "xlsx_row": 280
+  },
+  {
+    "name": "日本映画magazine",
+    "publisher": "",
+    "cover_url": "487.jpg",
+    "issue_date": "2014-03-26",
+    "issue": "Vol.39",
+    "works": [],
+    "kind": "other",
+    "note": "特辑",
+    "photographer": "荒木勇人",
+    "pages": 18,
+    "xlsx_row": 281
+  },
+  {
+    "name": "STAGE SQUARE",
+    "publisher": "",
+    "cover_url": "488.jpg",
+    "issue_date": "2014-04-26",
+    "issue": "Vol.8",
+    "works": [
+      "stage:9999978"
+    ],
+    "kind": "promo",
+    "note": "《太阳2068》 宣传单拍摄报道",
+    "xlsx_row": 282
+  },
+  {
+    "name": "CUT",
+    "publisher": "",
+    "cover_url": "489.jpg",
+    "issue_date": "2014-04-19",
+    "issue": "2014年5月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "金发 山田孝之对谈 黑白报道",
+    "photographer": "大森克己",
+    "pages": 4,
+    "xlsx_row": 283
+  },
+  {
+    "name": "Men's JOKER",
+    "publisher": "",
+    "cover_url": "490.jpg",
+    "issue_date": "2014-05-01",
+    "issue": "",
+    "works": [],
+    "photographer": "hirohisa nakano",
+    "pages": 3,
+    "xlsx_row": 284
+  },
+  {
+    "name": "ROLa",
+    "publisher": "",
+    "cover_url": "491.jpg",
+    "issue_date": "2014-05-01",
+    "issue": "2014年5月号",
+    "works": [],
+    "xlsx_row": 285
+  },
+  {
+    "name": "SODA",
+    "publisher": "",
+    "cover_url": "492.jpg",
+    "issue_date": "2014-05-01",
+    "issue": "2014年5月号",
+    "works": [],
+    "kind": "other",
+    "note": "献给作品的热情",
+    "photographer": "京介",
+    "pages": 6,
+    "xlsx_row": 286
+  },
+  {
+    "name": "食べようび",
+    "publisher": "",
+    "cover_url": "493.jpg",
+    "issue_date": "2014-05-01",
+    "issue": "2014年5月号",
+    "works": [],
+    "kind": "other",
+    "note": "和那个人聊吃饭",
+    "xlsx_row": 287
+  },
+  {
+    "name": "日本映画magazine",
+    "publisher": "",
+    "cover_url": "494.jpg",
+    "issue_date": "2014-03-26",
+    "issue": "Vol.41",
+    "works": [
+      "movie:262650"
+    ],
+    "kind": "promo",
+    "note": "《新宿天鹅》",
+    "xlsx_row": 288
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "495.jpg",
+    "issue_date": "2014-03-26",
+    "issue": "2014年5月号",
+    "works": [
+      "movie:253454",
+      "movie:287778"
+    ],
+    "kind": "promo",
+    "note": "《白雪公主杀人事件》·《只在那里发光》",
+    "pages": 6,
+    "xlsx_row": 289
+  },
+  {
+    "name": "MAQUIA",
+    "publisher": "",
+    "cover_url": "496.jpg",
+    "issue_date": "2014-05-01",
+    "issue": "2014年5月号",
+    "works": [
+      "movie:287778"
+    ],
+    "kind": "promo",
+    "note": "《只在那里发光》",
+    "xlsx_row": 290
+  },
+  {
+    "name": "VOCE",
+    "publisher": "",
+    "cover_url": "497.jpg",
+    "issue_date": "2014-03-22",
+    "issue": "2014年5月号",
+    "works": [],
+    "kind": "other",
+    "note": "「关于爱」",
+    "xlsx_row": 292
+  },
+  {
+    "name": "Lips",
+    "publisher": "",
+    "cover_url": "498.jpg",
+    "issue_date": "2014-05-01",
+    "issue": "2014年5月号",
+    "works": [
+      "movie:287778"
+    ],
+    "kind": "promo",
+    "note": "《只在那里发光》",
+    "photographer": "宫坂浩见",
+    "pages": 5,
+    "xlsx_row": 293
+  },
+  {
+    "name": "With",
+    "publisher": "",
+    "cover_url": "499.jpg",
+    "issue_date": "2014-03-26",
+    "issue": "5月号",
+    "works": [
+      "movie:253454"
+    ],
+    "kind": "promo",
+    "note": "《白雪公主杀人事件》",
+    "xlsx_row": 294
+  },
+  {
+    "name": "FLIX plus",
+    "publisher": "",
+    "cover_url": "500.jpg",
+    "issue_date": "2014-05-01",
+    "issue": "Vol.14",
+    "works": [
+      "movie:287778"
+    ],
+    "kind": "promo",
+    "note": "《只在那里发光》",
+    "photographer": "平岩享",
+    "pages": 6,
+    "xlsx_row": 296
+  },
+  {
+    "name": "JUNON",
+    "publisher": "",
+    "cover_url": "501.jpg",
+    "issue_date": "2014-03-23",
+    "issue": "2014年5月号",
+    "works": [],
+    "kind": "other",
+    "note": "全力的爱",
+    "photographer": "宅间国博",
+    "pages": 5,
+    "xlsx_row": 297
+  },
+  {
+    "name": "SWITCH",
+    "publisher": "",
+    "cover_url": "502.jpg",
+    "issue_date": "2014-04-20",
+    "issue": "Vol.32 No.5",
+    "works": [],
+    "kind": "dialogue",
+    "note": "山田孝之×绫野刚",
+    "photographer": "takayanagi satoru",
+    "pages": 3,
+    "xlsx_row": 298
+  },
+  {
+    "name": "BAILA",
+    "publisher": "",
+    "cover_url": "503.jpg",
+    "issue_date": "2014-05-02",
+    "issue": "2014年5月号",
+    "works": [],
+    "kind": "ad",
+    "note": "书店员 广告",
+    "xlsx_row": 291
+  },
+  {
+    "name": "BAILA",
+    "publisher": "",
+    "cover_url": "505.jpg",
+    "issue_date": "2014-06-01",
+    "issue": "2014年6月号",
+    "works": [],
+    "kind": "ad",
+    "note": "书店员 广告报道",
+    "xlsx_row": 299
+  },
+  {
+    "name": "marisol",
+    "publisher": "",
+    "cover_url": "506.jpg",
+    "issue_date": "2014-06-01",
+    "issue": "2014年6月号",
+    "works": [],
+    "kind": "other",
+    "note": "限定年下！Marisol Homme",
+    "photographer": "moriyama jo",
+    "pages": 2,
+    "xlsx_row": 300
+  },
+  {
+    "name": "smart",
+    "publisher": "",
+    "cover_url": "507.jpg",
+    "issue_date": "2014-06-01",
+    "issue": "2014年6月号",
+    "works": [
+      "movie:287778"
+    ],
+    "kind": "promo",
+    "note": "《只在那里发光》",
+    "photographer": "石井文仁",
+    "pages": 3,
+    "xlsx_row": 301
+  },
+  {
+    "name": "Tarzan",
+    "publisher": "",
+    "cover_url": "508.jpg",
+    "issue_date": "2014-06-12",
+    "issue": "6/26号",
+    "works": [],
+    "kind": "other",
+    "note": "Do you TARZAN?",
+    "photographer": "山本光男",
+    "pages": 2,
+    "xlsx_row": 302
+  },
+  {
+    "name": "週刊女性",
+    "publisher": "",
+    "cover_url": "509.jpg",
+    "issue_date": "2014-06-17",
+    "issue": "7/1号",
+    "works": [
+      "stage:9999978"
+    ],
+    "kind": "promo",
+    "note": "《太阳2068》 绫野刚×成宫宽贵",
+    "photographer": "广濑靖士",
+    "pages": 2,
+    "xlsx_row": 304
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "510.jpg",
+    "issue_date": "2014-05-27",
+    "issue": "Vol.51",
+    "works": [
+      "stage:9999978"
+    ],
+    "kind": "promo",
+    "note": "《太阳2068》 拍摄现场报道 连载",
+    "photographer": "浦田大作",
+    "pages": 6,
+    "xlsx_row": 305
+  },
+  {
+    "name": "acteur",
+    "publisher": "",
+    "cover_url": "511.jpg",
+    "issue_date": "2014-07-01",
+    "issue": "No.42",
+    "works": [
+      "stage:9999978"
+    ],
+    "kind": "promo",
+    "note": "《太阳2068》 蓬松金发",
+    "photographer": "铃木裕介",
+    "pages": 4,
+    "xlsx_row": 306
+  },
+  {
+    "name": "cinema★cinema",
+    "publisher": "",
+    "cover_url": "512.jpg",
+    "issue_date": "2014-07-19",
+    "issue": "No.51",
+    "works": [
+      "stage:9999978"
+    ],
+    "kind": "promo",
+    "note": "《太阳2068》 蓬松金发",
+    "photographer": "kazuko tanaka",
+    "pages": 6,
+    "xlsx_row": 307
+  },
+  {
+    "name": "CINEMA SQUARE",
+    "publisher": "",
+    "cover_url": "513.jpg",
+    "issue_date": "2014-07-17",
+    "issue": "Vol.64",
+    "works": [
+      "movie:241868"
+    ],
+    "kind": "promo",
+    "note": "《鲁邦三世》",
+    "photographer": "秋仓康介",
+    "pages": 8,
+    "xlsx_row": 308
+  },
+  {
+    "name": "CM NOW boys",
+    "publisher": "",
+    "cover_url": "514.jpg",
+    "issue_date": "2014-07-16",
+    "issue": "Vol.4",
+    "works": [],
+    "kind": "other",
+    "note": "DUDA",
+    "photographer": "中场敏博",
+    "xlsx_row": 309
+  },
+  {
+    "name": "週刊朝日",
+    "publisher": "",
+    "cover_url": "515.jpg",
+    "issue_date": "2014-07-01",
+    "issue": "7/11号",
+    "works": [
+      "stage:9999978"
+    ],
+    "kind": "promo",
+    "note": "停不下来的男人  《太阳2068》",
+    "photographer": "马场道浩",
+    "pages": 3,
+    "xlsx_row": 310
+  },
+  {
+    "name": "saita",
+    "publisher": "",
+    "cover_url": "516.jpg",
+    "issue_date": "2014-07-01",
+    "issue": "2014年7月号",
+    "works": [
+      "stage:9999978"
+    ],
+    "kind": "promo",
+    "note": "《太阳2068》 蓬松金发",
+    "photographer": "宫坂浩见",
+    "pages": 4,
+    "xlsx_row": 311
+  },
+  {
+    "name": "小説 野性時代",
+    "publisher": "",
+    "cover_url": "517.jpg",
+    "issue_date": "2014-07-11",
+    "issue": "No.129"
+  },
+  {
+    "name": "リンネル",
+    "publisher": "",
+    "cover_url": "518.jpg",
+    "issue_date": "2014-06-20",
+    "issue": "8月号",
+    "works": [
+      "stage:9999978"
+    ],
+    "kind": "promo",
+    "note": "《太阳2068》 蓬松金发",
+    "photographer": "天野良子",
+    "pages": 2,
+    "xlsx_row": 314
+  },
+  {
+    "name": "レジェンドJUNON",
+    "publisher": "",
+    "cover_url": "519.jpg",
+    "issue_date": "2014-06-28",
+    "issue": "2014",
+    "works": [
+      "stage:9999978"
+    ],
+    "kind": "promo",
+    "note": "《太阳2068》 蓬松金发",
+    "photographer": "Arai Tetsuya",
+    "pages": 10,
+    "xlsx_row": 313
+  },
+  {
+    "name": "シアターガイド",
+    "publisher": "",
+    "cover_url": "520.jpg",
+    "issue_date": "2014-08-01",
+    "issue": "2014年8月号",
+    "works": [
+      "stage:9999978"
+    ],
+    "kind": "promo",
+    "note": "《太阳2068》",
+    "xlsx_row": 315
+  },
+  {
+    "name": "日本映画magazine",
+    "publisher": "",
+    "cover_url": "521.jpg",
+    "issue_date": "2014-08-26",
+    "issue": "Vol.44",
+    "works": [
+      "movie:241868"
+    ],
+    "kind": "promo",
+    "note": "《鲁邦三世》",
+    "xlsx_row": 316
+  },
+  {
+    "name": "CUT",
+    "publisher": "",
+    "cover_url": "522.jpg",
+    "issue_date": "2014-08-19",
+    "issue": "2014年9月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "绫野刚×吉井和哉",
+    "photographer": "Mitch IKEDA",
+    "pages": 6,
+    "xlsx_row": 317
+  },
+  {
+    "name": "Men's JOKER",
+    "publisher": "",
+    "cover_url": "523.jpg",
+    "issue_date": "2014-09-01",
+    "issue": "2014年9月号",
+    "works": [
+      "movie:241868"
+    ],
+    "kind": "promo",
+    "note": "《鲁邦三世》",
+    "photographer": "junji ishiguro",
+    "pages": 2,
+    "xlsx_row": 318
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "524.jpg",
+    "issue_date": "2014-07-26",
+    "issue": "2014年9月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "小栗旬×绫野刚",
+    "photographer": "sai",
+    "pages": 14,
+    "xlsx_row": 319
+  },
+  {
+    "name": "+act mini",
+    "publisher": "",
+    "cover_url": "525.jpg",
+    "issue_date": "2014-10-01",
+    "issue": "Vol.27",
+    "works": [
+      "tv:66187"
+    ],
+    "kind": "promo",
+    "note": "《全部成为F》 拍摄现场报道",
+    "pages": 2,
+    "xlsx_row": 320
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "526.jpg",
+    "issue_date": "2014-09-27",
+    "issue": "Vol.54",
+    "works": [
+      "tv:66187"
+    ],
+    "kind": "promo",
+    "note": "《全部成为F》",
+    "photographer": "铃木Sayuri",
+    "pages": 4,
+    "xlsx_row": 321
+  },
+  {
+    "name": "週刊女性",
+    "publisher": "",
+    "cover_url": "527.jpg",
+    "issue_date": "2014-10-21",
+    "issue": "11/4号",
+    "works": [
+      "tv:66187"
+    ],
+    "kind": "promo",
+    "note": "《全部成为F》",
+    "photographer": "伊藤和幸",
+    "pages": 2,
+    "xlsx_row": 322
+  },
+  {
+    "name": "CM NOW",
+    "publisher": "",
+    "cover_url": "528.jpg",
+    "issue_date": "2014-11-01",
+    "issue": "Vol.171",
+    "works": [],
+    "kind": "other",
+    "note": "文春文库 秋季100册书展",
+    "xlsx_row": 323
+  },
+  {
+    "name": "TV LIFE g",
+    "publisher": "",
+    "cover_url": "529.jpg",
+    "issue_date": "2014-11-13",
+    "issue": "Vol.2",
+    "works": [
+      "tv:66187"
+    ],
+    "kind": "promo",
+    "note": "《全部成为F》",
+    "photographer": "小泽正朗",
+    "pages": 6,
+    "xlsx_row": 324
+  },
+  {
+    "name": "ザテレビジョンZoom",
+    "publisher": "",
+    "cover_url": "530.jpg",
+    "issue_date": "2014-10-03",
+    "issue": "Vol.18",
+    "works": [
+      "tv:66187"
+    ],
+    "kind": "promo",
+    "note": "《全部成为F》",
+    "photographer": "西村康",
+    "pages": 3,
+    "xlsx_row": 325
+  },
+  {
+    "name": "TVfan cross",
+    "publisher": "",
+    "cover_url": "531.jpg",
+    "issue_date": "2017-04-01",
+    "issue": "Vol.22"
+  },
+  {
+    "name": "CamCam　付録",
+    "publisher": "",
+    "cover_url": "532.jpg",
+    "issue_date": "2014-12-01",
+    "issue": "2014年12月号",
+    "works": [],
+    "kind": "other",
+    "note": "帅哥BOOK（犀川老师",
+    "xlsx_row": 327
+  },
+  {
+    "name": "LOADED",
+    "publisher": "",
+    "cover_url": "533.jpg",
+    "issue_date": "2014-12-01",
+    "issue": "Vol.18",
+    "works": [],
+    "kind": "other",
+    "note": "千手大人",
+    "photographer": "shiro katagiri",
+    "pages": 4,
+    "xlsx_row": 328
+  },
+  {
+    "name": "TVガイド PERSON",
+    "publisher": "",
+    "cover_url": "534.jpg",
+    "issue_date": "2014-11-08",
+    "issue": "Vol.27",
+    "works": [],
+    "kind": "other",
+    "note": "Ecliose（犀川老师",
+    "photographer": "佐藤佑一",
+    "pages": 10,
+    "xlsx_row": 329
+  },
+  {
+    "name": "Numero TOKYO",
+    "publisher": "",
+    "cover_url": "535.jpg",
+    "issue_date": "2014-10-28",
+    "issue": "No.82",
+    "works": [],
+    "kind": "other",
+    "note": "契机就是这个",
+    "xlsx_row": 330
+  },
+  {
+    "name": "cinema★cinema",
+    "publisher": "",
+    "cover_url": "536.jpg",
+    "issue_date": "2014-12-16",
+    "issue": "No.54",
+    "works": [
+      "movie:314833"
+    ],
+    "kind": "promo",
+    "note": "拍摄现场速报（《Piece of Cake》）",
+    "xlsx_row": 331
+  },
+  {
+    "name": "キネマ旬報",
+    "publisher": "",
+    "cover_url": "537.jpg",
+    "issue_date": "2015-02-05",
+    "issue": "No.1682",
+    "works": [],
+    "kind": "other",
+    "note": "电影旬报十佳",
+    "xlsx_row": 332
+  },
+  {
+    "name": "ダ・ヴィンチ",
+    "publisher": "",
+    "cover_url": "538.jpg",
+    "issue_date": "2015-01-06",
+    "issue": "2015年2月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "绫野刚×中村文则",
+    "xlsx_row": 333
+  },
+  {
+    "name": "FLIX",
+    "publisher": "",
+    "cover_url": "539.jpg",
+    "issue_date": "2015-02-01",
+    "issue": "No.227",
+    "works": [
+      "movie:314833"
+    ],
+    "kind": "promo",
+    "note": "《Piece of Cake》拍摄现场报道",
+    "xlsx_row": 334
+  },
+  {
+    "name": "CM NOW",
+    "publisher": "",
+    "cover_url": "540.jpg",
+    "issue_date": "2015-02-10",
+    "issue": "No.173",
+    "works": [],
+    "kind": "ad",
+    "note": "浓榨（KOKUSHIBORI）广告",
+    "xlsx_row": 335
+  },
+  {
+    "name": "acteur",
+    "publisher": "",
+    "cover_url": "541.jpg",
+    "issue_date": "2015-03-01",
+    "issue": "No.46",
+    "works": [],
+    "kind": "other",
+    "note": "电影旬报十佳",
+    "photographer": "平岩亨",
+    "pages": 5,
+    "xlsx_row": 336
+  },
+  {
+    "name": "CM NOW boys",
+    "publisher": "",
+    "cover_url": "542.jpg",
+    "issue_date": "2015-03-28",
+    "issue": "vol.5",
+    "works": [],
+    "kind": "ad",
+    "note": "MINTIA 新广告跟拍报道",
+    "photographer": "中村敏博",
+    "pages": 6,
+    "xlsx_row": 337
+  },
+  {
+    "name": "CINEMA SQUARE",
+    "publisher": "",
+    "cover_url": "543.jpg",
+    "issue_date": "2015-04-14",
+    "issue": "Vol.73",
+    "works": [
+      "movie:262650"
+    ],
+    "kind": "promo",
+    "note": "《新宿天鹅》 绫野刚×伊势谷友介",
+    "xlsx_row": 338
+  },
+  {
+    "name": "Screen+",
+    "publisher": "",
+    "cover_url": "544.jpg",
+    "issue_date": "2015-04-28",
+    "issue": "vol.50",
+    "works": [],
+    "kind": "dialogue",
+    "note": "绫野刚×伊势谷友介×园子温导演",
+    "photographer": "久保田司",
+    "pages": 12,
+    "xlsx_row": 339
+  },
+  {
+    "name": "PICT-UP",
+    "publisher": "",
+    "cover_url": "545.jpg",
+    "issue_date": "2015-04-18",
+    "issue": "94",
+    "works": [
+      "movie:262650"
+    ],
+    "kind": "promo",
+    "note": "《新宿天鹅》",
+    "photographer": "下田直树",
+    "pages": 5,
+    "xlsx_row": 340
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "546.jpg",
+    "issue_date": "2015-03-27",
+    "issue": "2015年5月号",
+    "works": [],
+    "kind": "other",
+    "note": "向梦想彼方的告白。",
+    "photographer": "sai",
+    "pages": 16,
+    "xlsx_row": 341
+  },
+  {
+    "name": "BARFOUT!",
+    "publisher": "",
+    "cover_url": "547.jpg",
+    "issue_date": "2015-05-21",
+    "issue": "Vol.237",
+    "works": [
+      "movie:262650"
+    ],
+    "kind": "promo",
+    "note": "《新宿天鹅》报道（千手大人）",
+    "photographer": "SATOSHI SAIKUSA",
+    "pages": 16,
+    "xlsx_row": 342
+  },
+  {
+    "name": "Clubism",
+    "publisher": "",
+    "cover_url": "548.jpg",
+    "issue_date": "2015-05-01",
+    "issue": "2015年5月号",
+    "works": [
+      "movie:262650"
+    ],
+    "kind": "promo",
+    "note": "《新宿天鹅》",
+    "xlsx_row": 343
+  },
+  {
+    "name": "キネマ旬報",
+    "publisher": "",
+    "cover_url": "549.jpg",
+    "issue_date": "2015-05-02",
+    "issue": "No.1688",
+    "works": [],
+    "kind": "other",
+    "note": "绫野刚的后来",
+    "photographer": "冈本武志",
+    "xlsx_row": 344
+  },
+  {
+    "name": "日本映画magazine",
+    "publisher": "",
+    "cover_url": "550.jpg",
+    "issue_date": "2015-04-14",
+    "issue": "Vol.52",
+    "works": [
+      "movie:262650"
+    ],
+    "kind": "promo",
+    "note": "《新宿天鹅》",
+    "xlsx_row": 345
+  },
+  {
+    "name": "日本映画navi",
+    "publisher": "",
+    "cover_url": "551.jpg",
+    "issue_date": "2015-05-09",
+    "issue": "vol.57",
+    "works": [],
+    "xlsx_row": 346
+  },
+  {
+    "name": "cinema★cinema",
+    "publisher": "",
+    "cover_url": "552.jpg",
+    "issue_date": "2015-05-14",
+    "issue": "No.57",
+    "works": [
+      "movie:262650"
+    ],
+    "kind": "promo",
+    "note": "《新宿天鹅》",
+    "xlsx_row": 347
+  },
+  {
+    "name": "CINEMA SQUARE",
+    "publisher": "",
+    "cover_url": "553.jpg",
+    "issue_date": "2015-06-19",
+    "issue": "Vol.75",
+    "works": [
+      "movie:408842",
+      "movie:408843"
+    ],
+    "kind": "promo",
+    "note": "向井理×绫野刚、《64》",
+    "xlsx_row": 348
+  },
+  {
+    "name": "BAILA",
+    "publisher": "",
+    "cover_url": "554.jpg",
+    "issue_date": "2015-06-01",
+    "issue": "2015年6月号",
+    "works": [
+      "movie:262650"
+    ],
+    "kind": "promo",
+    "note": "男人的强大，男人的温柔  《新宿天鹅》",
+    "photographer": "酒井贵生",
+    "pages": 2,
+    "xlsx_row": 349
+  },
+  {
+    "name": "InRed",
+    "publisher": "",
+    "cover_url": "555.jpg",
+    "issue_date": "2015-05-07",
+    "issue": "2015年6月号",
+    "works": [
+      "movie:262650"
+    ],
+    "kind": "promo",
+    "note": "men's holiday vol.48  《新宿天鹅》",
+    "photographer": "KENTA AMINAKA",
+    "pages": 2,
+    "xlsx_row": 350
+  },
+  {
+    "name": "With",
+    "publisher": "",
+    "cover_url": "556.jpg",
+    "issue_date": "2015-04-28",
+    "issue": "6月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "绫野刚×Forevermark永恒印记",
+    "photographer": "中川真人",
+    "pages": 4,
+    "xlsx_row": 351
+  },
+  {
+    "name": "25ans",
+    "publisher": "",
+    "cover_url": "557.jpg",
+    "issue_date": "2015-04-28",
+    "issue": "6月号",
+    "works": [
+      "movie:262650"
+    ],
+    "kind": "promo",
+    "note": "《新宿天鹅》 绫野刚×泽尻英龙华×伊势谷友介",
+    "photographer": "AKIHITO IGARASHI",
+    "pages": 5,
+    "xlsx_row": 352
+  },
+  {
+    "name": "CREA",
+    "publisher": "",
+    "cover_url": "558.jpg",
+    "issue_date": "2015-06-01",
+    "issue": "2015年6月号",
+    "works": [
+      "movie:262650"
+    ],
+    "kind": "promo",
+    "note": "熬夜生活×绫野刚  《新宿天鹅》",
+    "photographer": "isao hashinoki",
+    "pages": 2,
+    "xlsx_row": 353
+  },
+  {
+    "name": "CUT",
+    "publisher": "",
+    "cover_url": "559.jpg",
+    "issue_date": "2015-05-19",
+    "issue": "2015年6月号",
+    "works": [
+      "movie:262650"
+    ],
+    "kind": "promo",
+    "note": "《新宿天鹅》",
+    "photographer": "平间至",
+    "pages": 6,
+    "xlsx_row": 354
+  },
+  {
+    "name": "FLIX",
+    "publisher": "",
+    "cover_url": "560.jpg",
+    "issue_date": "2015-06-01",
+    "issue": "No.229",
+    "works": [
+      "movie:262650"
+    ],
+    "kind": "promo",
+    "note": "《新宿天鹅》",
+    "photographer": "森崎纯子",
+    "pages": 4,
+    "xlsx_row": 355
+  },
+  {
+    "name": "FRaU",
+    "publisher": "",
+    "cover_url": "561.jpg",
+    "issue_date": "2015-05-12",
+    "issue": "No.482",
+    "works": [
+      "movie:262650"
+    ],
+    "kind": "promo",
+    "note": "《新宿天鹅》",
+    "photographer": "SASU TEI",
+    "pages": 2,
+    "xlsx_row": 356
+  },
+  {
+    "name": "Hanako",
+    "publisher": "",
+    "cover_url": "562.jpg",
+    "issue_date": "2015-05-28",
+    "issue": "6/11号",
+    "works": [],
+    "xlsx_row": 357
+  },
+  {
+    "name": "パピルス",
+    "publisher": "",
+    "cover_url": "563.jpg",
+    "issue_date": "2015-06-01",
+    "issue": "Vol.60",
+    "works": [],
+    "xlsx_row": 358
+  },
+  {
+    "name": "Men's JOKER",
+    "publisher": "",
+    "cover_url": "564.jpg",
+    "issue_date": "2015-06-01",
+    "issue": "2015年6月号",
+    "works": [],
+    "pages": 4,
+    "xlsx_row": 360
+  },
+  {
+    "name": "Audition",
+    "publisher": "",
+    "cover_url": "565.jpg",
+    "issue_date": "2015-06-01",
+    "issue": "2015年6月号",
+    "works": [],
+    "kind": "other",
+    "note": "封面特辑",
+    "photographer": "藤本和典",
+    "pages": 4,
+    "xlsx_row": 361
+  },
+  {
+    "name": "Rolling Stone",
+    "publisher": "",
+    "cover_url": "566.jpg",
+    "issue_date": "2015-05-09",
+    "issue": "6月号",
+    "works": [],
+    "kind": "other",
+    "note": "烟雾缭绕的表现者们",
+    "photographer": "Maciej Kucia",
+    "pages": 4,
+    "xlsx_row": 362
+  },
+  {
+    "name": "RUDO",
+    "publisher": "",
+    "cover_url": "567.jpg",
+    "issue_date": "2015-06-02",
+    "issue": "2015年6月号",
+    "works": [],
+    "xlsx_row": 359
+  },
+  {
+    "name": "SODA",
+    "publisher": "",
+    "cover_url": "568.jpg",
+    "issue_date": "2015-07-01",
+    "issue": "2015年7月号",
+    "works": [
+      "movie:262650"
+    ],
+    "kind": "promo",
+    "note": "不断更新的日子 《新宿天鹅》",
+    "photographer": "山田大辅",
+    "pages": 6,
+    "xlsx_row": 363
+  },
+  {
+    "name": "ザテレビジョンCOLORS",
+    "publisher": "",
+    "cover_url": "569.jpg",
+    "issue_date": "2015-07-31",
+    "issue": "PINK",
+    "works": [],
+    "kind": "dialogue",
+    "note": "向井理×绫野刚",
+    "photographer": "荒木勇人",
+    "pages": 10,
+    "xlsx_row": 364
+  },
+  {
+    "name": "MORE",
+    "publisher": "",
+    "cover_url": "570.jpg",
+    "issue_date": "2015-07-01",
+    "issue": "2015年7月号",
+    "works": [
+      "movie:262650"
+    ],
+    "kind": "promo",
+    "note": "《新宿天鹅》 伊势谷友介×绫野刚",
+    "pages": 2,
+    "xlsx_row": 365
+  },
+  {
+    "name": "With",
+    "publisher": "",
+    "cover_url": "571.jpg",
+    "issue_date": "2015-07-01",
+    "issue": "2015年7月号",
+    "works": [
+      "movie:262650"
+    ],
+    "kind": "promo",
+    "note": "《新宿天鹅》 伊势谷友介×绫野刚",
+    "photographer": "中川真人",
+    "pages": 2,
+    "xlsx_row": 366
+  },
+  {
+    "name": "CanCam",
+    "publisher": "",
+    "cover_url": "572.jpg",
+    "issue_date": "2015-05-23",
+    "issue": "7月号",
+    "works": [
+      "movie:262650"
+    ],
+    "kind": "promo",
+    "note": "《新宿天鹅》 伊势谷友介×绫野刚",
+    "xlsx_row": 367
+  },
+  {
+    "name": "GOLD",
+    "publisher": "",
+    "cover_url": "573.jpg",
+    "issue_date": "2015-06-05",
+    "issue": "7月号",
+    "works": [],
+    "xlsx_row": 368
+  },
+  {
+    "name": "GLOW",
+    "publisher": "",
+    "cover_url": "574.jpg",
+    "issue_date": "2015-05-28",
+    "issue": "7月号",
+    "works": [
+      "movie:262650"
+    ],
+    "kind": "promo",
+    "note": "男子写真馆 《新宿天鹅》",
+    "photographer": "sai",
+    "pages": 2,
+    "xlsx_row": 369
+  },
+  {
+    "name": "美ST",
+    "publisher": "",
+    "cover_url": "575.jpg",
+    "issue_date": "2015-05-16",
+    "issue": "7月号",
+    "works": [],
+    "xlsx_row": 370
+  },
+  {
+    "name": "J Movie Magazine",
+    "publisher": "",
+    "cover_url": "576.jpg",
+    "issue_date": "2015-08-19",
+    "issue": "Vol.2",
+    "works": [],
+    "kind": "dialogue",
+    "note": "向井理×绫野刚",
+    "xlsx_row": 371
+  },
+  {
+    "name": "CUT",
+    "publisher": "",
+    "cover_url": "577.jpg",
+    "issue_date": "2015-08-19",
+    "issue": "2015年9月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "向井理×绫野刚",
+    "pages": 6,
+    "xlsx_row": 372
+  },
+  {
+    "name": "ROLA",
+    "publisher": "",
+    "cover_url": "578.jpg",
+    "issue_date": "2015-09-01",
+    "issue": "2015年9月号",
+    "works": [],
+    "xlsx_row": 373
+  },
+  {
+    "name": "SODA",
+    "publisher": "",
+    "cover_url": "579.jpg",
+    "issue_date": "2015-07-23",
+    "issue": "9月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "向井理×绫野刚",
+    "photographer": "平岩亨",
+    "pages": 6,
+    "xlsx_row": 375
+  },
+  {
+    "name": "ザテレビジョンCOLORS",
+    "publisher": "",
+    "cover_url": "580.jpg",
+    "issue_date": "2015-09-23",
+    "issue": "BLACK&WHITE",
+    "works": [],
+    "kind": "other",
+    "note": "挑战妇产科医生！绫野刚 ",
+    "photographer": "佐藤学",
+    "pages": 7,
+    "xlsx_row": 374
+  },
+  {
+    "name": "Screen+",
+    "publisher": "",
+    "cover_url": "581.jpg",
+    "issue_date": "2015-09-28",
+    "issue": "Vol.52",
+    "works": [],
+    "kind": "dialogue",
+    "note": "多部未华子×绫野刚",
+    "photographer": "渡边光",
+    "pages": 7,
+    "xlsx_row": 376
+  },
+  {
+    "name": "non-no",
+    "publisher": "",
+    "cover_url": "582.jpg",
+    "issue_date": "2015-08-20",
+    "issue": "2015年10月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "多部未华子×绫野刚",
+    "xlsx_row": 377
+  },
+  {
+    "name": "Oggi",
+    "publisher": "",
+    "cover_url": "583.jpg",
+    "issue_date": "2015-08-28",
+    "issue": "2015年10月号",
+    "works": [
+      "movie:372821"
+    ],
+    "kind": "promo",
+    "note": "现在想问这个人（单人） 电影《S》",
+    "pages": 4,
+    "xlsx_row": 378
+  },
+  {
+    "name": "PICT-UP",
+    "publisher": "",
+    "cover_url": "584.jpg",
+    "issue_date": "2015-10-01",
+    "issue": "No.96",
+    "works": [],
+    "kind": "dialogue",
+    "note": "向井理×绫野刚",
+    "photographer": "南阿沙美",
+    "pages": 6,
+    "xlsx_row": 379
+  },
+  {
+    "name": "厚生労働",
+    "publisher": "",
+    "cover_url": "585.jpg",
+    "issue_date": "2015-10-01",
+    "issue": "10月号",
+    "works": [
+      "tv:64649"
+    ],
+    "kind": "promo",
+    "note": "《产科医鸿鸟》",
+    "xlsx_row": 380
+  },
+  {
+    "name": "TVfan cross",
+    "publisher": "",
+    "cover_url": "586.jpg",
+    "issue_date": "2015-10-02",
+    "issue": "Vol.16",
+    "works": [
+      "tv:64649"
+    ],
+    "kind": "promo",
+    "note": "《产科医鸿鸟》",
+    "photographer": "Kay N",
+    "pages": 5,
+    "xlsx_row": 381
+  },
+  {
+    "name": "AJ",
+    "publisher": "",
+    "cover_url": "587.jpg",
+    "issue_date": "2015-11-01",
+    "issue": "Vol.09",
+    "works": [
+      "tv:64649"
+    ],
+    "kind": "promo",
+    "note": "《产科医鸿鸟》",
+    "photographer": "Arai Tetsuya",
+    "pages": 11,
+    "xlsx_row": 382
+  },
+  {
+    "name": "赤すぐ",
+    "publisher": "",
+    "cover_url": "588.jpg",
+    "issue_date": "2015-11-01",
+    "issue": " 2015年11月号",
+    "works": [
+      "tv:64649"
+    ],
+    "kind": "promo",
+    "note": "《产科医鸿鸟》",
+    "xlsx_row": 383
+  },
+  {
+    "name": "Omosan STREET",
+    "publisher": "",
+    "cover_url": "589.jpg",
+    "issue_date": "2016-06-11",
+    "issue": "Vol.43",
+    "works": [
+      "movie:400969"
+    ],
+    "kind": "promo",
+    "note": "《日本最坏的家伙们》",
+    "xlsx_row": 395
+  },
+  {
+    "name": "ぴあ Movie Special",
+    "publisher": "",
+    "cover_url": "590.jpg",
+    "issue_date": "2016-06-01",
+    "issue": "2016年夏",
+    "works": [
+      "movie:400969"
+    ],
+    "kind": "promo",
+    "note": "《日本最坏的家伙们》",
+    "photographer": "金井",
+    "pages": 5,
+    "xlsx_row": 396
+  },
+  {
+    "name": "NHKステラウィークリー",
+    "publisher": "",
+    "cover_url": "591.jpg",
+    "issue_date": "2016-02-01",
+    "issue": "2/22号",
+    "works": [
+      "tv:46077"
+    ],
+    "kind": "promo",
+    "note": "《八重之樱》",
+    "xlsx_row": 384
+  },
+  {
+    "name": "Screen+",
+    "publisher": "",
+    "cover_url": "592.jpg",
+    "issue_date": "2016-04-22",
+    "issue": "Vol.55",
+    "works": [
+      "movie:408842",
+      "movie:408843"
+    ],
+    "kind": "promo",
+    "note": "《64》",
+    "photographer": "渡边光",
+    "pages": 3,
+    "xlsx_row": 385
+  },
+  {
+    "name": "CUT",
+    "publisher": "",
+    "cover_url": "593.jpg",
+    "issue_date": "2016-03-19",
+    "issue": "2016年4月号",
+    "works": [
+      "movie:400969"
+    ],
+    "kind": "promo",
+    "note": "《日本最坏的家伙们》",
+    "xlsx_row": 386
+  },
+  {
+    "name": "J Movie Magazine",
+    "publisher": "",
+    "cover_url": "594.jpg",
+    "issue_date": "2016-05-13",
+    "issue": "Vol.11",
+    "works": [
+      "movie:408842",
+      "movie:408843"
+    ],
+    "kind": "promo",
+    "note": "《64》",
+    "xlsx_row": 387
+  },
+  {
+    "name": "FREECELL",
+    "publisher": "",
+    "cover_url": "595.jpg",
+    "issue_date": "2016-05-31",
+    "issue": "vol.20",
+    "works": [
+      "movie:400969"
+    ],
+    "kind": "promo",
+    "note": "《日本最坏的家伙们》 拍摄现场报道",
+    "xlsx_row": 388
+  },
+  {
+    "name": "AERA",
+    "publisher": "",
+    "cover_url": "596.jpg",
+    "issue_date": "2016-06-01",
+    "issue": "2016年6/27号",
+    "works": [
+      "movie:400969"
+    ],
+    "kind": "promo",
+    "note": "《日本最坏的家伙们》",
+    "xlsx_row": 389
+  },
+  {
+    "name": "J Movie Magazine",
+    "publisher": "",
+    "cover_url": "597.jpg",
+    "issue_date": "2016-06-13",
+    "issue": "Vol.12",
+    "works": [
+      "movie:400969"
+    ],
+    "kind": "promo",
+    "note": "《日本最坏的家伙们》",
+    "xlsx_row": 390
+  },
+  {
+    "name": "TVガイド PERSON",
+    "publisher": "",
+    "cover_url": "598.jpg",
+    "issue_date": "2016-06-01",
+    "issue": "Vol.46",
+    "works": [],
+    "kind": "other",
+    "note": "在没有道德的世界里，故弄玄虚。",
+    "photographer": "蒂姆·加洛",
+    "pages": 10,
+    "xlsx_row": 391
+  },
+  {
+    "name": "キネマ旬報",
+    "publisher": "",
+    "cover_url": "599.jpg",
+    "issue_date": "2016-06-03",
+    "issue": "No.1718",
+    "works": [
+      "movie:400969"
+    ],
+    "kind": "promo",
+    "note": "《日本最坏的家伙们》 白石和弥×绫野刚",
+    "photographer": "冈本武志",
+    "pages": 9,
+    "xlsx_row": 392
+  },
+  {
+    "name": "婦人公論",
+    "publisher": "",
+    "cover_url": "600.jpg",
+    "issue_date": "2016-06-14",
+    "issue": "6/28号",
+    "works": [
+      "movie:400969"
+    ],
+    "kind": "promo",
+    "note": "《日本最坏的家伙们》",
+    "xlsx_row": 393
+  },
+  {
+    "name": "cinema★cinema",
+    "publisher": "",
+    "cover_url": "601.jpg",
+    "issue_date": "2016-06-02",
+    "issue": "No.63",
+    "works": [
+      "movie:400969"
+    ],
+    "kind": "promo",
+    "note": "《日本最坏的家伙们》",
+    "xlsx_row": 394
+  },
+  {
+    "name": "週刊女性",
+    "publisher": "",
+    "cover_url": "602.jpg",
+    "issue_date": "2016-06-21",
+    "issue": "2016年7/5号",
+    "works": [
+      "movie:400969"
+    ],
+    "kind": "promo",
+    "note": "《日本最坏的家伙们》",
+    "photographer": "伊藤和幸",
+    "pages": 3,
+    "xlsx_row": 397
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "603.jpg",
+    "issue_date": "2016-06-11",
+    "issue": "Vol.67",
+    "works": [
+      "movie:400969"
+    ],
+    "kind": "promo",
+    "note": "《日本最坏的家伙们》",
+    "xlsx_row": 398
+  },
+  {
+    "name": "BARFOUT!",
+    "publisher": "",
+    "cover_url": "604.jpg",
+    "issue_date": "2016-06-01",
+    "issue": "Vol.250",
+    "works": [
+      "movie:400969"
+    ],
+    "kind": "promo",
+    "note": "《日本最坏的家伙们》",
+    "photographer": "铃木亲",
+    "pages": 6,
+    "xlsx_row": 399
+  },
+  {
+    "name": "Numero TOKYO",
+    "publisher": "",
+    "cover_url": "605.jpg",
+    "issue_date": "2016-05-28",
+    "issue": "No.98",
+    "works": [],
+    "kind": "other",
+    "note": "蜷川实花 赤裸的男人",
+    "photographer": "蜷川实花",
+    "xlsx_row": 400
+  },
+  {
+    "name": "Screen+",
+    "publisher": "",
+    "cover_url": "606.jpg",
+    "issue_date": "2016-06-28",
+    "issue": "Vol.56",
+    "works": [
+      "movie:400969"
+    ],
+    "kind": "promo",
+    "note": "《日本最坏的家伙们》 采访",
+    "xlsx_row": 401
+  },
+  {
+    "name": "SODA",
+    "publisher": "",
+    "cover_url": "607.jpg",
+    "issue_date": "2016-07-01",
+    "issue": "2016年7月号",
+    "works": [],
+    "kind": "other",
+    "note": "在30多岁的正当中",
+    "photographer": "京介",
+    "pages": 8,
+    "xlsx_row": 402
+  },
+  {
+    "name": "ザテレビジョンCOLORS",
+    "publisher": "",
+    "cover_url": "608.jpg",
+    "issue_date": "2016-06-06",
+    "issue": "RAINBOW",
+    "works": [],
+    "kind": "other",
+    "note": "ever-changing",
+    "photographer": "荒木勇人",
+    "xlsx_row": 403
+  },
+  {
+    "name": "CUT",
+    "publisher": "",
+    "cover_url": "609.jpg",
+    "issue_date": "2016-06-18",
+    "issue": "2016年7月号",
+    "works": [],
+    "kind": "other",
+    "note": "绫野刚／白石和弥",
+    "xlsx_row": 404
+  },
+  {
+    "name": "BRUTUS",
+    "publisher": "",
+    "cover_url": "610.jpg",
+    "issue_date": "2016-07-15",
+    "issue": "2016年8/1号",
+    "works": [],
+    "kind": "other",
+    "note": "与石田导演",
+    "xlsx_row": 405
+  },
+  {
+    "name": "J Movie Magazine",
+    "publisher": "",
+    "cover_url": "611.jpg",
+    "issue_date": "2016-08-16",
+    "issue": "Vol.14",
+    "works": [
+      "movie:359344"
+    ],
+    "kind": "promo",
+    "note": "《怒》",
+    "xlsx_row": 406
+  },
+  {
+    "name": "Soup.",
+    "publisher": "",
+    "cover_url": "612.jpg",
+    "issue_date": "2016-06-23",
+    "issue": "Vol.182",
+    "works": [],
+    "kind": "other",
+    "note": "BLUE ENCOUNT",
+    "xlsx_row": 407
+  },
+  {
+    "name": "Leaf",
+    "publisher": "",
+    "cover_url": "613.jpg",
+    "issue_date": "2016-06-25",
+    "issue": "2016年8月号",
+    "works": [],
+    "kind": "other",
+    "note": "绫野刚／白石和弥",
+    "pages": 3,
+    "xlsx_row": 408
+  },
+  {
+    "name": "STORY",
+    "publisher": "",
+    "cover_url": "614.jpg",
+    "issue_date": "2016-08-01",
+    "issue": "2016年8月号",
+    "works": [
+      "movie:400969"
+    ],
+    "kind": "promo",
+    "note": "《日本最坏的家伙们》",
+    "photographer": "田头拓人",
+    "pages": 1,
+    "xlsx_row": 409
+  },
+  {
+    "name": "Warp",
+    "publisher": "",
+    "cover_url": "615.jpg",
+    "issue_date": "2016-06-24",
+    "issue": "2016年8・9月合并号"
+  },
+  {
+    "name": "GQ JAPAN",
+    "publisher": "",
+    "cover_url": "616.jpg",
+    "issue_date": "2016-06-24",
+    "issue": "No.159",
+    "works": [
+      "movie:400969"
+    ],
+    "kind": "promo",
+    "note": "《日本最坏的家伙们》",
+    "photographer": "鹫崎浩太朗",
+    "pages": 1,
+    "xlsx_row": 410
+  },
+  {
+    "name": "日本映画navi",
+    "publisher": "",
+    "cover_url": "617.jpg",
+    "issue_date": "2016-09-01",
+    "issue": "vol.65",
+    "works": [
+      "movie:359344"
+    ],
+    "kind": "promo",
+    "note": "《怒》 妻夫木聪×绫野刚",
+    "xlsx_row": 412
+  },
+  {
+    "name": "婦人公論",
+    "publisher": "",
+    "cover_url": "618.jpg",
+    "issue_date": "2016-08-27",
+    "issue": "9/13号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "绫野刚×妻夫木聪",
+    "photographer": "筱山纪信",
+    "pages": 7,
+    "xlsx_row": 413
+  },
+  {
+    "name": "婦人公論",
+    "publisher": "",
+    "cover_url": "619.jpg",
+    "issue_date": "2016-09-13",
+    "issue": "9/27号",
+    "works": [
+      "movie:359344"
+    ],
+    "kind": "promo",
+    "note": "筱山纪信×《怒》",
+    "photographer": "筱山纪信",
+    "pages": 4,
+    "xlsx_row": 414
+  },
+  {
+    "name": "CREA",
+    "publisher": "",
+    "cover_url": "620.jpg",
+    "issue_date": "2016-09-01",
+    "issue": "Vol.323",
+    "works": [],
+    "kind": "dialogue",
+    "note": "妻夫木聪×绫野刚",
+    "xlsx_row": 415
+  },
+  {
+    "name": "BAILA",
+    "publisher": "",
+    "cover_url": "621.jpg",
+    "issue_date": "2016-09-12",
+    "issue": "2016年10月号",
+    "works": [],
+    "kind": "dialogue",
+    "note": "绫野刚×妻夫木聪",
+    "photographer": "冈部太郎",
+    "pages": 4,
+    "xlsx_row": 416
+  },
+  {
+    "name": "PICT-UP",
+    "publisher": "",
+    "cover_url": "622.jpg",
+    "issue_date": "2016-10-01",
+    "issue": "102号",
+    "works": [
+      "movie:359344"
+    ],
+    "kind": "promo",
+    "note": "《怒》",
+    "xlsx_row": 417
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "623.jpg",
+    "issue_date": "2016-09-12",
+    "issue": "2016年10月号",
+    "works": [
+      "movie:359344"
+    ],
+    "kind": "promo",
+    "note": "《怒》 妻夫木聪×绫野刚 S#.41",
+    "xlsx_row": 418
+  },
+  {
+    "name": "J Movie Magazine",
+    "publisher": "",
+    "cover_url": "624.jpg",
+    "issue_date": "2016-11-01",
+    "issue": "vol.17",
+    "works": [
+      "movie:384973"
+    ],
+    "kind": "promo",
+    "note": "《新宿天鹅2》  剧照  绫野刚×广濑爱丽丝·园子温导演",
+    "pages": 4,
+    "xlsx_row": 419
+  },
+  {
+    "name": "CINEMA SQUARE",
+    "publisher": "",
+    "cover_url": "625.jpg",
+    "issue_date": "2016-11-08",
+    "issue": "vol.87",
+    "works": [
+      "movie:384973"
+    ],
+    "kind": "promo",
+    "note": "《新宿天鹅2》  剧照  绫野刚×广濑爱丽丝·园子温导演",
+    "pages": 3,
+    "xlsx_row": 420
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "626.jpg",
+    "issue_date": "2016-11-11",
+    "issue": "2016年12月号",
+    "works": [],
+    "xlsx_row": 421
+  },
+  {
+    "name": "J Movie Magazine",
+    "publisher": "",
+    "cover_url": "627.jpg",
+    "issue_date": "2016-12-12",
+    "issue": "Vol.18",
+    "works": [
+      "movie:262650"
+    ],
+    "kind": "promo",
+    "note": "写真&采访 《新宿天鹅》",
+    "photographer": "中村嘉昭",
+    "pages": 8,
+    "xlsx_row": 422
+  },
+  {
+    "name": "Soup.",
+    "publisher": "",
+    "cover_url": "628.jpg",
+    "issue_date": "2016-12-23",
+    "issue": "Vol.188",
+    "works": [],
+    "kind": "interview",
+    "note": "Special Interview",
+    "xlsx_row": 423
+  },
+  {
+    "name": "シナリオ",
+    "publisher": "日本シナリオ作家協会",
+    "cover_url": "629.jpg",
+    "issue_date": "2025-12-03",
+    "issue": "2026年1月号",
+    "works": [
+      "movie:1543138"
+    ],
+    "kind": "promo",
+    "note": "《星与月是天上的洞》 剧本刊载（封面）"
+  },
+  {
+    "name": "キネマ旬報",
+    "publisher": "キネマ旬報社",
+    "cover_url": "630.jpg",
+    "issue_date": "2025-11-19",
+    "issue": "No.1975",
+    "works": [
+      "movie:1543138"
+    ],
+    "kind": "promo",
+    "note": "《星与月是天上的洞》 荒井晴彦×绫野刚（封面）"
+  },
+  {
+    "name": "映画撮影",
+    "publisher": "日本映画撮影監督協会",
+    "cover_url": "631.jpg",
+    "issue_date": "2023-08-20",
+    "issue": "No.236",
+    "works": [
+      "movie:1115167"
+    ],
+    "kind": "promo",
+    "note": "《花腐》（封面）"
+  },
+  {
+    "name": "+act.",
+    "publisher": "",
+    "cover_url": "632.jpg",
+    "issue_date": "2009-09-01",
+    "issue": "Vol.23",
+    "works": [
+      "movie:243756"
+    ],
+    "kind": "promo",
+    "note": "《涩谷》",
+    "photographer": "京介",
+    "pages": 4,
+    "xlsx_row": 22
+  }
+]

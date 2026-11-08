@@ -9,13 +9,14 @@ import SearchResults from "./pages/SearchResults.jsx";
 import { FaSearch, FaBars, FaFilm } from "react-icons/fa";
 import SearchModal from "./components/SearchModal.jsx";
 import MagazineSearchModal from "./components/MagazineSearchModal.jsx";
-import { magazineNameOptions } from "./utils/magazine.js";
+import { magazineNameOptions, magazineWorkOptions } from "./utils/magazine.js";
 import { useState, useEffect, useMemo } from "react";
 import { useWorks } from "./store/worksStore.jsx";
 import Bangumi from "./pages/Bangumi.jsx";
 import Info from "./pages/Info.jsx";
 import Make from "./pages/Make.jsx";
 import Magazine from "./pages/Magazine.jsx";
+import AllMagazines from "./pages/AllMagazines.jsx";
 
 
 const { Header, Content } = Layout;
@@ -23,20 +24,26 @@ const { Header, Content } = Layout;
 export default function App() {
 
   const [searchOpen, setSearchOpen] = useState(false);
-  const { loadWorks, clearScopeIds, loadMagazines, magazines } = useWorks();
+  const { loadWorks, clearScopeIds, loadMagazines, loadAllMagazines, magazines, allMagazines, works, magazinesByWork } = useWorks();
   const [menuOpen, setMenuOpen] = useState(false);
   const { pathname } = useLocation();
 
-  // On the magazine page the search icon opens the magazine filter
+  // On the two magazine pages the search icon opens the magazine filter
   // (name / time) instead of the film search.
-  const magazineItems = pathname === "/magazine" ? magazines : null;
-  const magazineTitle = "筛选表纸杂";
+  const magazineItems = pathname === "/magazine" ? magazines : pathname === "/magazines" ? allMagazines : null;
+  const magazineTitle = pathname === "/magazine" ? "筛选表纸杂" : "筛选杂志";
   const magazineNames = useMemo(() => magazineNameOptions(magazineItems), [magazineItems]);
+  // only 杂志 (all_magazines) carries work links
+  const magazineWorks = useMemo(
+    () => (pathname === "/magazines" ? magazineWorkOptions(works, magazinesByWork) : undefined),
+    [pathname, works, magazinesByWork]
+  );
   
   useEffect(() => {
     loadWorks();
     loadMagazines();
-  }, [loadWorks, loadMagazines]);
+    loadAllMagazines();
+  }, [loadWorks, loadMagazines, loadAllMagazines]);
   
 
   return (
@@ -51,6 +58,7 @@ export default function App() {
           <div className="hidden md:flex items-center gap-3 lg:gap-6 text-white text-base sm:text-lg">
               <HeaderButton description="影视" target="" onClick={() => clearScopeIds()} />
               <HeaderButton description="表纸杂" target="/magazine" onClick={() => clearScopeIds()}  />
+              <HeaderButton description="杂志" target="/magazines" onClick={() => clearScopeIds()}  />
               <HeaderButton description="番组" target="/bangumi" onClick={() => clearScopeIds()}  />
               <HeaderButton description="说明" target="/info" onClick={() => clearScopeIds()}  />
               <button className="flex items-center justify-center w-9 h-9 rounded-md hover:bg-white/10 transition-colors" onClick={() => setSearchOpen(true)}>
@@ -75,6 +83,7 @@ export default function App() {
             <div className="flex flex-col gap-4 !font-heading">
               <Link to="/" onClick={() => { clearScopeIds(); setMenuOpen(false); }}>影视</Link>
               <Link to="/magazine" onClick={() => { clearScopeIds(); setMenuOpen(false); }}>表纸杂</Link>
+              <Link to="/magazines" onClick={() => { clearScopeIds(); setMenuOpen(false); }}>杂志</Link>
               <Link to="/bangumi" onClick={() => { clearScopeIds(); setMenuOpen(false); }}>番组</Link>
               <Link to="/info" onClick={() => { clearScopeIds(); setMenuOpen(false); }}>说明</Link>
             </div>
@@ -85,7 +94,7 @@ export default function App() {
 
       <Content className="mb-10">
         {magazineItems ? (
-          <MagazineSearchModal open={searchOpen} onClose={() => setSearchOpen(false)} nameOptions={magazineNames} title={magazineTitle} />
+          <MagazineSearchModal open={searchOpen} onClose={() => setSearchOpen(false)} nameOptions={magazineNames} workOptions={magazineWorks} title={magazineTitle} />
         ) : (
           <SearchModal open={searchOpen} onClose={() => setSearchOpen(false)}/>
         )}
@@ -97,6 +106,7 @@ export default function App() {
           <Route path="/info" element={<Info />} />
           <Route path="/make" element={<Make />} />
           <Route path="/magazine" element={<Magazine />} />
+          <Route path="/magazines" element={<AllMagazines />} />
         </Routes>
       </Content>
     </Layout>

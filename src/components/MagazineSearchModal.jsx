@@ -1,4 +1,4 @@
-import { Modal, Form, AutoComplete, DatePicker, Button, Divider } from "antd";
+import { Modal, Form, AutoComplete, DatePicker, Button, Divider, Select } from "antd";
 import { useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
 import dayjs from "dayjs";
@@ -9,26 +9,29 @@ const { RangePicker } = DatePicker;
 // Search / filter dialog for the magazine pages. Writes `name`, `from`, `to`
 // into the current page's query string, so the page itself does the filtering
 // and the result is shareable via URL.
-export default function MagazineSearchModal({ open, onClose, nameOptions, title = "搜索杂志" }) {
+// `workOptions` (optional) adds a "相关作品" picker that writes `work`.
+export default function MagazineSearchModal({ open, onClose, nameOptions, workOptions, title = "搜索杂志" }) {
   const [form] = Form.useForm();
   const [params, setParams] = useSearchParams();
 
   // pre-fill with the filter currently applied on the page
   useEffect(() => {
     if (!open) return;
-    const { name, from, to } = readMagazineFilter(params);
+    const { name, from, to, work } = readMagazineFilter(params);
     form.setFieldsValue({
       name: name || undefined,
+      work: work || undefined,
       range: from || to
         ? [from ? dayjs(from, "YYYY-MM") : null, to ? dayjs(to, "YYYY-MM") : null]
         : undefined,
     });
   }, [open, params, form]);
 
-  const writeParams = (name, from, to) => {
+  const writeParams = (name, from, to, work) => {
     setParams((prev) => {
       const next = new URLSearchParams(prev);
       if (name) next.set("name", name); else next.delete("name");
+      if (work) next.set("work", work); else next.delete("work");
       if (from) next.set("from", from); else next.delete("from");
       if (to) next.set("to", to); else next.delete("to");
       next.set("p", "1");
@@ -38,18 +41,19 @@ export default function MagazineSearchModal({ open, onClose, nameOptions, title 
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  const apply = ({ name, range }) => {
+  const apply = ({ name, range, work }) => {
     const [from, to] = range || [];
     writeParams(
       (name || "").trim(),
       from ? from.format("YYYY-MM") : "",
-      to ? to.format("YYYY-MM") : ""
+      to ? to.format("YYYY-MM") : "",
+      work || ""
     );
   };
 
   const reset = () => {
     form.resetFields();
-    writeParams("", "", "");
+    writeParams("", "", "", "");
   };
 
   return (
@@ -67,6 +71,20 @@ export default function MagazineSearchModal({ open, onClose, nameOptions, title 
             getPopupContainer={(node) => node.parentElement}
           />
         </Form.Item>
+
+        {workOptions?.length > 0 && (
+          <Form.Item label="相关作品" name="work">
+            <Select
+              allowClear
+              showSearch
+              placeholder="选择作品"
+              options={workOptions}
+              className="!font-heading w-full"
+              filterOption={(input, option) => (option?.search || "").includes(input.toLowerCase())}
+              getPopupContainer={(node) => node.parentElement}
+            />
+          </Form.Item>
+        )}
 
         <Form.Item label="发售时间" name="range">
           <RangePicker

@@ -3,6 +3,7 @@ import { CheckCircleOutlined, EyeOutlined } from "@ant-design/icons";
 import "./index.css";
 import { useNavigate, useParams } from "react-router-dom";
 import { FilmVideo } from "../components/FilmVideo";
+import { FilmMagazines } from "../components/FilmMagazines.jsx";
 import { useWorks } from "../store/worksStore";
 import { useState, useEffect } from "react";
 
@@ -80,7 +81,8 @@ export default function FilmPage() {
 
       {/* poster + info */}
       <div className="grid grid-cols-12 gap-6">
-        <div className="col-span-12 sm:col-span-4 md:col-span-3 flex justify-center sm:justify-start">
+        <div className="col-span-12 sm:col-span-4 md:col-span-3 flex items-start justify-center sm:justify-start">
+          {/* items-start: without it the flex child stretches to the info column's height */}
           <div className="cine-frame w-[160px] sm:w-full rounded-md overflow-hidden bg-white">
             <img src={url} onError={(e) => {
               e.currentTarget.src = placeholder
@@ -93,7 +95,7 @@ export default function FilmPage() {
             <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3">
               <div>
                 <h1 className="text-2xl md:text-3xl font-semibold leading-tight">
-                  {movie?.title || movie?.name} <span className="font-cine tracking-wider text-black/55">({movie?.release_date?.split("-")[0] || movie?.first_air_date?.split("-")[0]})</span>
+                  {movie?.title || movie?.name} <span className="font-poppins tracking-wider text-black/55">({movie?.release_date?.split("-")[0] || movie?.first_air_date?.split("-")[0]})</span>
                 </h1>
                 <div className="mt-5 flex flex-wrap gap-2">
                   {movie?.genre?.map((g, i) => (<Tag key={i}>{g}</Tag>))}
@@ -148,6 +150,8 @@ export default function FilmPage() {
             </div>
 
             <FilmVideo movie={movie} />
+
+            <FilmMagazines movie={movie} />
 
           </div>
         </div>

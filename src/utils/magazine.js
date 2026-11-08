@@ -20,15 +20,26 @@ export function adaptCoverMagazine(item, index) {
   };
 }
 
-// all_magazines.json: issue_date is "YYYY-MM-DD", issue is e.g. "2017年2月号"
-export function adaptAllMagazine(item, index) {
+// Key used in a magazine's "works" field: "<media_type>:<id>".
+export function workKey(work) {
+  return `${work.media_type}:${work.id}`;
+}
+
+// all_magazines.json: issue_date is "YYYY-MM-DD", issue is e.g. "2017年2月号".
+// `worksByKey` resolves the linked work keys into {key, id, title} for display.
+export function adaptAllMagazine(item, index, worksByKey) {
   const issueDate = item.issue_date || "";
+  const workLinks = (item.works || [])
+    .map((key) => worksByKey?.get(key))
+    .filter(Boolean)
+    .map((w) => ({ key: workKey(w), id: w.id, title: w.title || w.name }));
   return {
     ...item,
     id: item.id ?? `all-${index}`,
     title: `${item.name} ${item.issue || ""}`.trim(),
     release_date: issueDate,
     ym: issueDate.slice(0, 7),
+    workLinks,
   };
 }
 
@@ -38,20 +49,22 @@ export function readMagazineFilter(params) {
     name: (params.get("name") || "").trim(),
     from: (params.get("from") || "").trim(), // YYYY-MM
     to: (params.get("to") || "").trim(),     // YYYY-MM
+    work: (params.get("work") || "").trim(), // work key, e.g. "movie:262650"
   };
 }
 
-export function hasMagazineFilter({ name, from, to }) {
-  return Boolean(name || from || to);
+export function hasMagazineFilter({ name, from, to, work }) {
+  return Boolean(name || from || to || work);
 }
 
 // `name` matches magazine names case-insensitively as a substring, so typing
 // "TV" finds "TV LIFE", "TVstation", "月刊TVガイド" at once. `from`/`to` are
 // inclusive "YYYY-MM" bounds compared against the item's `ym`.
-export function filterMagazines(items, { name, from, to }) {
+export function filterMagazines(items, { name, from, to, work }) {
   const needle = (name || "").toLowerCase();
   return (items || []).filter((item) => {
     if (needle && !(item.name || "").toLowerCase().includes(needle)) return false;
+    if (work && !(item.works || []).includes(work)) return false;
     if (from || to) {
       if (!item.ym) return false;
       if (from && item.ym < from) return false;
@@ -72,4 +85,21 @@ export function magazineNameOptions(items) {
   return [...counts.entries()]
     .sort((a, b) => a[0].localeCompare(b[0], "ja", { sensitivity: "base" }))
     .map(([name, count]) => ({ value: name, label: `${name}（${count}）` }));
+}
+
+// Works that have at least one linked magazine, newest release first, for the
+// "按作品" picker. Labels carry the year and magazine count.
+export function magazineWorkOptions(works, magazinesByWork) {
+  if (!magazinesByWork?.size) return [];
+  return (works || [])
+    .filter((w) => magazinesByWork.has(workKey(w)))
+    .map((w) => {
+      const year = (w.release_date || w.first_air_date || "").slice(0, 4);
+      const title = w.title || w.name;
+      return {
+        value: workKey(w),
+        label: `${title}${year ? ` (${year})` : ""}（${magazinesByWork.get(workKey(w)).length}）`,
+        search: `${title} ${w.original_title || w.original_name || ""}`.toLowerCase(),
+      };
+    });
 }

@@ -55,8 +55,23 @@ export default function FilmCards({ item, clickable=true, type="movie" }) {
                     {title}
                 </div>
                 {year && (
-                    <div className="font-cine tracking-[0.2em] text-white/70 text-[10px] sm:text-xs mt-0.5">
+                    <div className="font-poppins tracking-[0.2em] text-white/70 text-[10px] sm:text-xs mt-0.5">
                         {year}
+                    </div>
+                )}
+                {item.workLinks?.length > 0 && (
+                    <div className="mt-1 flex flex-wrap gap-1">
+                        {item.workLinks.map((w) => (
+                            <button
+                                key={w.key}
+                                type="button"
+                                onClick={(e) => { e.stopPropagation(); navigate(`/works/${w.id}`); }}
+                                className="pointer-events-auto max-w-full truncate rounded-md bg-white/70 px-1.5 py-px text-[10px] sm:text-[11px] leading-4 text-black font-heading hover:bg-white"
+                                title={`查看《${w.title}》`}
+                            >
+                                《{w.title}》
+                            </button>
+                        ))}
                     </div>
                 )}
             </div>

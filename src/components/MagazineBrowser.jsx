@@ -11,13 +11,23 @@ export default function MagazineBrowser({ items, type }) {
   const [searchParams, setSearchParams] = useSearchParams();
   const pageSize = usePageSize();
 
-  const { name, from, to } = readMagazineFilter(searchParams);
-  const active = hasMagazineFilter({ name, from, to });
+  const { name, from, to, work } = readMagazineFilter(searchParams);
+  const active = hasMagazineFilter({ name, from, to, work });
 
   const filtered = useMemo(
-    () => filterMagazines(items, { name, from, to }),
-    [items, name, from, to]
+    () => filterMagazines(items, { name, from, to, work }),
+    [items, name, from, to, work]
   );
+
+  // display title of the filtered work, taken from any item linked to it
+  const workTitle = useMemo(() => {
+    if (!work) return "";
+    for (const item of items || []) {
+      const hit = item.workLinks?.find((w) => w.key === work);
+      if (hit) return hit.title;
+    }
+    return work;
+  }, [items, work]);
 
   const page = Number(searchParams.get("p")) || 1;
   const handlePageChange = (p) => {
@@ -57,14 +67,19 @@ export default function MagazineBrowser({ items, type }) {
                 杂志名：{name}
               </Tag>
             )}
+            {work && (
+              <Tag closable onClose={(e) => { e.preventDefault(); removeKeys(["work"]); }} className={tagClass}>
+                作品：{workTitle}
+              </Tag>
+            )}
             {rangeLabel && (
               <Tag closable onClose={(e) => { e.preventDefault(); removeKeys(["from", "to"]); }} className={tagClass}>
                 时间：{rangeLabel}
               </Tag>
             )}
-            <span className="text-black/55">共 <span className="font-cine">{filtered.length}</span> 条</span>
+            <span className="text-black/55">共 <span className="font-poppins">{filtered.length}</span> 条</span>
             <button
-              onClick={() => removeKeys(["name", "from", "to"])}
+              onClick={() => removeKeys(["name", "from", "to", "work"])}
               className="ml-auto px-2 py-1 rounded text-black/60 hover:bg-black hover:text-white transition-colors"
             >
               清除筛选

@@ -104,7 +104,7 @@ export default function SearchResults() {
       <div className="mb-6 font-heading">
         <div className="mt-2 text-black/80">
           <span className="text-xl font-bold tracking-tight">搜索结果</span>
-          <span className="text-black/55 ml-3 text-sm">共 <span className="font-cine">{filtered.length}</span> 条</span>
+          <span className="text-black/55 ml-3 text-sm">共 <span className="font-poppins">{filtered.length}</span> 条</span>
         </div>
       </div>
 

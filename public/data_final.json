@@ -16348,8 +16348,18 @@
       "media_type": "movie",
       "is_lead": false,
       "making": [],
-      "stage": [],
-      "others": [],
+      "stage": [
+        {
+          "title": "【自制中字】mentor首映礼20260930",
+          "link": "https://www.bilibili.com/video/BV1LgYF6GEpc/?spm_id_from=333.337.search-card.all.click&vd_source=f434cc39879a46c606375619b26c71cf"
+        }
+      ],
+      "others": [
+        {
+          "title": "【中字】「mentor」对谈 绫野刚&矶村勇斗 ｜261015",
+          "link": "https://www.bilibili.com/video/BV1M8Jk6HEjY/?spm_id_from=333.337.search-card.all.click&vd_source=f434cc39879a46c606375619b26c71cf"
+        }
+      ],
       "crew": {
         "Director": [
           "吉田惠辅"
