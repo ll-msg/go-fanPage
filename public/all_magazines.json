@@ -7602,5 +7602,157 @@
     "photographer": "京介",
     "pages": 4,
     "xlsx_row": 22
+  },
+  {
+    "name": "スカパー!TVガイドBS+CS",
+    "publisher": "東京ニュース通信社",
+    "cover_url": "634.jpg",
+    "issue_date": "2012-06-25",
+    "issue": "2012年7月号",
+    "works": []
+  },
+  {
+    "name": "週刊朝日",
+    "publisher": "朝日新聞出版",
+    "cover_url": "635.jpg",
+    "issue_date": "2013-01-22",
+    "issue": "2013年2/1号",
+    "works": []
+  },
+  {
+    "name": "TV Taro",
+    "publisher": "東京ニュース通信社",
+    "cover_url": "636.jpg",
+    "issue_date": "2013-03-23",
+    "issue": "2013年5月号",
+    "works": []
+  },
+  {
+    "name": "サンデー毎日",
+    "publisher": "毎日新聞出版",
+    "cover_url": "638.jpg",
+    "issue_date": "2013-07-16",
+    "issue": "2013年7/28号",
+    "works": []
+  },
+  {
+    "name": "週刊女性",
+    "publisher": "主婦と生活社",
+    "cover_url": "639.jpg",
+    "issue_date": "2013-07-23",
+    "issue": "2013年8/6号",
+    "works": []
+  },
+  {
+    "name": "PLUS LUMINO",
+    "publisher": "",
+    "cover_url": "640.jpg",
+    "issue_date": "2013-08-25",
+    "issue": "vol.60",
+    "works": []
+  },
+  {
+    "name": "スカパー！TVガイド プレミアム",
+    "publisher": "東京ニュース通信社",
+    "cover_url": "641.jpg",
+    "issue_date": "2014-01-24",
+    "issue": "2014年2月号",
+    "works": []
+  },
+  {
+    "name": "シナリオ",
+    "publisher": "日本シナリオ作家協会",
+    "cover_url": "642.jpg",
+    "issue_date": "2014-03-03",
+    "issue": "2014年4月号",
+    "works": []
+  },
+  {
+    "name": "週刊女性",
+    "publisher": "主婦と生活社",
+    "cover_url": "643.jpg",
+    "issue_date": "2014-03-18",
+    "issue": "2014年4/1号",
+    "works": []
+  },
+  {
+    "name": "FILT",
+    "publisher": "",
+    "cover_url": "644.jpg",
+    "issue_date": "2014-03-20",
+    "issue": "Vol.68",
+    "works": []
+  },
+  {
+    "name": "映画芸術",
+    "publisher": "映画芸術",
+    "cover_url": "645.jpg",
+    "issue_date": "2014-04-30",
+    "issue": "447号",
+    "works": []
+  },
+  {
+    "name": "愛媛こまち",
+    "publisher": "アイクコーポレーション",
+    "cover_url": "646.jpg",
+    "issue_date": "2015-04-20",
+    "issue": "2015年5月号",
+    "works": []
+  },
+  {
+    "name": "サンデー毎日",
+    "publisher": "毎日新聞出版",
+    "cover_url": "647.jpg",
+    "issue_date": "2015-05-12",
+    "issue": "2015年5/24号",
+    "works": []
+  },
+  {
+    "name": "週刊女性",
+    "publisher": "主婦と生活社",
+    "cover_url": "648.jpg",
+    "issue_date": "2015-05-19",
+    "issue": "2015年6/2号",
+    "works": []
+  },
+  {
+    "name": "スカパー!TVガイドBS+CS",
+    "publisher": "東京ニュース通信社",
+    "cover_url": "649.jpg",
+    "issue_date": "2016-05-24",
+    "issue": "2016年6月号",
+    "works": []
+  },
+  {
+    "name": "日経マネー",
+    "publisher": "日経BP",
+    "cover_url": "650.jpg",
+    "issue_date": "2016-06-21",
+    "issue": "2016年8月号",
+    "works": []
+  },
+  {
+    "name": "週刊女性",
+    "publisher": "主婦と生活社",
+    "cover_url": "651.jpg",
+    "issue_date": "2017-10-10",
+    "issue": "2017年10/24号",
+    "works": []
+  },
+  {
+    "name": "いわてダ・ヴィンチ",
+    "publisher": "KADOKAWA",
+    "cover_url": "652.jpg",
+    "issue_date": "2020-02-14",
+    "issue": "",
+    "works": []
+  },
+  {
+    "name": "GQ JAPAN",
+    "publisher": "コンデナスト･ジャパン",
+    "cover_url": "653.jpg",
+    "issue_date": "2021-01-25",
+    "issue": "2021年3月号",
+    "works": []
   }
 ]
