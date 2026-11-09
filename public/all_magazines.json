@@ -7075,19 +7075,6 @@
     "xlsx_row": 396
   },
   {
-    "name": "NHKステラウィークリー",
-    "publisher": "",
-    "cover_url": "591.jpg",
-    "issue_date": "2016-02-01",
-    "issue": "2/22号",
-    "works": [
-      "tv:46077"
-    ],
-    "kind": "promo",
-    "note": "《八重之樱》",
-    "xlsx_row": 384
-  },
-  {
     "name": "Screen+",
     "publisher": "",
     "cover_url": "592.jpg",
